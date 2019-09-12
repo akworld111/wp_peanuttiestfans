@@ -1,0 +1,21 @@
+{
+    "name": "private/wp-foto-vote",
+    "description": "WP Photo Contest plugin",
+    "authors": [
+        {
+            "name": "Max K",
+            "homepage": "https://maxim-kaminsky.com/"
+        }
+    ],
+    "license": "MIT",
+    "homepage": "https://maxim-kaminsky.com/",
+    "autoload": {
+        "files": [],
+        "classmap": ["includes/", "admin/", "public/"],
+        "exclude-from-classmap": ["includes/plugin-updates/"]
+    },
+    "require" : {
+        "wixel/gump": "^1.4",
+        "facebook/graph-sdk": "^5.6"
+    }
+}

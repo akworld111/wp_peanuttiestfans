@@ -1,0 +1,21 @@
+{
+  "name": "wp-foto-vote",
+  "version": "2.2.800",
+  "author": "Max K",
+  "homepage": "https://wp-vote.net/",
+  "private": true,
+  "licenses": [
+    {
+      "type": "Commercial"
+    }
+  ],
+  "devDependencies": {
+    "concat": "^1.0.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "*",
+    "gulp-concat": "^2.6.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^2.0.0"
+  }
+}

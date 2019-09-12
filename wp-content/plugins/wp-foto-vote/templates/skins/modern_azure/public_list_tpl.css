@@ -1,0 +1,144 @@
+.contest-block {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #3299AE;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    padding: 5px;
+    display: inline-block;
+}
+
+.contest-block-title {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 8px;
+    word-break: break-all;
+}
+
+.contest-block-description {
+    text-align: center;
+    font-size: 16px;
+}
+
+.fv_button {
+    text-align: center;
+}
+
+.fv_button .fv_vote {
+    display: block;
+    width: 97%;
+    height: 35px;
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background: #39a5bb;
+    color: #ffffff;
+    -x-font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 35px;
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.fv_button .fv_vote:hover,
+.fv_button .fv_vote:active {
+    background: #3CAFC5;
+}
+
+/* TODO - REMOVE [7.10.2018] */
+.fv_button .fv_vote .hand {
+    padding: 0 23px 0 0;
+    background: url(img/icon-hand.png) right 1px no-repeat;
+    font-style: normal;
+}
+
+/* Votes */
+
+.contest-block-votes {
+    text-align: center;
+    font-size: 14px;
+    margin: 2px 0;
+}
+
+.contest-block-votes-count {
+    color: #39A5BB;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/* IMAGE */
+
+.contest-block img {
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    box-shadow: 0.5px 0.5px 1px 1px rgba(20, 20, 10, 0.298);
+}
+
+.contest-block img:hover {
+    box-shadow: 0px 0px 2px 2.5px rgba(55, 170, 197, 0.2);
+}
+
+.fv-pagination .current {
+    /* selected number */
+    background-color: #39a5bb;
+    border-color: #39a5bb;
+}
+
+
+@media (max-width: 468px) {
+    .contest-block img {
+        height: auto !important;
+        width: 100% !important;
+    }
+    .contest-block {
+        width: 100% !important;
+    }
+}
+
+/* Round SHARE buttons */
+.fv-share-btns {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+a.fv-share-btn {
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    font-size: 16px;
+    display: inline-block;
+    opacity: .5;
+    text-decoration: none;
+    border-radius: 50%;
+    border: 1px solid #3299AE;
+}
+.fv-share-btn:hover {
+    opacity: 1;
+}
+.fv-share-btn.ss_fb:hover {
+    color: #3d62b3;
+}
+.fv-share-btn.ss_tw:hover {
+    color: #30d8f0;
+}
+.fv-share-btn.ss_pi:hover {
+    color: #b61f24;
+}
+.fv-share-btn.ss_gp:hover {
+    color: #c94432;
+}
+.fv-share-btn.ss_vk:hover {
+    color: #597DA3;
+}

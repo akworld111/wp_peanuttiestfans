@@ -1,0 +1,63 @@
+
+/*
+Hot OR NOT
+*/
+
+
+.photo-contest-vs {
+    margin-bottom: 32px;
+    text-align: center
+}
+
+.photo-contest-vs>h3 {
+    display: inline-block;
+    padding: 0 16px;
+    position: relative;
+    color: #141414;
+    font-family: Roboto,Helvetica Neue,Helvetica,sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: .6px;
+    line-height: 1
+}
+
+.photo-contest-vs>h3:after,.photo-contest-vs>h3:before {
+    content: "";
+    border-top: 2px dotted #aaa;
+    width: 100px;
+    height: 1px;
+    top: 50%;
+    position: absolute
+}
+
+.photo-contest-vs>h3:before {
+    left: -100px
+}
+
+.photo-contest-vs>h3:after {
+    right: -100px
+}
+
+.photo-contest-vs>h3 em {
+    display: block
+}
+
+@media screen and (max-width: 39.9375em) {
+    .photo-contest-vs>h3 {
+        padding:0
+    }
+
+    .photo-contest-vs>h3:after,.photo-contest-vs>h3:before {
+        width: 85px
+    }
+}
+
+.gform_wrapper .photo-contest-vs>input[type=submit],.photo-contest-vs>.button,.tml form .photo-contest-vs>input[type=submit],div#photo-form .photo-contest-vs>button,form#loginform .photo-contest-vs>input[type=submit] {
+    background-color: #323232;
+    color: #fff
+}
+
+.photo-contest-vs .modern-photo-contest-vs {
+    margin-bottom: 24px
+}

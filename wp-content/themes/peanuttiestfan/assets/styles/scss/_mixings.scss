@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Block D';
+  src: url('../fonts/BlockD-ReguExtrCond.woff2') format('woff2'),
+      url('../fonts/BlockD-ReguExtrCond.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('../fonts/BebasNeueRegular.woff2') format('woff2'),
+      url('../fonts/BebasNeueRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*
+*  mixing px and rem
+*  Example: rem(margin,10px 15px 20px 30px);
+*           rem(padding-top,15px);
+*/
+@function parseInt($n) {
+  @return $n / ($n * 0 + 1);
+}
+@mixin rem($property, $values) {
+  $px : ();
+  $rem: ();
+
+  @each $value in $values {
+
+    @if $value == 0 or $value == auto {
+      $px : append($px , $value);
+      $rem: append($rem, $value);
+    }
+
+    @else {
+      $unit: unit($value);
+      $val: parseInt($value);
+
+      @if $unit == "px" {
+        $px : append($px,  $value);
+        $rem: append($rem, ($val / 16 + rem));
+      }
+
+      @if $unit == "rem" {
+        $px : append($px,  ($val * 16 + px));
+        $rem: append($rem, $value);
+      }
+    }
+  }
+
+  @if $px == $rem {
+    #{$property}: $px;
+  } @else {
+    #{$property}: $px;
+    #{$property}: $rem;
+  }
+}

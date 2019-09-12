@@ -1,0 +1,319 @@
+
+.section-title {
+    font-family: 'Block D';
+    font-size: 3.3rem;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    @media (min-width: 48em) {
+        font-size: 4.9rem;
+    }
+}
+
+/*hero*/
+.hero-container {
+    /*height: calc(100vh - 190px);
+    min-height: 350px;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0 30px;
+    flex-wrap: wrap;
+    div {
+        width: 100%;
+        text-align: center;
+    }
+    .hero-slogan {
+        margin-bottom: 15px;
+    }
+    /*img {
+        max-height: 100%;
+        width: auto;
+    }
+    @media (max-width: 48em) {
+        height: calc(100vh - 102px);
+    }*/
+}
+
+.shoot_share_win-block {
+    padding: 30px 0;
+    &__item {
+        text-align: center;
+        .title {
+            font-family: 'Block D';
+            text-transform: uppercase;
+            line-height: 1;
+            margin-bottom: 2rem;
+            color: #c4161c;
+        }
+        .content {
+            font-family: 'Block D';
+            margin-top: 2rem;
+            padding: 0;
+            font-size: 1.875rem;
+            color: #0a3d70;
+            line-height: 1;
+            @media (max-width: 47.9375em) {
+                margin-top: 1rem;
+                margin-bottom: 2rem;
+            }
+            .extra {
+                display: block;
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
+
+.shoot-share {
+    .shoot-image {
+        margin-top: 0;
+        margin-left: -.625rem;
+        @media (min-width: 1024px) {
+            margin-left: -.9375rem;
+            margin-bottom: -30px;
+        }
+        @media (min-width: 1200px) {
+            margin-left: calc(-50vw + 600px - 1.875rem);
+        }
+        @media (min-width: 1660px) {
+            margin-left: -252px;
+        }
+    }
+    .shoot-image-small {
+        display: block;
+        @media (min-width: 767px) and (max-width: 1023px) {
+            display: none;
+        }
+        @media (min-width: 1400px) {
+            display: none;
+        }
+    }
+    .shoot-image-big {
+        display: block;
+        @media (max-width: 1399px) {
+            display: none;
+        }
+        @media (min-width: 767px) and (max-width: 1023px) {
+            display: block;
+        }
+    }
+}
+
+.prizes-block {
+    padding: 60px 0;
+    .grid-container {
+        max-width: 65rem;
+        border-top: 4px solid #fff;
+        border-bottom: 4px solid #fff;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    &__item {
+        text-align: center;
+        padding: 0 30px;
+        .title {
+            font-size: 3.3rem;
+            text-transform: uppercase;
+            font-family: 'Bebas Neue';
+            margin-top: 2rem;
+            @media (max-width: 40em) {
+                font-size: 2.5rem;
+                line-height: 1;
+                margin-top: 1rem;
+                margin-bottom: 2rem;
+            }
+        }
+    }
+    .main-service-block {
+        padding-top: 60px;
+    }
+}
+
+.inner-content {
+    .prizes-block {
+        padding: 0 0 60px 0;
+        .title { 
+            margin-bottom: 3rem;
+        }
+    }
+}
+
+.fan-block {
+    padding: 60px 0;
+    &-wrap {
+        padding-top: 60px;
+    }
+    &__item {
+        text-align: center;
+        padding: 0;
+        .title {
+            font-size: 3.125rem;
+            text-transform: uppercase;
+            font-family: 'Bebas Neue';
+            margin-top: 2rem;
+        }
+    }
+}
+
+.cascading-img {
+    padding: 0 50px 50px 100px;
+    position: relative;
+    display: inline-block;
+    .overlay-left, .overlay-right {
+        position: absolute;
+        img {
+            max-width: 150px;
+        }
+    }
+    .overlay-left {
+        left: 0;
+        bottom: 130px;
+    }
+    .overlay-right {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    @media (max-width: 40em) {
+        padding: 0 0 90px 0;
+        .overlay-left {
+            bottom: 0;
+        }
+    }
+}
+
+.fan-cta {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    &-title {
+        width: 100%;
+        font-family: 'Block D';
+        font-size: 3.125rem;
+        text-transform: uppercase;
+        margin-top: auto;
+        margin-bottom: 1rem;
+        @media (max-width: 40em) {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+            margin-top: 1.5rem;
+        }
+    }
+    .btn  {
+        margin-bottom: auto;
+    }
+}
+
+
+.btn {
+    font-family: 'Block D';
+    font-size: 1.5rem;
+    line-height: 1;
+    background: #007333;
+    border-radius: 15px;
+    border: 2px solid #fff;
+    padding: 10px;
+    width: 210px;
+    color: #fff;
+    transition: all 0.3s ease;
+    text-align: center;
+    display: inline-block;
+    &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 20px 38px rgba(0, 0, 0, 0.16);
+        color: #fff;
+    }
+    @media (max-width: 40em) {
+        width: 250px;
+    }
+    &.btn-black {
+        background: #000;
+        border-radius: 0;
+    }
+}
+
+.winner-block {
+    padding: 60px 0;
+    &-wrap {
+        padding-top: 60px;
+    }
+    &__item {
+        text-align: center;
+        padding: 0;
+    }
+}
+
+.winner-slider {
+    position: relative;
+    margin-bottom: 2rem;
+}
+.winner-meta {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.16);
+    padding: 30px 50px;
+    margin-top: -100px;
+    display: inline-block;
+    z-index: 99;
+    position: relative;
+    text-align: left;
+    p {
+        font-family: 'Block D';
+        font-size: 2rem;
+        margin-bottom: 0;
+        line-height: 1.1;
+    }
+    @media (max-width: 40em) {
+        padding: 20px 30px;
+        p {
+            font-size: 1.2rem;
+        }
+    }
+}
+
+.xoo-el-main a {
+    background-color: transparent!important;
+}
+
+.cta-block {
+    padding-bottom: 50px;
+    &__item {
+        @media (max-width: 1023px) {
+            margin-bottom: 30px;
+        }
+    }
+    .shell-yeah-img {
+        margin-top: 30px;
+    }
+}
+
+.cta {
+    text-align: center;
+    .cta-title {
+        font-family: 'Block D';
+        font-size: 3.375rem;
+        text-shadow: 4px 0 0 #fff, 
+                    -4px 0 0 #fff, 
+                    0 4px 0 #fff, 
+                    0 -4px 0 #fff, 
+                    3px 3px #fff, 
+                    -3px -3px 0 #fff, 
+                    3px -3px 0 #fff, 
+                    -3px 3px 0 #fff;
+        color: #004892;
+        line-height: 0.8;
+        letter-spacing: 0.025em;
+    }
+    .cta-sub {
+        font-family: 'Block D';
+        font-size: 2.5rem;
+        color: #c4161c;
+        margin-bottom: 5px;
+        line-height: 0.8;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}

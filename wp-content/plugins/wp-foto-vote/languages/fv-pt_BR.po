@@ -1,0 +1,4050 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FV\n"
+"POT-Creation-Date: 2018-02-28 18:10+0200\n"
+"PO-Revision-Date: 2018-02-28 18:10+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: D:\\Projects\\WP Foto Vote\\translation\n"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:11
+#: Vote\translation/includes/fv-translations-helper.php:349
+msgid "No results found!"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:13
+msgid "Upload a photo to the contest"
+msgstr "Carregar uma foto para o concurso"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:14
+#: Vote\translation/includes/fv-translations-helper.php:36
+#: Vote\translation/includes/fv-translations-helper.php:448
+msgid "Upload"
+msgstr "Upload"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:15
+msgid "<h3>We are sorry, but this contest has finished!</h3>"
+msgstr "<h3>Desculpe, mas este concurso terminou!</h3>"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:16
+msgid ""
+"<h3>We are sorry, but you do not have enough permissions to submit entries!</"
+"h3>"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:17
+#, php-format
+msgid ""
+"You must be logged to upload a photo to the contest. <a href=\"%1$s\" class="
+"\"lrm-login\">Login</a> or <a href=\"%2$s\" class=\"lrm-signup\">register</"
+"a>."
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:19
+msgid "Leaders vote"
+msgstr "Votação dos líderes"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:20
+msgid "Other <br/>photo"
+msgstr "Outra <br/>foto"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:21
+#: Vote\translation/includes/fv-translations-helper.php:24
+#: Vote\translation/public/class-fv-public-single.php:423
+msgid "Vote"
+msgstr "Voto"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:22
+#: Vote\translation/includes/fv-translations-helper.php:314
+msgid "Vote count"
+msgstr "Contagem de votos"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:23
+msgid "of"
+msgstr "de"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:25
+#, php-format
+msgid "Page %s from %s"
+msgstr "Página %s de %s"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:26
+msgid "Load more"
+msgstr "Carregar mais"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:27
+msgid "Shares count"
+msgstr "Contagem de compartilhamentos"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:29
+msgid "Share"
+msgstr "Compartilhar"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:30
+msgid "More"
+msgstr "Mais"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:31
+msgid "Description"
+msgstr "Descrição"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:32
+msgid "Author"
+msgstr "Autor"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:33
+#: Vote\translation/includes/fv-translations-helper.php:329
+msgid "Back to contest"
+msgstr "Voltar para o concurso"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:35
+msgid "Gallery"
+msgstr "Galeria"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:37
+msgid "Details"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:38
+msgid "Category:"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:39
+msgid "Sort by:"
+msgstr "Ordenar por:"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:40
+msgid "Newest first"
+msgstr "Mais novos primeiro"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:41
+msgid "Oldest first"
+msgstr "Mais velhos primeiro"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:42
+msgid "Popular first"
+msgstr "Popular primeiro"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:43
+msgid "Unpopular first"
+msgstr "Impopular primeiro"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:44
+msgid "Fully random"
+msgstr "Completamente aleatório"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:45
+msgid "Random"
+msgstr "Aleatório"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:46
+msgid "Alphabetical A-Z (by name)"
+msgstr "Alfabético A-Z (por nome)"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:47
+msgid "Alphabetical Z-A (by name)"
+msgstr "Alfabético Z-A (por nome)"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:49
+msgid "days"
+msgstr "dias"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:50
+msgid "hours"
+msgstr "horas"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:51
+msgid "minutes"
+msgstr "minutos"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:52
+msgid "seconds"
+msgstr "segundos"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:53
+msgid "Voting ends in"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:54
+msgid "Voting starts in"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:55
+msgid "Upload ends in"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:56
+msgid "Upload starts in"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:58
+msgid "Share with friends! "
+msgstr "Compartilhar com amigos! "
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:59
+msgid "Voting!"
+msgstr "Votando!"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:60
+msgid "Voting in process!"
+msgstr "Processando votação!"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:62
+msgid "Success! "
+msgstr "Sucesso! "
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:63
+msgid "Your vote has been counted! "
+msgstr "Seu voto foi computado! "
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:64
+msgid "Warning! "
+msgstr "Atenção! "
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:65
+msgid "The contest has ended."
+msgstr "O concurso terminou."
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:66
+msgid "You have already voted for this photo!"
+msgstr "Você já votou nesta foto!"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:67
+msgid ""
+"You already used all possible votes (*used_votes*) at this time and can vote "
+"in *hours_leave* hours!"
+msgstr ""
+"Você já usou todos os votos possíveis (*used_votes*) neste momento e pode "
+"votar em *hours_leave* horas!"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:68
+msgid ""
+"You have already used all possible votes (*used_votes*) in this contest!"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:69
+msgid "Please login/register to vote!"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:70
+msgid "Your have no enough permissions for vote!"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:72
+msgid "You are not allowed to vote for own photos!"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:74
+msgid "For vote please share page on Facebook"
+msgstr "Para votar, por favor compartilhe a página no Facebook"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:75
+msgid "An error has occurred. Please contact the administrator!"
+msgstr "Ocorreu um erro. Por favor, entre em contato com o administrador!"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:76
+msgid "Security token is invalid - please refresh page!"
+msgstr "O token de segurança é inválido - por favor atualize a página!"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:78
+msgid "Please rate"
+msgstr "Por favor avalie"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:79
+msgid "Please select score for vote!"
+msgstr "Por favor, selecione a pontuação para votar!"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:80
+msgid "Rating:"
+msgstr "Avaliação:"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:81
+msgid "stars"
+msgstr "estrelas"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:83
+msgid "Rank"
+msgstr "Classificação"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:84
+msgid "Competitor"
+msgstr "Competidor"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:85
+msgid "Total Votes"
+msgstr "Votos totais"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:87
+msgid "Contest winners"
+msgstr "Vencedores do concurso"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:88
+msgid "Winners not yet picked!"
+msgstr "Os vencedores ainda não foram escolhidos!"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:89
+msgid "place"
+msgstr "lugar"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:91
+msgid "Verify you are a human"
+msgstr "Verificar se você é humano"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:92
+msgid "Please verify, that you are not a bot:"
+msgstr "Por favor verificar, se você não é um robô:"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:93
+msgid "Your name"
+msgstr "Seu nome"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:94
+msgid "Your email"
+msgstr "Seu email"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:95
+msgid "I want subscribe to newsletter"
+msgstr "Quero receber o boletim informativo"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:97
+msgid "We found this email in database but Name not equal entered Email!"
+msgstr ""
+"Encontramos este e-mail no banco de dados, mas o Nome não é igual ao Email "
+"inserido!"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:98
+msgid "Empty name or email!"
+msgstr "Nome ou e-mail vazios!"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:99
+msgid "Invalid email!"
+msgstr "E-mail inválido!"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:101
+msgid ""
+"We send verification mail, please open it and click to confirmation link!"
+msgstr ""
+"Enviamos um email de verificação, por favor abra-o e clique no link de "
+"confirmação!"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:102
+msgid "Verify"
+msgstr "Verificar"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:103
+msgid ""
+"We already send verification mail, if you did't see it - please check Spam "
+"folder or contact with administrator!"
+msgstr ""
+"Nós já enviamos email de verificação, se você não viu isso - por favor, "
+"verifique a pasta Spam ou entre em contato com o administrador!"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:104
+msgid "Change mail"
+msgstr "Alterar email"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:105
+msgid "Sorry, but we can't verify your email!"
+msgstr "Desculpe, mas não pudemos verificar seu email!"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:106
+msgid "Your email successful verified!"
+msgstr "Seu email foi verificado com sucesso!"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:107
+msgid "Seems email already confirmed!"
+msgstr "Parece que o e-mail já foi confirmado!"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:109
+msgid "Photo contest - please verify your email"
+msgstr "Concurso de fotos - por favor verifique seu email"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:110
+msgid ""
+"Hi {name},\n"
+"For verify your email ({email}) please open it (in browser where you enter "
+"this email): {verify_link}\n"
+"Or enter this code into form: {verify_hash}"
+msgstr ""
+"Olá {name},\n"
+"Para verificar seu e-mail ({email}), por favor abra-o (no navegador onde "
+"você inseriu este e-mail): {verify_link}\n"
+"Ou insira este código no formulário: {verify_hash}"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:112
+msgid "To be able to vote, you'll need to authorise with a social network!"
+msgstr "Para poder votar, você precisará autorizar com uma rede social!"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:114
+msgid "Solve reCAPTCHA please!"
+msgstr "Resolva o reCAPTCHA por favor!"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:115
+msgid "Looks like you've got it wrong!"
+msgstr "Parece que você fez algo errado!"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:117
+msgid "Verify that you are not a bot!"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:118
+msgid "Please solve Math Captcha!"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:119
+msgid "Wrong answer!"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:120
+msgid "Captcha timeout!"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:123
+msgid "Invite friends to help you win!"
+msgstr "Convide amigos para ajudá-lo a ganhar!"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:125
+msgid "Please select image file!"
+msgstr "Por favor, selecione o arquivo de imagem!"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:126
+msgid "The email provided is invalid, please check and try again."
+msgstr "O email fornecido é inválido, por favor verifique e tente novamente."
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:127
+msgid "Please fill all required fields!"
+msgstr "Por favor preencha todos os campos obrigatórios!"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:129
+msgid "Some troubles with upload"
+msgstr "Alguns problemas com o upload"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:130
+msgid "An error occurred whilst downloading the picture(s). "
+msgstr "Ocorreu um erro ao baixar a(s) figura(s). "
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:131
+msgid "You have already uploaded the picture, it may still be pending review. "
+msgstr "Você já carregou a imagem, ainda pode estar pendente de revisão. "
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:132
+msgid "Your photo is bigger than %LIMIT_SIZE%!"
+msgstr "Sua foto é maior que %LIMIT_SIZE%!"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:134
+#: Vote\translation/includes/fv-translations-helper.php:473
+msgid "Successfully uploaded"
+msgstr "Carregado com sucesso"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:135
+msgid "Thank you, your photo was successfully uploaded!"
+msgstr "Obrigado, sua foto foi carregada com sucesso!"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:136
+msgid ""
+"Thank you, your photo was successfully uploaded and will be reviewed shortly."
+msgstr "Obrigado, sua foto foi carregada com sucesso e será revisada em breve."
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:138
+msgid "Sorry, but this image does not fit required size. %INFO%"
+msgstr "Desculpe, mas esta imagem não corresponde ao tamanho exigido. %INFO%"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:139
+msgid "It %PARAM% must be smaller than %SIZE%"
+msgstr "Este %PARAM% deve ser menor do que %SIZE%"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:140
+msgid "It %PARAM% must be bigger than %SIZE%"
+msgstr "Este %PARAM% deve ser maior do que %SIZE%"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:141
+msgid "height"
+msgstr "altura"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:142
+msgid "width"
+msgstr "largura"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:150
+msgid "Your photo submission was successful"
+msgstr "O envio da sua foto foi bem sucedido"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:151
+msgid "Your photo has been uploaded to contest {contest_name}."
+msgstr "Sua foto foi carregada para o concurso {contest_name}."
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:153
+msgid "Your photo has been approved"
+msgstr "Sua foto foi aprovada"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:154
+msgid ""
+"Your photo \"{contestant_name}\" has been approved in contest {contest_name}."
+msgstr ""
+"Sua foto \"{contestant_name}\" foi aprovada no concurso {contest_name}."
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:156
+msgid "Your photo has been deleted"
+msgstr "Sua foto foi excluída"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:157
+msgid ""
+"Your photo \"{contestant_name}\" has been deleted from contest "
+"{contest_name}."
+msgstr ""
+"Sua foto \"{contestant_name}\" foi excluída do concurso {contest_name}."
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:159
+msgid "New Photography Competition Submitted"
+msgstr "Nova Fotografia de Competição Enviada"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:160
+msgid ""
+"New photo uploaded to contest {contest_name}.\n"
+"Photo name: {contestant_name}, user email: {contestant_user_email}"
+msgstr ""
+"Nova foto carregada para o concurso {contest_name}.\n"
+"Nome da foto: {contestant_name}, email do usuário: {contestant_user_email}"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:162
+msgid "Contest has been finished!"
+msgstr "Concurso foi concluído!"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:163
+msgid ""
+"Contest has been finished: {contest_name}.\n"
+"Winners pick type: {contest_winners_pick}\n"
+"Winners count: {contest_winners_count}"
+msgstr ""
+"Concurso foi concluído: {contest_name}.\n"
+"Tipo de escolha dos ganhadores: {contest_winners_pick}\n"
+"Contagem de vencedores: {contest_winners_count}"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:165
+msgid "Voting active until {date_finish}"
+msgstr "Votação ativa até {date_finish}"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:166
+msgid "Voting will active from {date_start} to {date_finish}"
+msgstr "A votação será ativada de {date_start} até {date_finish}"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:167
+msgid "Upload active until {upload_date_finish}"
+msgstr "Upload ativo até {upload_date_finish}"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:168
+msgid "Upload will active from {upload_date_start} to {upload_date_finish}"
+msgstr ""
+"O upload será ativado a partir de {upload_date_start} até "
+"{upload_date_finish}"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:169
+msgid "Upload inactive"
+msgstr "Upload inativo"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:170
+msgid "Contest has been finished at {date_finish}"
+msgstr "O Concurso foi concluído em {date_finish}"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:281
+msgid ""
+"Some errors with loading thumbnails.\n"
+"            If you don't know why this happens - please go to Photo contest "
+"=> Settings and\n"
+"            change \"Thumbnail retrieving type:\", if this not helps, "
+"contact with support."
+msgstr ""
+"Alguns erros com o carregamento de miniaturas.\n"
+"            Se você não sabe por que isso acontece - por favor, vá para "
+"Photo contest => Configurações e\n"
+"            altere \"Tipo de recuperação de miniatura:\", se isso não "
+"ajudar, entre em contato com o suporte."
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:285
+msgid ""
+"Some errors with voting.\n"
+"            If you don't know why this happens - please go to *Photo "
+"contest* => *Settings* => *Vote* tab and\n"
+"            disable \"Use fast voting option? :\", if this not helps, "
+"contact with plugin support or Hosting."
+msgstr ""
+"Alguns erros com a votação.\n"
+"            Se você não sabe por que isso acontece - por favor, vá para "
+"*Photo contest* => *Configurações* => guia *Votação* e\n"
+"            desative \"Usar opção de votação rápida?\", se isso não ajudar, "
+"entre em contato com suporte de plugin ou Servidor."
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:289
+msgid ""
+"This contest not currently active (not started or already finished)!If you "
+"want enable voting for users - click *Edit contest* in *Admin bar* and check "
+"Vote start & end date."
+msgstr ""
+"Este concurso não está atualmente ativo (não iniciado ou já finalizado)! Se "
+"você deseja ativar a votação para usuários - clique em *Editar concurso* na "
+"*Barra de Administração* e marque a data de início e término da Votação."
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:292
+msgid ""
+"This contest don't not have photos! Please click *Edit contest* in *Admin "
+"bar* and add first photo or enable countdown/upload!"
+msgstr ""
+"Este concurso não tem fotos! Por favor, clique em *Editar concurso* na "
+"*Barra de administração* e adicione a primeira foto ou ative a contagem "
+"regressiva/upload!"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:311
+msgid "General"
+msgstr "Geral"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:312
+msgid "Leaders title"
+msgstr "Título dos líderes"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:313
+msgid "Vote text in button"
+msgstr "Texto de votação no botão"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:315
+msgid "Rating text like 3 <strong>of</strong> 10"
+msgstr "Texto de classificação como 3 <Strong>de</strong> 10"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:316
+msgid "Vote text in image preview"
+msgstr "Texto de votação na visualização de imagens"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:317
+msgid "Other photo title in image preview (in some themes)"
+msgstr "Outro título de foto na visualização de imagem (em alguns temas)"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:318
+#, php-format
+msgid "Pagination summary (please not remove %s)"
+msgstr "Resumo da paginação (não remova %s)"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:319
+msgid "Infinity scroll: Button text"
+msgstr "Scroll infinito: texto do botão"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:320
+msgid "Shares count text"
+msgstr "Texto de contar compartilhamentos"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:324
+msgid "Single photo"
+msgstr "Foto única"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:325
+msgid "sidebar: Share heading"
+msgstr "barra lateral: título de compartilhamento"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:326
+msgid "sidebar: More heading"
+msgstr "barra lateral: Mais cabeçalho"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:327
+msgid "content: Author heading"
+msgstr "conteúdo: Título do autor"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:328
+msgid "content: Description heading"
+msgstr "conteúdo: Título da descrição"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:332
+msgid "Toolbar"
+msgstr "Barra de ferramentas"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:333
+msgid "Gallery tab title"
+msgstr "Título da guia Galeria"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:334
+msgid "Upload tab title"
+msgstr "Título da guia de Upload"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:335
+msgid "Description & Rules tab title"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:336
+msgid "Category filter title"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:337
+msgid "Sorting title"
+msgstr "Título de classificação"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:338
+msgid "Sorting > newest"
+msgstr "Ordenar > mais novo"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:339
+msgid "Sorting > oldest"
+msgstr "Ordenar > mais velho"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:340
+msgid "Sorting > popular"
+msgstr "Ordenar > popular"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:341
+msgid "Sorting > unpopular"
+msgstr "Ordenar > impopular"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:342
+msgid "Sorting > random"
+msgstr "Ordenar > aleatório"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:343
+msgid "Sorting > pseudo-random"
+msgstr "Ordenar > pseudo-aleatório"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:344
+msgid "Sorting > Alphabetical A-Z (by name)"
+msgstr "Ordenar > Alfabético A-Z (por nome)"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:345
+msgid "Sorting > Alphabetical Z-A (by name)"
+msgstr "Ordenar > Alfabético Z-A (por nome)"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:348
+msgid "Search"
+msgstr "Busca"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:353
+msgid "Countdown"
+msgstr "Contagem regressiva"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:354
+msgid "\"Voting ends in\" text"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:355
+msgid "\"Voting starts in\" text (if not yet started)"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:356
+msgid "\"Upload ends in\" text"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:357
+msgid "\"Upload starts in\" text (if not yet started)"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:358
+msgid "Countdown > Days remaining"
+msgstr "Contagem regressiva > Dias restantes"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:359
+msgid "Countdown > Hours remaining"
+msgstr "Contagem regressiva > Horas restantes"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:360
+msgid "Countdown > Minutes remaining"
+msgstr "Contagem regressiva > Minutos restantes"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:361
+msgid "Countdown > Seconds remaining"
+msgstr "Contagem regressiva > Segundos restantes"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:364
+msgid "Voting"
+msgstr "Votação"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:368
+msgid "Voting messages"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:369
+msgid "Title > Go share"
+msgstr "Título > Compartilhar"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:370
+msgid "Title > Voting in process"
+msgstr "Título > Votação em processo"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:371
+msgid "Msg with preloader > Voting in process"
+msgstr "Mensagem com pré-carregador > Votação em processo"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:372
+msgid "Title > vote counted (1-2 words)"
+msgstr "Título > voto contado (1-2 palavras)"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:373
+msgid "Title > vote not counted (1-2 words)"
+msgstr "Título > voto não contado (1-2 palavras)"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:374
+msgid "Msg > vote counted"
+msgstr "Msg > voto contado"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:375
+msgid "Msg > the contest has ended"
+msgstr "Msg > o concurso terminou"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:376
+msgid ""
+"Msg > user already voted for this photo (but can vote for other) <br/"
+"><small>Use *hours_leave* to show, when the user can vote, if voting "
+"frequency is once for 24 hrs:</small>"
+msgstr ""
+"Msg > usuário já votou nesta foto (mas pode votar para outra) <br/"
+"><small>Usar *hours_leave* para mostrar, quando o usuário pode votar, se a "
+"frequência de votação for uma vez a cada 24 horas:</small>"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:377
+msgid ""
+"Msg > user used all votes at this time <br/><small>Can use *hours_leave* and "
+"*used_votes*:</small>"
+msgstr ""
+"Msg > usuário usou todos os votos neste momento <br/><small>Pode usar "
+"*hours_leave* e *used_votes*:</small>"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:378
+msgid ""
+"Msg > user used all votes and can't vote anymore (Voting frequency = Once) "
+"<br/><small>Can use *used_votes*:</small>"
+msgstr ""
+"Msg > usuário usou todos os votos e não pode votar mais (Frequência de "
+"votação = Uma vez) <br/><small>Pode usar *used_votes*:</small>"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:379
+msgid "Msg > vote for own photo not allowed"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:380
+msgid "Msg > Your are not authorized"
+msgstr "Msg > Você não está autorizado"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:381
+msgid "Msg > Your have no enough permissions (role)"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:382
+msgid "Msg > error"
+msgstr "Msg > erro"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:383
+msgid "Message under title with call to share"
+msgstr "Mensagem sob o título com chamada para compartilhar"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:384
+msgid "Message if WP security token is invalid and need refresh page"
+msgstr ""
+"Mensagem se o token de segurança WP for inválido e precisar atualizar a "
+"página"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:387
+msgid "Vote : Rating"
+msgstr "Votação : Classificação"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:388
+#: Vote\translation/includes/fv-translations-helper.php:395
+msgid "Popup title"
+msgstr "Título pop-up"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:389
+msgid "Message that need select rating before vote"
+msgstr "Mensagem que precisa selecionar classificação antes do voto"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:390
+msgid "\"Rating:\" caption"
+msgstr "Legenda da \"Classificação:\""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:391
+msgid "\"Stars\" caption"
+msgstr "Legenda \"Estrelas\""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:394
+msgid "Vote + Subscription form"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:396
+msgid "Popup message"
+msgstr "Mensagem pop-up"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:397
+#: Vote\translation/includes/fv-translations-helper.php:398
+#, php-format
+msgid "Field `%s` caption"
+msgstr "Legenda do campo `%s`"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:397
+msgid "name"
+msgstr "nome"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:398
+msgid "email"
+msgstr "email"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:399
+msgid ""
+"Subscribe to newsletter checkbox text (if enabled in Settings => Voting)"
+msgstr ""
+"Texto da caixa de seleção Inscreva-se no boletim informativo (se ativado em "
+"Configurações => Votação)"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:401
+#: Vote\translation/includes/fv-translations-helper.php:415
+msgid "Email verification"
+msgstr "Verificação de email"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:403
+msgid "Popup msg - found email in database but Name not equal"
+msgstr ""
+"Mensagem de pop-up - email encontrado na base de dados, mas o Nome não é "
+"igual"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:404
+msgid "Popup msg - Empty name or email"
+msgstr "Mensagem de pop-up - Nome ou email vazio"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:405
+msgid "Popup msg - Invalid email"
+msgstr "Mensagem de pop-up - email inválido"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:407
+msgid "Popup msg - Verification mail send"
+msgstr "Mensagem de pop-up - envio de email de verificação"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:408
+msgid "Popup btn text - Check verification key"
+msgstr "Texto do botão do pop-up - Confirme a chave de verificação"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:409
+msgid "Popup msg - Verification mail Already send"
+msgstr "Mensagem de pop-up - Email de verificação já enviado"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:410
+msgid "Popup btn text - Change mail"
+msgstr "Texto do botão do pop-up - Alterar email"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:411
+msgid "Popup msg - Entered verification key is wrong"
+msgstr "Mensagem de pop-up - A chave de verificação inserida está errada"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:412
+msgid "Popup msg - Successful verified!"
+msgstr "Mensagem de pop-up - Verificado com sucesso!"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:413
+msgid "Popup msg - if email already confirmed"
+msgstr "Mensagem de pop-up - se o e-mail já foi confirmado"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:422
+msgid "Subject - verification mail"
+msgstr "Assunto - email de verificação"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:423
+msgid "Body - verification mail"
+msgstr "Corpo do texto - email de verificação"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:428
+msgid "Vote with Social login"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:429
+msgid "Soc. authorization title"
+msgstr "Título da autorização social"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:432
+msgid "Vote with Math Captcha"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:433
+msgid "Title > Solve Math Captcha please!"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:434
+msgid "Msg > Solve Math Captcha please!"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:435
+#: Vote\translation/includes/fv-translations-helper.php:445
+msgid "Msg > Seems you do it wrong!"
+msgstr "Msg > Parece que você fez isso errado!"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:436
+msgid "Msg > Math Captcha expired!"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:439
+msgid "Vote + Facebook Share"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:440
+msgid "Msg > for vote please share in FB"
+msgstr "Msg > para votar por favor compartilhe no FB"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:443
+msgid "Vote with reCAPTCHA"
+msgstr "Vote com reCAPTCHA"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:444
+msgid "Title > Solve reCAPTCHA please!"
+msgstr "Título> Resolva o reCAPTCHA por favor!"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:452
+msgid "Upload form"
+msgstr "Formulário de upload"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:453
+msgid "Upload form title"
+msgstr "Título do formulário de upload"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:454
+msgid "Upload form button text"
+msgstr "Texto do botão do formulário de upload"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:455
+#, php-format
+msgid ""
+"User must be logged for upload <small>(%1$s will be replaced into Login link "
+"from wp_login_url(), %2$s will be replaced into Register link from "
+"wp_registration_url())</small>"
+msgstr ""
+"O usuário deve estar logado para fazer upload <small>(%1$s será substituído "
+"no link de Login do wp_login_url(),%2$s será substituído no link Registrar "
+"do wp_registration_url())</small>"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:456
+msgid "Message if contest upload dates expired or it has finished"
+msgstr ""
+"Mensagem se as datas de upload do concurso tiverem expirado ou tiver "
+"terminado"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:457
+msgid "Message if user do not have enough role"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:461
+msgid "Upload messages"
+msgstr "Mensagens de upload"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:463
+msgid "Form Validation"
+msgstr "Validação do Formulário"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:464
+#: Vote\translation/includes/fv-translations-helper.php:465
+msgid "User email is invalid in form"
+msgstr "O email do usuário é inválido no formulário"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:466
+msgid "Upload warning, if not file passed"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:468
+msgid "Not uploaded (limit exceeded/error)"
+msgstr "Não carregado (limite excedido/erro)"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:469
+msgid "[Popup title] Troubles with upload"
+msgstr "[Título popup] Problemas com upload"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:470
+msgid "[Popup message] Upload error"
+msgstr "[Mensagem popup] Erro de upload"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:471
+msgid "[Popup message] User already downloaded photo"
+msgstr "[Mensagem popup] Usuário já baixou a foto"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:474
+msgid "[Popup title] Successfully uploaded"
+msgstr "[Título popup] Carregado com sucesso"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:475
+msgid "[Popup message] Photo is uploaded"
+msgstr "[Mensagem popup] A foto está carregada"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:476
+msgid "[Popup message] Photo is uploaded and need review"
+msgstr "[Mensagem popup] A foto está carregada e precisa ser revisada"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:478
+msgid "Image dimensions invalid"
+msgstr "Dimensões da imagem inválidas"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:479
+msgid ""
+"User photo is bigger than limit <small>(%LIMIT_SIZE% will be replaced into "
+"`limit value` in megabytes, %FILE_NAME% into file name)</small>"
+msgstr ""
+"A foto do usuário é maior do que o limite <small>(%LIMIT_SIZE% será "
+"substituído por \"valor limite\" em megabytes, %FILE_NAME% no nome do "
+"arquivo)</small>"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:480
+msgid ""
+"Message, that image does not fit required size (<small>%INFO% will be "
+"replaced into text below (smaller or bigger)</small>)"
+msgstr ""
+"Mensagem, essa imagem não corresponde ao tamanho necessário (<small>%INFO% "
+"será substituído no texto abaixo (menor ou maior)</small>)"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:481
+msgid ""
+"Image must be smaller than size (<small>%SIZE% will be replaced into size "
+"from settings, as example 500px., %PARAM% into \"height\" or \"width\"</"
+"small>)."
+msgstr ""
+"A imagem deve ser menor que o tamanho (<small>%SIZE% será substituído no "
+"tamanho de configurações, como exemplo 500px., %PARAM% em \"altura\" ou "
+"\"largura\"</small>)."
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:482
+msgid ""
+"Image must be bigger than size (<small>%SIZE% will be replaced into size "
+"from settings, as example 500px., %PARAM% into \"height\" or \"width\"</"
+"small>)."
+msgstr ""
+"A imagem deve ser maior do que o tamanho (<small>%SIZE% será substituído no "
+"tamanho de configurações, como exemplo 500px., %PARAM% em \"altura\" ou "
+"\"largura\"</small>)."
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:483
+msgid "Height %PARAM%"
+msgstr "%PARAM% Altura"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:484
+msgid "Width %PARAM%"
+msgstr "%PARAM% Largura"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:487
+msgid "Notify mail messages"
+msgstr "Mensagens de notificação de email"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:498
+msgid "Mail to user - photo uploaded"
+msgstr "Email ao usuário - fotos carregadas"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:499
+#: Vote\translation/includes/fv-translations-helper.php:511
+msgid "Subject - photo uploaded"
+msgstr "Assunto - foto carregada"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:500
+#: Vote\translation/includes/fv-translations-helper.php:512
+msgid "Body - photo uploaded"
+msgstr "Corpo do texto - foto carregada"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:502
+msgid "Mail to user - photo approved"
+msgstr "Email ao usuário - foto aprovada"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:503
+msgid "Subject - photo approved"
+msgstr "Assunto - foto aprovada"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:504
+msgid ""
+"Body - photo approved<br/><small>extra tag - <code>{admin_comment}</code></"
+"small>"
+msgstr ""
+"Corpo do texto - foto aprovada<br/><small>tag extra - <code>{admin_comment}</"
+"code></small>"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:506
+msgid "Mail to user - photo deleted"
+msgstr "Email ao usuário - foto removida"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:507
+msgid "Subject - photo deleted"
+msgstr "Assunto - foto removida"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:508
+msgid ""
+"Body - photo deleted<br/><small>extra tag - <code>{admin_comment}</code></"
+"small>"
+msgstr ""
+"Corpo do texto - foto eliminada<br/><small>tag extra - <code>{admin_comment}"
+"</code></small>"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:510
+msgid "Mail to Admin - photo uploaded"
+msgstr "Email ao administrador - foto carregada"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:514
+msgid "Mail to Admin - contest finished"
+msgstr "Email ao administrador - concurso concluído"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:515
+msgid "Subject - contest finished"
+msgstr "Assunto - concurso encerrado"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:516
+msgid "Body - contest finished"
+msgstr "Corpo do texto - concurso encerrado"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:520
+msgid "Extras"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:524
+msgid "Leaders table"
+msgstr "Tabela de líderes"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:525
+msgid "Leaders table > Rank"
+msgstr "Tabela de líderes > Classificação"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:526
+msgid "Leaders table > Competitor"
+msgstr "Tabela de líderes> Competidores"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:527
+msgid "Leaders table > Total Votes"
+msgstr "Tabela de líderes> Votos totais"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:530
+msgid "Winners list"
+msgstr "Lista de vencedores"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:531
+msgid "Winners heading"
+msgstr "Título dos vencedores"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:532
+msgid "\"Winners not yet picked\" heading"
+msgstr "Cabeçalho para \"Ganhadores ainda não escolhidos\""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:533
+msgid "Winner \"place\" caption, like \"1 place\", etc"
+msgstr "Legenda do \"lugar\" do vencedor, como \"1º lugar\", etc"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:536
+msgid "Contest list"
+msgstr "Lista de Concursos"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:538
+msgid "Contest block text - Voting active <small>(use: {date_finish})</small>"
+msgstr ""
+"Texto do bloco de Concurso - Votação ativa<small>(usar: {date_finish})</"
+"small>"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:539
+msgid ""
+"Contest block text - Voting active future <small>(use: {date_start}, "
+"{date_finish})</small>"
+msgstr ""
+"Texto do bloco de Concurso - Votação futura ativa<small>(usar: {date_start}, "
+"{date_finish})</small>"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:541
+msgid ""
+"Contest block text - Upload active <small>(use: {upload_date_finish})</small>"
+msgstr ""
+"Texto do bloco de Concurso - Upload ativo<small>(usar: "
+"{upload_date_finish})</small>"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:542
+msgid ""
+"Contest block text - Upload active future <small>(use: {upload_date_start}, "
+"{upload_date_finish})</small>"
+msgstr ""
+"Texto do bloco de Concurso - Upload futuro ativo<small>(usar: "
+"{upload_date_start}, {upload_date_finish})</small>"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:543
+msgid "Contest block text - Upload inactive"
+msgstr "Texto do bloco de concurso - Upload inativo"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:545
+msgid ""
+"Contest block text - Contest finished <small>(use: {date_finish})</small>"
+msgstr ""
+"Texto do bloco de concurso - Concurso finalizado<small>(usar: "
+"{date_finish})</small>"
+
+#: D:\Projects\WP Foto Vote\translation/public/class-fv-public-single.php:266
+msgid "Fail contestant ID or it was not published!"
+msgstr "Falha no ID do competidor ou não foi publicado!"
+
+#: D:\Projects\WP Foto Vote\translation/public/class-fv-public-single.php:280
+msgid "Fail contest!"
+msgstr "Falha do Concurso!"
+
+#: D:\Projects\WP Foto Vote\translation/public/class-fv-public-single.php:427
+msgid "Fail competitor_id!"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/public/class-fv-public-single.php:437
+msgid "Empty competitor!"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/public/class-fv-public.php:140
+#: Vote\translation/public/class-fv-public.php:408
+msgid "Check contest id!"
+msgstr "Verifique o ID do concurso!"
+
+#: D:\Projects\WP Foto Vote\translation/public/class-fv-public.php:414
+msgid "Contest not exists!"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/public/fv-public-helper.php:141
+msgid "Contests"
+msgstr "Concursos"
+
+#: D:\Projects\WP Foto Vote\translation/public/fv-public-helper.php:144
+msgid "Manage contests"
+msgstr "Gerenciar concursos"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/templates/contests_list/default/contest_item.php:52
+msgid "Visible only for admins"
+msgstr "Visível apenas para administradores"
+
+#: D:\Projects\WP Foto Vote\translation/templates/share_new.php:22
+#: Vote\translation/templates/share_new.php:34
+msgid "Post"
+msgstr "Post"
+
+#: D:\Projects\WP Foto Vote\translation/templates/share_new.php:28
+msgid "Tweet"
+msgstr "Tweet"
+
+#: D:\Projects\WP Foto Vote\translation/templates/share_new.php:40
+msgid "Pin it"
+msgstr "Fixá-lo"
+
+#: D:\Projects\WP Foto Vote\translation/templates/share_new.php:130
+msgid "Share and vote"
+msgstr "Compartilhar e votar"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/templates/skins/default/single_item.php:20
+#: Vote\translation/templates/skins/new_year/single_item.php:42
+msgid "Next"
+msgstr "Próximo"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/templates/skins/default/single_item.php:26
+#: Vote\translation/templates/skins/new_year/single_item.php:49
+msgid "Previous"
+msgstr "Anterior"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/templates/skins/default/single_item.php:53
+msgid "Share to friends"
+msgstr "Compartilhar com amigos"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/templates/skins/flickr/single_item.php:77
+msgid "Comments"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/templates/skins/flickr/single_item.php:147
+msgid "EXIF Data"
+msgstr "EXIF Data"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/templates/skins/flickr/single_item.php:150
+msgid "Model"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/templates/skins/flickr/single_item.php:154
+msgid "Focal Length"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/templates/skins/flickr/single_item.php:157
+msgid "Shutter Speed"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/templates/skins/flickr/single_item.php:160
+msgid "Aperture"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/templates/skins/flickr/single_item.php:164
+msgid "ISO"
+msgstr "ISO"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/templates/skins/flickr/single_item.php:168
+msgid "Taken At"
+msgstr ""
+
+#~ msgid "Contest \"%s\" reactivated"
+#~ msgstr "Concurso \"%s\" reativado"
+
+#~ msgid "Contest \"%s\" winners has been reset!"
+#~ msgstr "Os vencedores do concurso \"%s\" foram apagados!"
+
+#~ msgid "Log cleared."
+#~ msgstr "Registo limpo."
+
+#~ msgid "Tables cleared."
+#~ msgstr "Tabelas limpas."
+
+#~ msgid "Form has been deleted."
+#~ msgstr "O formulário foi excluído."
+
+#~ msgid "Troubles with form creating!"
+#~ msgstr "Problemas com a criação de formulário!"
+
+#~ msgid "Form has been created."
+#~ msgstr "Formulário criado."
+
+#, fuzzy
+#~ msgid "live"
+#~ msgstr "permanecer"
+
+#~ msgid "finished"
+#~ msgstr "concluído"
+
+#~ msgid "draft (not shows on public)"
+#~ msgstr "rascunho (não exibido publicamente)"
+
+#~ msgid "Voting settings"
+#~ msgstr "Configurações de votação"
+
+#~ msgid "Date start"
+#~ msgstr "Data de início"
+
+#~ msgid "year-month-day h:m:s"
+#~ msgstr "ano-mês-dia h:m:s"
+
+#~ msgid "Date finish"
+#~ msgstr "Data final"
+
+#~ msgid ""
+#~ "When time ends, vote buttons will be hidden,<br/> and user can only see "
+#~ "results"
+#~ msgstr ""
+#~ "Quando finalizar o período, botões para votar ficarão ocultos,<br /> e "
+#~ "usuários poderão apenas ver resultados"
+
+#~ msgid "Frequency of voting"
+#~ msgstr "Frequência de votos"
+
+#~ msgid "Select type of voting - how many user can vote in contest"
+#~ msgstr ""
+#~ "Selecionar tipo de votação - quantos usuários podem votar no concurso"
+
+#~ msgid "Once for one photo for all time"
+#~ msgstr "Uma vez por foto por todo período"
+
+#~ msgid "Once for 2 photos for all time"
+#~ msgstr "Uma vez a cada 2 fotos por todo período"
+
+#~ msgid "Once for 3 photos for all time"
+#~ msgstr "Uma vez a cada 3 fotos por todo período"
+
+#~ msgid "Once for 10 photos for all time"
+#~ msgstr "Uma vez a cada 10 fotos por todo período"
+
+#~ msgid "For each photo once"
+#~ msgstr "Uma vez para cada voto"
+
+#~ msgid "For one photo once for 24 hours"
+#~ msgstr "Uma vez por 24 horas para cada foto"
+
+#~ msgid "For one photo once per day (00-24)"
+#~ msgstr "Para uma foto uma vez por dia (00-24)"
+
+#~ msgid "For 2 photos once for 24 hours"
+#~ msgstr "Para 2 fotos uma vez por 24 horas"
+
+#~ msgid "For 3 photos once for 24 hours"
+#~ msgstr "Para 3 fotos uma vez por 24 horas"
+
+#~ msgid "For each photo once for 24 hours"
+#~ msgstr "Para cada foto uma vez por 24 horas"
+
+#~ msgid "how ofter user can vote"
+#~ msgstr "com que frequência o usuário pode votar"
+
+#~ msgid "Contest security type"
+#~ msgstr "Tipo de segurança do concurso"
+
+#~ msgid "Select - how secure contest voting process?"
+#~ msgstr "Selecionar - quão seguro o processo de votação do concurso?"
+
+#~ msgid "Voting type"
+#~ msgstr "Tipo de votação"
+
+#~ msgid "Winners / Leaders"
+#~ msgstr "Vencedores / Líderes"
+
+#~ msgid "Winners pick method?"
+#~ msgstr "Método de destaque dos vencedores?"
+
+#~ msgid "How many winners pick?"
+#~ msgstr "Destacar quantos vencedores?"
+
+#~ msgid "Winners count, that need to be picked"
+#~ msgstr "Quantidade de vencedores , que precisam ser destacados"
+
+#~ msgid "Show leaders block?"
+#~ msgstr "Mostrar líderes bloqueados?"
+
+#~ msgid "Upload settings"
+#~ msgstr "Configurações de upload"
+
+#~ msgid "Moderation?"
+#~ msgstr "Moderação?"
+
+#~ msgid "Other"
+#~ msgstr "Outros"
+
+#~ msgid "Cover image ID for contest list"
+#~ msgstr "Imagem da capa para a lista do concurso"
+
+#~ msgid "Don`t shows in photos list, only as cover image."
+#~ msgstr "Não mostra na lista de fotos, apenas como imagem de capa."
+
+#~ msgid "(need, only if you uses contest_list shortcode)"
+#~ msgstr "(necessário, apenas se você usa o shortcode contest_list)"
+
+#~ msgid "Saving falied! No Contest ID passed!"
+#~ msgstr "Falha ao salvar! Não foi enviada ID do concurso!"
+
+#~ msgid "Contest saved."
+#~ msgstr "Concurso salvo."
+
+#~ msgid "Photo contests"
+#~ msgstr "Fotos do concurso"
+
+#~ msgid "Moderation"
+#~ msgstr "Moderação"
+
+#~ msgid "Settings"
+#~ msgstr "Configurações"
+
+#~ msgid "Forms builder"
+#~ msgstr "Construtor de formulário"
+
+#~ msgid "Translation"
+#~ msgstr "Traduções"
+
+#~ msgid "Votes log"
+#~ msgstr "Registro de votos"
+
+#~ msgid "Votes analytic"
+#~ msgstr "Análise de votos"
+
+#~ msgid "Subscribers list"
+#~ msgstr "Lista de inscritos"
+
+#~ msgid "Debug"
+#~ msgstr "Debug / Registro de erros"
+
+#~ msgid "License"
+#~ msgstr "Licença"
+
+#~ msgid "Get help"
+#~ msgstr "Obter ajuda"
+
+#~ msgid ""
+#~ "You can change, but if the number of votes in the database would be "
+#~ "another <br/> (someone vote in the editing page), <br/> changes will not "
+#~ "be saved."
+#~ msgstr ""
+#~ "Você pode mudar, mas se o número de votos no banco de dados for outro <br/"
+#~ "> (alguém vota na página de edição), <br/> as alterações não serão salvas."
+
+#~ msgid ""
+#~ "The site is not displayed when loading user photos, <br/> to specify "
+#~ "contact information and notes to photos.<br/> If specified as `email;"
+#~ "text`, user can take<br/> notification, when photo has been approved."
+#~ msgstr ""
+#~ "O site não é exibido ao carregar fotos de usuários, <br/> para "
+#~ "especificar informações de contato e notas para fotos. <br/> Se "
+#~ "especificado como \"email;texto\", o usuário pode receber<br/> uma "
+#~ "notificação, quando a foto for aprovada."
+
+#, fuzzy
+#~ msgid ""
+#~ "Image size 150*150 px (if you specify more, with a large number of "
+#~ "contestants <br/> page will be long load). <br /> Tip: The first set "
+#~ "thumbnail - if its size is 150*150 <br/> plugin will automatically insert "
+#~ "the full image in the `image` field"
+#~ msgstr ""
+#~ "Tamanho da imagem 150*150 px (se você especificar mais, com um grande "
+#~ "número de concorrentes <br/> a página será de carga longa). <br /> Dica: "
+#~ "A miniatura do primeiro conjunto - se o tamanho for 150*150 <br/> o "
+#~ "plugin irá inserir automaticamente a imagem completa no campo `imagem`"
+
+#~ msgid "Similarly remove all ip addresses, voted in this contest?"
+#~ msgstr ""
+#~ "Igualmente remover todos os endereços IP, que votaram neste concurso?"
+
+#~ msgid "Cleared"
+#~ msgstr "Vazio"
+
+#~ msgid ""
+#~ "This will reset all pohtos votes to 0 (this will not remove votes from "
+#~ "log)!"
+#~ msgstr ""
+#~ "Isso irá redefinir todos os votos das fotos para 0 (isso não removerá os "
+#~ "votos do log)!"
+
+#~ msgid "Votes has been reset! Please refresh page to see results."
+#~ msgstr ""
+#~ "Votos reiniciados! Por favor, atualize a página para ver os resultados."
+
+#~ msgid "Cloning started!"
+#~ msgstr "A duplicação começou!"
+
+#~ msgid "Redirecting to cloned contest!"
+#~ msgstr "Redirecionando para concursos duplicados!"
+
+#~ msgid ""
+#~ "Are you sure? This will delete competitor data and photo from Hosting (as "
+#~ "this enabled in Settings)!"
+#~ msgstr ""
+#~ "Você tem certeza? Isso eliminará os dados do concorrente e a foto do "
+#~ "Servidor (com isso ativado nas Configurações)!"
+
+#~ msgid ""
+#~ "Are you sure? This will delete competitor and but it still leave in a "
+#~ "Media Library (you can enable deleting from hosting in Settings)!"
+#~ msgstr ""
+#~ "Você tem certeza? Isso eliminará o competidor e, no entanto, ele ainda "
+#~ "permanecerá na Biblioteca de Mídia (você pode ativar a exclusão de "
+#~ "hospedagem em Configurações)!"
+
+#~ msgid "Competitor \"*NAME*\" (and may be photo) deleted!"
+#~ msgstr "Concorrente \"*NAME*\" (e suas fotos) excluído!"
+
+#~ msgid "Competitor approved!"
+#~ msgstr "Competidor aprovado!"
+
+#~ msgid "Competitor saved!"
+#~ msgstr "Competidor salvo!"
+
+#~ msgid "Are you sure to rotate image and thumbnails?"
+#~ msgstr "Tem certeza que deseja girar imagens e miniaturas?"
+
+#~ msgid "Rotating successful ends!"
+#~ msgstr "Rotação concluída com sucesso!"
+
+#~ msgid "Rotating: some problem!"
+#~ msgstr "Rotação: algum problema!"
+
+#~ msgid "Rotating to *A* degrees start!"
+#~ msgstr "Girando para *A* graus iniciado!"
+
+#~ msgid "Full photo"
+#~ msgstr "Foto ampliada"
+
+#~ msgid "Published"
+#~ msgstr "Publicado"
+
+#~ msgid "On modearation"
+#~ msgstr "Em moderação"
+
+#~ msgid "Draft"
+#~ msgstr "Rascunho"
+
+#~ msgid "Key has been empty!"
+#~ msgstr "Chave foi apagada!"
+
+#~ msgid "Automatically - most voted"
+#~ msgstr "Automaticamente - mais votados"
+
+#~ msgid "Automatically - random"
+#~ msgstr "Automaticamente - aleatório"
+
+#~ msgid "Automatically - random from TOP 10"
+#~ msgstr "Automaticamente - aleatório de TOP 10"
+
+#~ msgid "Automatically - random from TOP 20"
+#~ msgstr "Automaticamente - aleatório de TOP 20"
+
+#~ msgid "Manual"
+#~ msgstr "Manual"
+
+#~ msgid "Editing contestant:"
+#~ msgstr "Editando concurso:"
+
+#~ msgid "Adding contestant:"
+#~ msgstr "Adicionando concurso:"
+
+#~ msgid "Please don't use \" (double quotes) in fields"
+#~ msgstr "Por favor não use \" (aspas duplas) nos campos"
+
+#~ msgid "Place"
+#~ msgstr "Lugar"
+
+#~ msgid "Place Caption"
+#~ msgstr "Legenda da Classificação"
+
+#~ msgid "Name"
+#~ msgstr "Nome"
+
+#~ msgid "Votes"
+#~ msgstr "Votos"
+
+#~ msgid "Rating"
+#~ msgstr "Avaliação"
+
+#~ msgid "Short description"
+#~ msgstr "Descrição curta"
+
+#~ msgid "(shows in photos list)"
+#~ msgstr "(mostrar na lista de fotos)"
+
+#~ msgid "Full description"
+#~ msgstr "Descrição completa"
+
+#~ msgid "(shows in single contest photo page)"
+#~ msgstr "(mostrar na página singular do concurso)"
+
+#~ msgid "Social description"
+#~ msgstr "Descrição social"
+
+#~ msgid "(uses on sharing image into Social networks)"
+#~ msgstr "(usar o compartilhamento de imagens em redes sociais)"
+
+#~ msgid "Contest image"
+#~ msgstr "Imagem do concurso"
+
+#~ msgid "(Use full image, thumbnail get`s automatically)"
+#~ msgstr "(Usar a imagem completa, a miniatura é feita automaticamente)"
+
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#~ msgid "Publish"
+#~ msgstr "Publicar"
+
+#~ msgid "To moderation"
+#~ msgstr "Para moderação"
+
+#~ msgid "To draft"
+#~ msgstr "Para rascunho"
+
+#~ msgid "Save"
+#~ msgstr "Salvar"
+
+#~ msgid "Setup Tutorial"
+#~ msgstr "Tutorial das configurações"
+
+#~ msgid "Addons"
+#~ msgstr "Addons / Complementos"
+
+#~ msgid "Update status"
+#~ msgstr "Atualizar status"
+
+#~ msgid "Key status: "
+#~ msgstr "Status da chave: "
+
+#~ msgid "Key expiration: "
+#~ msgstr "Expiração da chave: "
+
+#~ msgid "<strong>Key</strong>: "
+#~ msgstr "<strong>Chave</strong>: "
+
+#~ msgid "Key not entered!"
+#~ msgstr "Chave não digitada!"
+
+#~ msgid "Support &amp; Reviews"
+#~ msgstr "Suporte &amp; Críticas"
+
+#~ msgid "Need customization or freelance developer? Write to"
+#~ msgstr ""
+#~ "Precisa de personalização ou desenvolvedor independente? Escrever para"
+
+#~ msgid "Need support? Get it here>>"
+#~ msgstr "Precisa de suporte? Obtenha aqui>>"
+
+#~ msgid ""
+#~ "Your feedback and review are both important, <a href=\"http://wp-vote.net/"
+#~ "testimonials/\" target=\"_blank\">write you testimonial</a>!"
+#~ msgstr ""
+#~ "Seus comentários e críticas são importantes, <a href=\"http://wp-vote.net/"
+#~ "testimonials/\" target=\"_blank\">escreva sua avaliação</a>!"
+
+#~ msgid "Thumb"
+#~ msgstr "Miniatura"
+
+#~ msgid "Votes count"
+#~ msgstr "Contagem de votos"
+
+#~ msgid "Upload info"
+#~ msgstr "Informação do Upload"
+
+#~ msgid "User email"
+#~ msgstr "Email do usuário"
+
+#~ msgid "User id"
+#~ msgstr "ID do usuário"
+
+#~ msgid "User ip"
+#~ msgstr "IP do usuário"
+
+#~ msgid "Added"
+#~ msgstr "Adicionado"
+
+#~ msgid "Actions"
+#~ msgstr "Ações"
+
+#~ msgid "Contest"
+#~ msgstr "Concurso"
+
+#~ msgid "Added (d/m/y)"
+#~ msgstr "Adicionado (d/m/y)"
+
+#~ msgid "Action"
+#~ msgstr "Ação"
+
+#~ msgid "Approve"
+#~ msgstr "Aprovar"
+
+#~ msgid "Approve with Comment"
+#~ msgstr "Aprovar com Comentário"
+
+#~ msgid "Delete"
+#~ msgstr "Excluir"
+
+#~ msgid "Delete with Comment"
+#~ msgstr "Excluir com Comentário"
+
+#~ msgid "Edit"
+#~ msgstr "Editar"
+
+#~ msgid "rotate right"
+#~ msgstr "girar para direita"
+
+#~ msgid "rotate left"
+#~ msgstr "girar para esquerda"
+
+#~ msgid "Stats"
+#~ msgstr "Estatísticas"
+
+#~ msgid "Winners"
+#~ msgstr "Vencedores"
+
+#~ msgid "Need select contest winners, but competitors count = 0"
+#~ msgstr ""
+#~ "É necessário selecionar os vencedores do concurso, mas o contador dos "
+#~ "competidores = 0"
+
+#~ msgid "Select contest winners"
+#~ msgstr "Selecionar vencedores do concurso"
+
+#~ msgid "top most voted competitors"
+#~ msgstr "competidores mais votados"
+
+#~ msgid "Picked"
+#~ msgstr "Destaques"
+
+#~ msgid "Reset All Winners"
+#~ msgstr "Limpar Todos os Vencedores"
+
+#~ msgid "Contest has been finished"
+#~ msgstr "Concurso foi finalizado"
+
+#~ msgid "Make contest active and set \"Voting end date\" to NOW + 3 days*"
+#~ msgstr ""
+#~ "Ativar concurso e definir \"Data de término da votação\" para AGORA + 3 "
+#~ "dias*"
+
+#~ msgid "*Please note:"
+#~ msgstr "*Por favor, notas:"
+
+#~ msgid "1. After 3 days contest again will be set as Finished"
+#~ msgstr ""
+#~ "1. Após 3 dias de concurso ativo novamente será definido como Terminado"
+
+#~ msgid "2. All Winners will be reset"
+#~ msgstr "2. Todos os Vencedores serão resetados"
+
+#~ msgid "Design / social settings"
+#~ msgstr "Design / configurações das redes sociais"
+
+#~ msgid "Page, where contest are placed"
+#~ msgstr "Página, onde o concurso está localizado"
+
+#, fuzzy
+#~ msgid ""
+#~ "Used for: <br/>- Generating link 'Back to contest' from Single View <br/"
+#~ ">- Link to Single Contest from 'Contests list' <br/>- Link to confirm "
+#~ "Email ('Subscribe Form' Voting security)"
+#~ msgstr ""
+#~ "Usado para: <br/> - Gerar link 'Voltar ao concurso' da Visão Única <br/> "
+#~ "- Link para Concurso Único de 'Lista de Concursos' <br/> - Link para "
+#~ "confirmar Email ('Inscrever Formulário' Segurança de votação)"
+
+#~ msgid "None selected"
+#~ msgstr "Nada selecionado"
+
+#~ msgid "Title contest for soc. networks "
+#~ msgstr "Título do concurso para redes sociais "
+
+#~ msgid ""
+#~ "*name* will be replaced by name of the contestant.<br /> Only works for "
+#~ "Vkontakte, Twitter and Pinterest, <br /> others socials take title from "
+#~ "page title. <br/><br/>If not specified - the name of the contestant taken"
+#~ msgstr ""
+#~ "*name* será substituído pelo nome do competidor. <br /> Somente funciona "
+#~ "para Vkontakte, Twitter e Pinterest, <br /> outras redes sociais utilizam "
+#~ "o título do título da página. <br/><br/>Se não for especificado - o nome "
+#~ "do competidor será tirado"
+
+#~ msgid "Description contest for soc. networks"
+#~ msgstr "Descrição do concurso para redes sociais"
+
+#~ msgid ""
+#~ "*name* will be replaced by name of the contestant.<br /> Only works for "
+#~ "Vkontakte and Twitter<br/> take the rest of the description of the "
+#~ "description page. <br /> <br /> If not specified - soc. networks use at "
+#~ "its discretion"
+#~ msgstr ""
+#~ "*name* será substituído pelo nome do competidor. <br /> Somente funciona "
+#~ "para Vkontakte e Twitter <br/> utilizar o resto da descrição da página de "
+#~ "descrição. <br /> <br /> Se não for especificado - redes sociais utilizam "
+#~ "a seu critério"
+
+#~ msgid "Picture for social networks"
+#~ msgstr "Imagem para redes sociais"
+
+#~ msgid ""
+#~ "Only works for Vkontakte and Pinterest.<br /><br /> If not specified - is "
+#~ "taken contestant image"
+#~ msgstr ""
+#~ "Só funciona para Vkontakte e Pinterest. <br /><br /> Se não for "
+#~ "especificado - é utilizada a imagem do competidor"
+
+#~ msgid "If you want show countdown timer, check this option"
+#~ msgstr ""
+#~ "Se você deseja mostrar o cronômetro da contagem regressiva, marque esta "
+#~ "opção"
+
+#~ msgid "No show"
+#~ msgstr "Não mostrar"
+
+#~ msgid "Lightbox"
+#~ msgstr "Lightbox"
+
+#~ msgid "Photos order"
+#~ msgstr "Ordem das fotos"
+
+#~ msgid "Output order of pictures on the page"
+#~ msgstr "Ordem de saída das imagens na página"
+
+#~ msgid "Other settings"
+#~ msgstr "Outras configurações"
+
+#~ msgid "Contest list settings"
+#~ msgstr "Configurações da lista de concursos"
+
+#~ msgid "Upload dates active"
+#~ msgstr "Ativar datas de upload"
+
+#, fuzzy
+#~ msgid "Upload dates inactive"
+#~ msgstr "Desativar datas de upload"
+
+#~ msgid "Show upload form"
+#~ msgstr "Mostrar formulário de upload"
+
+#~ msgid "Yes"
+#~ msgstr "Sim"
+
+#, fuzzy
+#~ msgid "[\"Upload dates\" must be active]"
+#~ msgstr "[\"Datas de upload\" precisa estar ativo]"
+
+#~ msgid "No"
+#~ msgstr "Não"
+
+#~ msgid "[You can still use \"Upload shortcode\"]"
+#~ msgstr "[Você ainda pode usar \"Upload shortcode\"]"
+
+#~ msgid "Don't applies to \"Upload shortcode\"."
+#~ msgstr "Não se aplica a \"Upload shortcode\"."
+
+#~ msgid "Admin must moderate photos before publishing on site?"
+#~ msgstr "Administrador deve moderar fotos antes de publicar no site?"
+
+#~ msgid "Need moderation"
+#~ msgstr "Precisa de moderação"
+
+#~ msgid "No, thanks"
+#~ msgstr "Não, obrigado"
+
+#~ msgid "Upload date start"
+#~ msgstr "Início da data de upload"
+
+#~ msgid "Upload date finish"
+#~ msgstr "Fim da data de upload"
+
+#~ msgid "When time end, upload from will be hidden"
+#~ msgstr "Quando terminar o prazo, formulário de upload será oculto"
+
+#~ msgid "Redirect to page after success upload (3,5 sec delay):"
+#~ msgstr ""
+#~ "Redirecionar para página após o upload do sucesso (atraso de 3,5 "
+#~ "segundos):"
+
+#~ msgid "No redirect"
+#~ msgstr "Não redirecionar"
+
+#, fuzzy
+#~ msgid "The maximum number of one user uploaded photo"
+#~ msgstr "O número máximo de uma foto carregada pelo usuário"
+
+#~ msgid ""
+#~ "Maximum number of pictures uploaded by each user in this competition."
+#~ msgstr ""
+#~ "Número máximo de imagens carregadas por cada usuário nesta competição."
+
+#~ msgid ""
+#~ "please setup by what params limit upload [ip, email, user id] for make it "
+#~ "working (in Settings => Upload)"
+#~ msgstr ""
+#~ "por favor, configure por quais parâmetros será limitado o upload [ip, "
+#~ "email, id do usuário] para torná-lo funcionando (em Configurações => "
+#~ "Upload)"
+
+#~ msgid "Form"
+#~ msgstr "Formulário"
+
+#~ msgid "Upload form theme"
+#~ msgstr "Tema do formulário de upload"
+
+#~ msgid "Voting dates active"
+#~ msgstr "Ativar datas de votação"
+
+#~ msgid "Voting dates inactive"
+#~ msgstr "Desativar datas de votação"
+
+#~ msgid "Additional security"
+#~ msgstr "Adicionais de segurança"
+
+#~ msgid "how many times user can vote in contest"
+#~ msgstr "quantas vezes o usuário pode votar no concurso"
+
+#, fuzzy
+#~ msgid "0 mean 1 vote for each photo in contest"
+#~ msgstr "0 significa 1 voto por cada foto no concurso"
+
+#~ msgid "Shortcodes"
+#~ msgstr "Shortcodes"
+
+#~ msgid "Shortcode, to show contest on page/post:"
+#~ msgstr "Shortcode, para mostrar concurso na página/publicação:"
+
+#~ msgid "Shortcode, to show only upload form:"
+#~ msgstr "Shortcode, para mostrar apenas o formulário de upload:"
+
+#~ msgid "Shortcode, to show only countdown:"
+#~ msgstr "Shortcode, para mostrar apenas a contagem regressiva:"
+
+#~ msgid "Shortcode, to show only leaders block:"
+#~ msgstr "Shortcode, para mostrar apenas bloco de líderes:"
+
+#~ msgid "All shortcodes >>"
+#~ msgstr "Todos os shortcodes >>"
+
+#~ msgid "Export all photos to csv"
+#~ msgstr "Exportar todas as fotos para csv"
+
+#~ msgid "How to Import CSV to Google Drive"
+#~ msgstr "Como Importar CSV para Google Drive"
+
+#~ msgid "Clear \"Votes log\" for this contest"
+#~ msgstr "Limpar \"Registro de votos\" para este concurso"
+
+#, fuzzy
+#~ msgid ""
+#~ "After users can vote again, so may be you need also reset votes count?"
+#~ msgstr ""
+#~ "Depois que os usuários podem votar novamente, então talvez você precise "
+#~ "também redefinir a contagem de votos?"
+
+#~ msgid "Reset all votes in this contest"
+#~ msgstr "Redefinir todos os votos neste concurso"
+
+#~ msgid "This will set votes count to 0 for all photos"
+#~ msgstr "Isto irá definir a contagem de votos para 0 para todas as fotos"
+
+#~ msgid "Clone contest"
+#~ msgstr "Clonar concurso"
+
+#~ msgid "Are you sure"
+#~ msgstr "Você tem certeza"
+
+#~ msgid "Save contest settings"
+#~ msgstr "Salvar configurações do concurso"
+
+#~ msgid "Enter contest name"
+#~ msgstr "Digite o nome do concurso"
+
+#~ msgid "Competitors"
+#~ msgstr "Competidores"
+
+#, fuzzy
+#~ msgid "Search data > 1 symbol by"
+#~ msgstr "Procurar dados > 1 símbolo por"
+
+#~ msgid "Adding photos:"
+#~ msgstr "Adicionando fotos:"
+
+#~ msgid "Short Descr"
+#~ msgstr "Descrição Curta"
+
+#~ msgid "Photo"
+#~ msgstr "Foto"
+
+#~ msgid "Add new contest"
+#~ msgstr "Adicionar novo concurso"
+
+#~ msgid "Contest title"
+#~ msgstr "Título do concurso"
+
+#~ msgid "Create new post/page for this contest?"
+#~ msgstr "Criar novo post/página para este concurso?"
+
+#~ msgid "Create page or post?"
+#~ msgstr "Criar página ou post?"
+
+#~ msgid "Page/post status"
+#~ msgstr "Status da Página/post"
+
+#~ msgid "Post category"
+#~ msgstr "Categoria do Post"
+
+#~ msgid "Page/post title"
+#~ msgstr "Título da página/post"
+
+#~ msgid "Featured image"
+#~ msgstr "Imagem em destaque"
+
+#~ msgid "Manage contest"
+#~ msgstr "Gerenciar concurso"
+
+#~ msgid "Add new"
+#~ msgstr "Adicionar novo"
+
+#~ msgid "Back to contests list"
+#~ msgstr "Voltar para lista de concursos"
+
+#~ msgid "View contest page"
+#~ msgstr "Ver página do concurso"
+
+#~ msgid "Configuration"
+#~ msgstr "Configuração"
+
+#~ msgid "total"
+#~ msgstr "total"
+
+#~ msgid "Contest deleted."
+#~ msgstr "Concurso deletado."
+
+#~ msgid ""
+#~ "Create contest, copy shortcode and insert it into the page/post text."
+#~ msgstr ""
+#~ "Crie concurso, copie o shortcode e insira-o no texto da página/post."
+
+#~ msgid "All available Shortcodes >>"
+#~ msgstr "Todos os Shortcodes disponíveis >>"
+
+#~ msgid "Debug Log:"
+#~ msgstr "Log de depuração:"
+
+#~ msgid "Clear log"
+#~ msgstr "Limpar log"
+
+#~ msgid "WordPress Environment"
+#~ msgstr "Ambiente WordPress"
+
+#~ msgid "Home URL"
+#~ msgstr "URL da Página Inicial"
+
+#~ msgid "Site URL"
+#~ msgstr "URL do Site"
+
+#~ msgid "FV Version"
+#~ msgstr "Versão do FV"
+
+#~ msgid "FV Database Version"
+#~ msgstr "Versão do banco de dados do FV"
+
+#, fuzzy
+#~ msgid "FV Fast Voting"
+#~ msgstr "Voto Rápido do FV"
+
+#~ msgid "Log File Writable"
+#~ msgstr "Arquivo de Registro Gravável"
+
+#~ msgid "To allow logging, make <code>%s</code> writable."
+#~ msgstr "Para permitir o registro, faça <code>%s</code> gravável."
+
+#~ msgid "WP Version"
+#~ msgstr "Versão WP"
+
+#~ msgid "WP Multisite"
+#~ msgstr "WP Multisite"
+
+#~ msgid "WP Memory Limit"
+#~ msgstr "Limite de Memória WP"
+
+#~ msgid "WP Debug Mode"
+#~ msgstr "Modo de Depuração do WP"
+
+#~ msgid "Language"
+#~ msgstr "Linguagem"
+
+#~ msgid "Server Environment"
+#~ msgstr "Ambiente do Servidor"
+
+#~ msgid "Server Info"
+#~ msgstr "Informação do Servidor"
+
+#~ msgid "PHP Version"
+#~ msgstr "Versão do PHP"
+
+#~ msgid ""
+#~ "%s - We recommend a minimum PHP version of 5.4. See: <a href=\"%s\" "
+#~ "target=\"_blank\">How to update your PHP version</a>"
+#~ msgstr ""
+#~ "%s - Recomendamos a versão mínima do PHP de 5.4. Veja: <a href=\"%s\" "
+#~ "target=\"_blank\">Como atualizar sua versão do PHP</a>"
+
+#~ msgid "Couldn't determine PHP version because phpversion() doesn't exist."
+#~ msgstr ""
+#~ "Não foi possível determinar a versão do PHP porque phpversion() não "
+#~ "existe."
+
+#~ msgid "PHP Post Max Size"
+#~ msgstr "PHP Post Max Size"
+
+#~ msgid "PHP Memory Limit"
+#~ msgstr "PHP Memory Limit"
+
+#~ msgid "PHP Time Limit"
+#~ msgstr "PHP Time Limit"
+
+#~ msgid "PHP Max Input Vars"
+#~ msgstr "PHP Max Input Vars"
+
+#~ msgid "SUHOSIN Installed"
+#~ msgstr "SUHOSIN Instalado"
+
+#~ msgid "MySQL Version"
+#~ msgstr "Vesão MySQL"
+
+#~ msgid "Max Upload Size"
+#~ msgstr "Tamanho Máximo de Upload"
+
+#~ msgid "Default Timezone is UTC"
+#~ msgstr "Fuso horário padrão é UTC"
+
+#~ msgid "Default timezone is %s - it should be UTC"
+#~ msgstr "O fuso horário padrão é %s - isso deve ser UTC"
+
+#~ msgid ""
+#~ "Your server does not have fsockopen or cURL enabled - PayPal IPN and "
+#~ "other scripts which communicate with other servers will not work. Contact "
+#~ "your hosting provider."
+#~ msgstr ""
+#~ "Seu servidor não possui fsockopen ou cURL habilitado - O PayPal IPN e "
+#~ "outros scripts que se comunicam com outros servidores não funcionarão. "
+#~ "Entre em contato com seu provedor de hospedagem."
+
+#~ msgid ""
+#~ "Your server does not support the <a href=\"%s\">gzopen</a> function - "
+#~ "this is required to use the GeoIP database from MaxMind. The API fallback "
+#~ "will be used instead for geolocation."
+#~ msgstr ""
+#~ "Seu servidor não suporta a função <a href=\"%s\">gzopen </a> - isso é "
+#~ "necessário para usar o banco de dados GeoIP da MaxMind. O retorno da API "
+#~ "será usado para a geolocalização."
+
+#~ msgid "Remote Post"
+#~ msgstr "Postagem remota"
+
+#~ msgid ""
+#~ "wp_remote_post() failed. PayPal IPN won't work with your server. Contact "
+#~ "your hosting provider."
+#~ msgstr ""
+#~ "wp_remote_post() falhou. O PayPal IPN não funcionará com seu servidor. "
+#~ "Entre em contato com seu provedor de hospedagem."
+
+#~ msgid "Error: %s"
+#~ msgstr "Erro: %s"
+
+#~ msgid "Status code: %s"
+#~ msgstr "Código de status: %s"
+
+#~ msgid "Upload form builder"
+#~ msgstr "Construtor do formulário de upload"
+
+#~ msgid ""
+#~ "<strong>Note:</strong> When you will used multiupload, please be sure, "
+#~ "now limit by image size works just for 1 field and Upload limit count +1 "
+#~ "by upload step now (example - you set up limit as 2 and shows 5 file "
+#~ "fields, than user can upload 2*5 images max)."
+#~ msgstr ""
+#~ "<strong>Nota:</strong> Quando você usar multiupload, por favor certifique-"
+#~ "se, que o limite pelo tamanho da imagem funciona apenas para 1 campo e "
+#~ "Carregue limite de contagem +1 pela etapa de upload (exemplo - você "
+#~ "configura o limite como 2 e mostra 5 campos de arquivo, do que o usuário "
+#~ "pode carregar 2 * 5 imagens no máximo)."
+
+#~ msgid "Manage upload forms"
+#~ msgstr "Gerenciar formulários de upload"
+
+#~ msgid ""
+#~ "Have a question about setting up or a trouble with using WP Foto Vote? "
+#~ msgstr ""
+#~ "Tem uma pergunta sobre a configuração ou um problema com o uso do WP Foto "
+#~ "Vote? "
+
+#~ msgid "Get reply to Email"
+#~ msgstr "Obter resposta por e-mail"
+
+#~ msgid "Subject"
+#~ msgstr "Assunto"
+
+#~ msgid "Messsage"
+#~ msgstr "Mensagem"
+
+#~ msgid "Extra data, that will be attached to request"
+#~ msgstr "Dados extra, que serão anexados ao pedido"
+
+#~ msgid "License details have been updated."
+#~ msgstr "Os detalhes da licença foram atualizados."
+
+#~ msgid "Key for automatically updating plugin"
+#~ msgstr "Chave para atualização automática do plugin"
+
+#~ msgid "Key, taken you at plugin purchase"
+#~ msgstr "Chave, usada por você na compra do plugin"
+
+#~ msgid "License details"
+#~ msgstr "Detalhes da licença"
+
+#~ msgid "Thanks for keep license active!"
+#~ msgstr "Obrigado por manter a licença ativa!"
+
+#~ msgid "Voting log / can be cleared on the page, where you can edit contest"
+#~ msgstr ""
+#~ "Registro de votação / pode ser apagado na página, onde você pode editar o "
+#~ "concurso"
+
+#~ msgid ""
+#~ "There your can see votes log. It can help you to check voting for fraud.\n"
+#~ "            As example if your see a lot similar `browsers` voted for one "
+#~ "person or many empty `refer`.<br/>\n"
+#~ "            Also you can compare `change` field for check voting activity "
+#~ "almost at the same time by one photos."
+#~ msgstr ""
+#~ "Lá, você pode ver o registro de votos. Pode ajudá-lo a verificar a "
+#~ "votação por fraude.\n"
+#~ "            Como exemplo, se você vê muitos \"navegadores\" similares "
+#~ "votados por uma pessoa ou muitas \"referências\" vazias. <br/>\n"
+#~ "            Além disso, você pode comparar o campo `alteração` para "
+#~ "verificar a atividade de votação quase ao mesmo tempo por uma foto."
+
+#~ msgid "!Important - removing records from log not decreases photo votes."
+#~ msgstr ""
+#~ "!Importante: remover registros do log não diminui os votos das fotos."
+
+#~ msgid "Search by `ip, browser, referer, country, user_id` > 1 symbol"
+#~ msgstr ""
+#~ "Pesquisar por `ip, navegador, referência, país, user_id` > 1 símbolo"
+
+#~ msgid "Export data as csv"
+#~ msgstr "Exportar dados como csv"
+
+#~ msgid "Export to csv"
+#~ msgstr "Exportar para csv"
+
+#~ msgid "this month"
+#~ msgstr "este mês"
+
+#~ msgid "last 30 days"
+#~ msgstr "últimos 30 dias"
+
+#~ msgid "previous month"
+#~ msgstr "mês anterior"
+
+#~ msgid "last 90 days"
+#~ msgstr "últimos 90 dias"
+
+#~ msgid "last 180 days"
+#~ msgstr "últimos 180 dias"
+
+#~ msgid "all"
+#~ msgstr "todos"
+
+#~ msgid "Moderation users uploaded photos"
+#~ msgstr "Usuários de moderação carregaram fotos"
+
+#~ msgid "Single"
+#~ msgstr "Individual"
+
+#~ msgid "Sharing"
+#~ msgstr "Compartilhando"
+
+#~ msgid "Leaders"
+#~ msgstr "Líderes"
+
+#~ msgid "Email notify"
+#~ msgstr "Notificação por e-mail"
+
+#~ msgid "Additional"
+#~ msgstr "Adicional"
+
+#~ msgid "Data deleted. Reactivate plugin!"
+#~ msgstr "Dados excluídos. Reativar o plugin!"
+
+#~ msgid "Configuration saved."
+#~ msgstr "Configuração salva."
+
+#~ msgid "Save all Changes"
+#~ msgstr "Salvar todas as alterações"
+
+#~ msgid ""
+#~ "Are you sure to delete all contests & photos & votes data from database?"
+#~ msgstr ""
+#~ "Você tem certeza que deseja excluir todos os dados de concursos & fotos & "
+#~ "votos do banco de dados?"
+
+#~ msgid "Clear all plugin data in database."
+#~ msgstr "Limpe todos os dados do plugin no banco de dados."
+
+#~ msgid ""
+#~ "New records added if you selected voting security - \"IP + cookies + "
+#~ "evercookie + Subscribe form\" or with any \"Social login\" (note - not "
+#~ "all soc. networks return user email)."
+#~ msgstr ""
+#~ "Novos registros adicionados se você selecionou a segurança de votação - "
+#~ "\"IP + cookies + evercookie + Formulário de Cadastro\" ou com qualquer "
+#~ "\"Login social\" (nota - nem todas as redes sociais retornam o e-mail do "
+#~ "usuário)."
+
+#~ msgid "Search by `name, email, type` > 1 symbol"
+#~ msgstr "Buscar por `nome, email, tipo` > 1 símbolo"
+
+#~ msgid "Export to csv (output max 5000 rows)"
+#~ msgstr "Exportar para csv (máximo de 5000 linhas de saída)"
+
+#~ msgid "last 15 days"
+#~ msgstr "últimos 15 dias"
+
+#~ msgid "last 60 days"
+#~ msgstr "últimos 60 dias"
+
+#~ msgid "last 360 days"
+#~ msgstr "últimos 360 dias"
+
+#~ msgid "Translation saved."
+#~ msgstr "Tradução salva."
+
+#~ msgid "Translating messages"
+#~ msgstr "Traduzindo mensagens"
+
+#~ msgid "Please don't use double quotes (\") !"
+#~ msgstr "Por favor não use aspas duplas (\") !"
+
+#~ msgid ""
+#~ "To translate form fields go to <a href=\"%s\" target=\"_blank\">\"Form "
+#~ "Builder\"</a> page!"
+#~ msgstr ""
+#~ "Para traduzir os campos do formulário, vá para página <a href=\"%s\" "
+#~ "target=\"_blank\">\"Construtor de Formulários\"</a>!"
+
+#~ msgid ""
+#~ "To translate more Countdown fields go to <a href=\"%s\" target=\"_blank\">"
+#~ "\"Addons\"</a> page!"
+#~ msgstr ""
+#~ "Para traduzir mais campos de contagem regressiva, vá para página <a href="
+#~ "\"%s\" target=\"_blank\">\"Complementos\"</a>!"
+
+#~ msgid "Common html tags are allowed."
+#~ msgstr "São permitidas tags html comuns."
+
+#~ msgid "Save Changes"
+#~ msgstr "Salvar alterações"
+
+#~ msgid "Are you sure to reset translation?"
+#~ msgstr "Tem certeza que deseja redefinir (resetar) a tradução?"
+
+#~ msgid "Reset translation."
+#~ msgstr "Redefinir (resetar) a tradução."
+
+#~ msgid ""
+#~ "There your can see map with the distribution of votes, and your can "
+#~ "filter data by contest and single photo. <strong>How it can help to your?"
+#~ "</strong>"
+#~ msgstr ""
+#~ "Lá, você pode ver o mapa com a distribuição de votos e pode filtrar dados "
+#~ "por concurso e foto única. <strong>Como isso pode ajudar você?</strong>"
+
+#~ msgid ""
+#~ "It`s interesting, and if you see a lot of votes from another suspicious "
+#~ "country, it may indicate about fraud. (shows max 3000 records)"
+#~ msgstr ""
+#~ "É interessante, e se você ver muitos votos de outro país suspeito, pode "
+#~ "indicar uma fraude. (mostra o máximo de 3000 registros)"
+
+#~ msgid "Filter by Contest"
+#~ msgstr "Filtrar por Concurso"
+
+#~ msgid "Select contest"
+#~ msgstr "Selecionar concurso"
+
+#~ msgid "Filter by photo"
+#~ msgstr "Filtrar por foto"
+
+#~ msgid "Remove all \"new-line\" codes in html?"
+#~ msgstr "Remover todos os códigos da \"nova linha\" em html?"
+
+#~ msgid ""
+#~ "If you contest layout looks broken - try this option. Or can be used for "
+#~ "little decrease page size."
+#~ msgstr ""
+#~ "Se seu layout do concurso parece quebrado - tente esta opção. Ou pode ser "
+#~ "usado para diminuir o tamanho da página."
+
+#~ msgid "Debug Scripts & styles"
+#~ msgstr "Depurar Scripts & Estilos"
+
+#~ msgid "Load not minimized scripts and styles?"
+#~ msgstr "Não carregue scripts e estilos minimizados?"
+
+#~ msgid "Can be used Developers for debug, not recommended for most users."
+#~ msgstr ""
+#~ "Pode ser usado por Desenvolvedores para depuração, não recomendado para a "
+#~ "maioria dos usuários."
+
+#~ msgid "Photos"
+#~ msgstr "Fotos"
+
+#~ msgid ""
+#~ "On deleting contest / single contest photo Delete image from Hosting & "
+#~ "Media library?"
+#~ msgstr ""
+#~ "Ao excluir o concurso / foto de concurso único Excluir imagem do Servidor "
+#~ "& da biblioteca de mídia?"
+
+#~ msgid ""
+#~ "If you not need photos after contest, check this. Also applies to s3 / "
+#~ "Cloudinary."
+#~ msgstr ""
+#~ "Se você não precisa das fotos após o concurso, marque isso. Também se "
+#~ "aplica a s3 / Cloudinary."
+
+#~ msgid "Enable"
+#~ msgstr "Habilitar"
+
+#~ msgid "ReCaptcha api keys"
+#~ msgstr "Chaves API ReCaptcha"
+
+#~ msgid "ReCaptcha api key"
+#~ msgstr "Chave API ReCaptcha"
+
+#~ msgid "If you want use reCAPTCHA."
+#~ msgstr "Se você deseja usar o reCAPTCHA."
+
+#~ msgid "How to get ReCaptcha key - "
+#~ msgstr "Como obter a chave ReCaptcha - "
+
+#~ msgid "ReCaptcha secret key"
+#~ msgstr "Chave secreta ReCaptcha"
+
+#~ msgid "Needs for verify response."
+#~ msgstr "Precisa verificar a resposta."
+
+#~ msgid "How to get ReCaptcha secret key - "
+#~ msgstr "Como obter a chave secreta do ReCaptcha - "
+
+#~ msgid "Export to CSV"
+#~ msgstr "Exportar para CSV"
+
+#~ msgid "Export delimiter"
+#~ msgstr "Delimitador de exportação"
+
+#~ msgid "String delimiter in CSV file"
+#~ msgstr "Caractere delimitador no arquivo CSV"
+
+#~ msgid "How is this - "
+#~ msgstr "Como é isso - "
+
+#~ msgid "Capability"
+#~ msgstr "Capacidade"
+
+#~ msgid "Needed capability to manage contests/contests settings"
+#~ msgstr ""
+#~ "Capacidade necessária para gerenciar concursos/configurações de concursos"
+
+#~ msgid ""
+#~ "Select capability, what user need<br/> to change photos in contest, "
+#~ "translations, settings.<br/> Need if you want grant access to manager or "
+#~ "other user."
+#~ msgstr ""
+#~ "Selecione a capacidade, que o usuário precisa<br/> para mudar as fotos no "
+#~ "concurso, as traduções, as configurações.<br/>Precisa, se desejar, "
+#~ "conceder acesso ao gerente ou outro usuário."
+
+#~ msgid "More about roles and capabilities - "
+#~ msgstr "Mais sobre funções e capacidades - "
+
+#~ msgid "Capability vs. Role Table"
+#~ msgstr "Tabela de Capacidade vs. Função"
+
+#~ msgid "Addons support"
+#~ msgstr "Suporte de Complementos/Addons"
+
+#~ msgid "Disable addons support?"
+#~ msgstr "Desativar suporte de complementos (addons)?"
+
+#~ msgid ""
+#~ "Can be used for little decrease server loading. But all addons will stop "
+#~ "work (like circled countdown)."
+#~ msgstr ""
+#~ "Pode ser usado para reduzir um pouco o carregamento do servidor. Mas "
+#~ "todos os complementos (addons) pararão o trabalho (como contagem "
+#~ "regressiva circular)."
+
+#~ msgid "Enable SQL debug?"
+#~ msgstr "Habilitar depuração SQL?"
+
+#~ msgid "Will save all plugin SQL queries."
+#~ msgstr "Salvar todas as consultas SQL do plugin."
+
+#~ msgid "Notify users from email"
+#~ msgstr "Notificar usuários do e-mail"
+
+#~ msgid "If not set, wordpress send from email<br/> like wordpress@domain.com"
+#~ msgstr ""
+#~ "Se não for definido, Wordpress envia do email<br/> como wordpress@dominio."
+#~ "com"
+
+#~ msgid "Notify users from name"
+#~ msgstr "Notificar usuários do nome"
+
+#~ msgid "If not set - will be like `Wordpress`"
+#~ msgstr "Se não for definido - será como `Wordpress`"
+
+#~ msgid "Log emails"
+#~ msgstr "Registrar emails"
+
+#~ msgid "Log all emails"
+#~ msgstr "Registrar todos os e-mails"
+
+#~ msgid "Log emails for debug"
+#~ msgstr "Registrar e-mails para depuração"
+
+#~ msgid "Competitors list settings"
+#~ msgstr "Configurações da lista de competidores"
+
+#~ msgid "Select skin for contest gallery"
+#~ msgstr "Selecione o tema para a galeria do concurso"
+
+#~ msgid "Select how your contest block will looks."
+#~ msgstr "Selecione como o seu bloco de concurso irá aparecer."
+
+#~ msgid "Contest gallery block width (min. 180 px.)"
+#~ msgstr "Largura do bloco de galeria de concursos (mín. 180 px)"
+
+#~ msgid "Change to fit the width of the voting blocks your site"
+#~ msgstr "Alterar para ajustar a largura dos blocos de votação do seu site"
+
+#~ msgid "Thumbnail retrieving type:"
+#~ msgstr "Tipo de recuperação de miniatura:"
+
+#~ msgid "Function, than used for retrieving thumbnail image."
+#~ msgstr "Função, que é usada para recuperar imagens em miniatura."
+
+#~ msgid ""
+#~ "List thumbnail image size <small>(Changes on the fly: each change creates "
+#~ "a new file for each contestant. Because of this, do not change very "
+#~ "often.)</small>"
+#~ msgstr ""
+#~ "Listar o tamanho da imagem em miniatura <small>(Alterações recorrentes: "
+#~ "cada alteração cria um novo arquivo para cada competidor. Por isso, não "
+#~ "mude muito.) </ Small>"
+
+#~ msgid ""
+#~ "Thumbnails size in photos list, better not much more than `Contest block "
+#~ "size`"
+#~ msgstr ""
+#~ "O tamanho das miniaturas na lista de fotos, melhor não é muito mais do "
+#~ "que o `tamanho do bloco do concurso`"
+
+#~ msgid ""
+#~ "Hard crop means that the thumbnail size will be equal entered dimension "
+#~ "(if checked) or proportional (if unchecked) using the larger dimension."
+#~ msgstr ""
+#~ "Recorte exato significa que o tamanho da miniatura será igual à dimensão "
+#~ "inserida (se marcada) ou proporcional (se não for selecionada) usando a "
+#~ "dimensão maior."
+
+#~ msgid ""
+#~ "If you want to fit just one proportion, set up one side to 0 or 777 (for "
+#~ "ex.). (Example: 280 x 0 (or 280 * 777) will not crop the image by height, "
+#~ "ideal for Pinterest theme.)"
+#~ msgstr ""
+#~ "Se você deseja ajustar apenas uma proporção, configure um lado para 0 ou "
+#~ "777 (por ex.). (Exemplo: 280 x 0 (ou 280 * 777) não cortará a imagem por "
+#~ "altura, ideal para o tema Pinterest.)"
+
+#~ msgid "List photo Heading template:"
+#~ msgstr "Listar template de cabeçalho da foto:"
+
+#~ msgid "."
+#~ msgstr "."
+
+#~ msgid "List photo description template:"
+#~ msgstr "Listar template de descrição da foto:"
+
+#~ msgid "Contests List shortcode"
+#~ msgstr "Shortcode da Lista de Concursos"
+
+#~ msgid "Contests List Thumbnails size"
+#~ msgstr "Tamanho das miniaturas da Lista de Concursos"
+
+#~ msgid "Recommended min. width - 400 px"
+#~ msgstr "Mínimo recomendado largura - 400 px"
+
+#~ msgid "Display competitor author?"
+#~ msgstr "Exibir competidor autor?"
+
+#~ msgid "Will de displayed like \"Max Smith\""
+#~ msgstr "Será exibido como \"Max Smith\""
+
+#~ msgid "Work just in Pinterest & Flickr skins for now."
+#~ msgstr "Funciona apenas nos temas Pinterest & Flickr por enquanto."
+
+#~ msgid "Enable lazy load images?"
+#~ msgstr "Habilitar imagens de carregamento lento?"
+
+#~ msgid ""
+#~ "If you enable this, on page load lads just 3 images, <br/>other just user "
+#~ "scroll page"
+#~ msgstr ""
+#~ "Se você habilitar isso, na página carregará apenas 3 imagens, <br/> "
+#~ "outras apenas quando o usuário rolar a página"
+
+#~ msgid "Hide votes count?"
+#~ msgstr "Ocultar contagem de votos?"
+
+#~ msgid "If you don`t want show to users votes count, check it."
+#~ msgstr ""
+#~ "Se você não quiser mostrar aos usuários o número de votos, marque isso."
+
+#~ msgid "Hide"
+#~ msgstr "Ocultar"
+
+#~ msgid "Enable cache support?"
+#~ msgstr "Habilitar suporte de cache?"
+
+#~ msgid ""
+#~ "If you using cache plugins, after refresh page votes will not changes.<br/"
+#~ "> For fix this plugin will AJAX update votes on page after it loaded."
+#~ msgstr ""
+#~ "Se você está usando os plugins de cache, depois de atualizar os votos da "
+#~ "página eles não serão modificados.<br/> Para corrigir isso, este plugin "
+#~ "atualizará os votos via AJAX na página depois de carregado."
+
+#~ msgid "Enable Cloudflare Rocket Loader support?"
+#~ msgstr "Ative o suporte do Cloudflare Rocket Loader?"
+
+#~ msgid ""
+#~ "If you using Cloudflare Rocket Loader some of plugin script can work "
+#~ "incorrect. Enabled this for fix issues."
+#~ msgstr ""
+#~ "Se você estiver usando Cloudflare Rocket Loader, alguns dos scripts do "
+#~ "plugin podem funcionar incorretamente. Habilite isso para corrigir "
+#~ "problemas."
+
+#~ msgid "Show toolbar (under contest)?"
+#~ msgstr "Mostrar barra de ferramentas (dentro do concurso)?"
+
+#~ msgid ""
+#~ "If want allow user change photos order and it looks good on your design, "
+#~ "then enable it."
+#~ msgstr ""
+#~ "Se desejar, permita que o usuário altere a ordem das fotos e se parece "
+#~ "bem no seu design, então habilite-o."
+
+#~ msgid "<strong>Hide<strong/> some toolbar blocks:"
+#~ msgstr "<strong>Ocultar<strong /> alguns blocos da barra de ferramentas:"
+
+#~ msgid "You have too few competitors - you can hide order/search blocks"
+#~ msgstr ""
+#~ "Você tem poucos competidores - você pode esconder os blocos de ordem/"
+#~ "pesquisa"
+
+#~ msgid "Order dropdown"
+#~ msgstr "Ordem em lista suspensa"
+
+#~ msgid "Toolbar background color"
+#~ msgstr "Cor do plano de fundo da barra de ferramentas"
+
+#~ msgid "Toolbar text / links color"
+#~ msgstr "Cor do texto/link da barra de ferramentas"
+
+#~ msgid "Text and link color placed on Toolbar"
+#~ msgstr "Texto e cor do link colocado na barra de ferramentas"
+
+#~ msgid "Toolbar active links background"
+#~ msgstr "Background dos links ativos da barra de ferramentas"
+
+#~ msgid "Link active background color placed on Toolbar"
+#~ msgstr "Cor de fundo colocado no link ativo na barra de ferramentas"
+
+#~ msgid "Toolbar select color"
+#~ msgstr "Selecionar cor da barra de ferramentas"
+
+#~ msgid "Input and select fields placed on Toolbar background color"
+#~ msgstr ""
+#~ "Cor do plano de fundo dos campos de formulário (input e select) colocados "
+#~ "na barra de ferramentas"
+
+#~ msgid "Pagination"
+#~ msgstr "Paginação"
+
+#~ msgid "Break photos into pages"
+#~ msgstr "Quebrar fotos em páginas"
+
+#~ msgid "Per page"
+#~ msgstr "Por página"
+
+#~ msgid "Pagination type"
+#~ msgstr "Tipo de paginação"
+
+#~ msgid "Pagination type - simply or ajax"
+#~ msgstr "Tipo de paginação - simples ou ajax"
+
+#~ msgid "Lightbox settings"
+#~ msgstr "Configurações Lightbox"
+
+#~ msgid "Disable plugin lightbox?"
+#~ msgstr "Desativar plugin lightbox?"
+
+#~ msgid ""
+#~ "If you have some conflicts with you default lightbox(image preview "
+#~ "plugin), check this"
+#~ msgstr ""
+#~ "Se você tiver alguns conflitos com seu lightbox padrão (plugin de "
+#~ "visualização de imagem), marque isso"
+
+#~ msgid "Disable"
+#~ msgstr "Desativar"
+
+#~ msgid "Lightbox title format?"
+#~ msgstr "Formato do título Lightbox?"
+
+#~ msgid "You can change text, that shows in lightbox"
+#~ msgstr "Você pode mudar o texto, que mostra na lightbox"
+
+#~ msgid "Custom CSS"
+#~ msgstr "CSS customizado"
+
+#~ msgid "Custom CSS styles"
+#~ msgstr "Estilos CSS personalizados"
+
+#~ msgid "If you want do little customization,<br/> use this textarea."
+#~ msgstr ""
+#~ "Se você quiser fazer pouca personalização,<br/> use esta área de texto."
+
+#~ msgid ""
+#~ "You may add custom styles here. Press\"Ctrl + Space\" to show "
+#~ "autocomplete. This CSS code will be added to each page, so if you have a "
+#~ "big code, it's better to place code into theme styles.css"
+#~ msgstr ""
+#~ "Você pode adicionar estilos personalizados aqui. Pressione \"Ctrl + Espaço"
+#~ "\" para mostrar o preenchimento automático. Este código CSS será "
+#~ "adicionado a cada página, portanto, se você tiver um código grande, é "
+#~ "melhor colocar o código dentro do styles.css do seu tema"
+
+#~ msgid "Voting leaders"
+#~ msgstr "Líderes da votação"
+
+#~ msgid "How many leaders show on page?"
+#~ msgstr "Quantos líderes mostrar na página?"
+
+#~ msgid "Select count of voting leaders"
+#~ msgstr "Selecione o número de líderes de votação"
+
+#~ msgid "Leaders style type?"
+#~ msgstr "Tipo de estilo dos líderes?"
+
+#~ msgid "Select - how to display contest leaders?"
+#~ msgstr "Selecione - como exibir os líderes do concurso?"
+
+#~ msgid ""
+#~ "Leaders thumbnails size & leaders block item width (for \"block\" and "
+#~ "\"table\" types)"
+#~ msgstr ""
+#~ "Tamanho da miniatura dos líderes & largura do item do bloco de líderes "
+#~ "(para tipos de \"bloco\" e \"tabela\")"
+
+#~ msgid "Thumbnails size in leaders block & leaders block item width"
+#~ msgstr ""
+#~ "O tamanho das miniaturas no bloco de líderes e a largura do item do bloco "
+#~ "de líderes"
+
+#~ msgid ""
+#~ "Hard crop means thumbnail will be equal entered dimension (if checked), "
+#~ "or proportional (if unchecked) as defined by the larger dimension."
+#~ msgstr ""
+#~ "Corte exato significa que a miniatura será igual à dimensão inserida (se "
+#~ "marcada) ou proporcional (se não for selecionada) conforme definido pela "
+#~ "dimensão maior."
+
+#~ msgid "Primary background color"
+#~ msgstr "Cor de fundo primária"
+
+#~ msgid "Title background color"
+#~ msgstr "Cor de fundo do título"
+
+#~ msgid "Primary text color"
+#~ msgstr "Cor de texto primário"
+
+#~ msgid "Title text color"
+#~ msgstr "Cor do texto do título"
+
+#~ msgid "Round leaders thumbnails corners?"
+#~ msgstr "Arredondar cantos das miniaturas dos líderes?"
+
+#~ msgid "2% - a few rounded, 50% - circled images"
+#~ msgstr ""
+#~ "2% - imagens um pouco arredondadas, 50% - imagens circulares/redondas"
+
+#, fuzzy
+#~ msgid "FB sharing dialog on click to *plugin FB share button*"
+#~ msgstr ""
+#~ "FB diálogo de compartilhamento em clique para *plugin FB botão de "
+#~ "compartilhamento*"
+
+#~ msgid "Select preferred FB sharing dialog."
+#~ msgstr "Selecione a caixa de diálogo de compartilhamento FB preferida."
+
+#~ msgid ""
+#~ "Give to user more sharing options, but take sharing data from Open Graph, "
+#~ "so can use incorrect info."
+#~ msgstr ""
+#~ "Dê ao usuário mais opções de compartilhamento, mas atente-se aos dados de "
+#~ "compartilhamento de Open Graph, que podem usar informações incorretas."
+
+#~ msgid ""
+#~ "Allow share just to user feed, but always share correct data that passed "
+#~ "from plugin."
+#~ msgstr ""
+#~ "Permitir compartilhar apenas para feed de usuários, mas sempre "
+#~ "compartilhe dados corretos que passaram do plugin."
+
+#~ msgid "Hide all social sharing buttons in popup after voting?"
+#~ msgstr ""
+#~ "Ocultar todos os botões de compartilhamento social em pop-up após a "
+#~ "votação?"
+
+#~ msgid "If you don't want see a social buttons after voting - check it"
+#~ msgstr ""
+#~ "Se você não quer ver botões das redes sociais depois de votar - marque "
+#~ "isso"
+
+#~ msgid "Hide all"
+#~ msgstr "Esconda tudo"
+
+#~ msgid "Or select hide specified networks:"
+#~ msgstr "Ou selecione ocultar redes especificadas:"
+
+#~ msgid "Select - how social buttons not show after voting"
+#~ msgstr "Selecione - como os botões sociais não são exibidos após a votação"
+
+#~ msgid "Vkontake"
+#~ msgstr "Vkontake"
+
+#~ msgid "Facebook"
+#~ msgstr "Facebook"
+
+#~ msgid "Twitter"
+#~ msgstr "Twitter"
+
+#~ msgid "Odnoklasniki"
+#~ msgstr "Odnoklasniki"
+
+#~ msgid "Google+"
+#~ msgstr "Google+"
+
+#~ msgid "Pinterest"
+#~ msgstr "Pinterest"
+
+#~ msgid "Public social counter"
+#~ msgstr "Contador social público"
+
+#~ msgid "Enable social counter?"
+#~ msgstr "Ativar contador social?"
+
+#~ msgid ""
+#~ "After enabling this each photo will have counter with total sharing count."
+#~ msgstr ""
+#~ "Depois de habilitar isso, cada foto terá contador com contagem total de "
+#~ "compartilhamento."
+
+#~ msgid "Count social shares from:"
+#~ msgstr "Contar compartilhamentos sociais de:"
+
+#~ msgid "Select - from what social networks count shares"
+#~ msgstr ""
+#~ "Selecione - a partir do que as redes sociais contam compartilhamentos"
+
+#~ msgid "Count"
+#~ msgstr "Contagem"
+
+#~ msgid "Mail.ru"
+#~ msgstr "Mail.ru"
+
+#~ msgid "Facebook APP ID"
+#~ msgstr "Facebook APP ID"
+
+#~ msgid "Facebook api key"
+#~ msgstr "Chave API do Facebook"
+
+#~ msgid ""
+#~ "If you want, that Facebook use true image<br/> on share, you need "
+#~ "register as developer."
+#~ msgstr ""
+#~ "Se você quiser, que o Facebook use a imagem verdadeira<br/> no "
+#~ "compartilhamento, você precisa se registrar como desenvolvedor."
+
+#~ msgid "How to get FB key - "
+#~ msgstr "Como obter a chave FB - "
+
+#~ msgid "Load Facebook assets and init in header or footer?"
+#~ msgstr ""
+#~ "Carregar recursos do Facebook e inicialização no cabeçalho ou no rodapé?"
+
+#~ msgid ""
+#~ "Some social applications may break FB sharing,<br/> when loads higher as "
+#~ "this plugin."
+#~ msgstr ""
+#~ "Algumas aplicações sociais podem quebrar o compartilhamento do FB,<br/> "
+#~ "quando carregar mais alto do que este plugin."
+
+#~ msgid ""
+#~ "By default sets in Footer, but if you have problems with FB sharing after "
+#~ "configure FV App Id, change to Head."
+#~ msgstr ""
+#~ "Por padrão, defina em Rodapé, mas se você tiver problemas com "
+#~ "compartilhamento de FB depois de configurar o ID do aplicativo FV, mude "
+#~ "para Cabeçalho."
+
+#~ msgid "Design"
+#~ msgstr "Design"
+
+#~ msgid "Single page contest block design"
+#~ msgstr "Design de bloco de concurso de página única"
+
+#~ msgid "Comments on Single photo page:"
+#~ msgstr "Comentários na página Singular da foto:"
+
+#~ msgid "What comments types show"
+#~ msgstr "Que tipos de comentários mostrar"
+
+#~ msgid "Wordpress"
+#~ msgstr "Wordpress"
+
+#~ msgid "Single photo Heading template:"
+#~ msgstr "Modelo de cabeçalho de foto única:"
+
+#~ msgid "Single photo description template:"
+#~ msgstr "Modelo de descrição de foto única:"
+
+#~ msgid "Photo Url"
+#~ msgstr "Url da Foto"
+
+#~ msgid "Single image preview mode?"
+#~ msgstr "Modo de visualização de imagem única?"
+
+#~ msgid ""
+#~ "If you don't want use lightbox or want show more details<br/> - use this "
+#~ "option."
+#~ msgstr ""
+#~ "Se você não quer usar lightbox ou deseja mostrar mais detalhes<br/> - use "
+#~ "esta opção."
+
+#~ msgid ""
+#~ "Lightbox mode has two problems: 1) Pagination (image can be moved to "
+#~ "another page, for example from Page 1 to Page 2), \n"
+#~ "            and with sharing photo URL directly in social networks (For "
+#~ "example - Facebook can't fetch correct image info, and \n"
+#~ "            could show the same info for all photos.) You will have "
+#~ "better results if sharing with the Photo Contest plugin sharing buttons."
+#~ msgstr ""
+#~ "O modo Lightbox tem dois problemas: 1) Paginação (a imagem pode ser "
+#~ "movida para outra página, por exemplo, da Página 1 para a Página 2)\n"
+#~ "            e com o compartilhamento de URL de fotos diretamente nas "
+#~ "redes sociais (Por exemplo - o Facebook não pode buscar informações de "
+#~ "imagem corretas e\n"
+#~ "            pode mostrar a mesma informação para todas as fotos.) Você "
+#~ "terá melhores resultados se compartilhar com os botões de "
+#~ "compartilhamento do plugin do Concurso de Fotos."
+
+#~ msgid "Page used for showing single photo?"
+#~ msgstr "Página usada para mostrar uma foto única?"
+
+#~ msgid ""
+#~ "If did't want use lightbox or want add more description<br/> about photo "
+#~ "- use this option."
+#~ msgstr ""
+#~ "Se não quiser usar lightbox ou quiser adicionar mais descrição<br/> sobre "
+#~ "foto - use esta opção."
+
+#~ msgid ""
+#~ "Please make sure that selected page content contains shortcode "
+#~ "<code>[fv]</code>"
+#~ msgstr ""
+#~ "Certifique-se de que o conteúdo da página selecionado contém shortcode "
+#~ "<code>[fv]</code>"
+
+#~ msgid "Single photo url prefix?"
+#~ msgstr "Prefixo de URL de foto única?"
+
+#~ msgid "Photo Meta"
+#~ msgstr "Informações da Foto/Metadados"
+
+#~ msgid "Allow search engines (Google, etc) index single photos?"
+#~ msgstr "Permitir mecanismos de busca (Google, etc.) indexar fotos únicas?"
+
+#~ msgid "Do not restrict search engines index single photo page."
+#~ msgstr "Não restrinja os motores de busca indexar a página da foto única."
+
+#~ msgid "Single photo Meta Title format?"
+#~ msgstr "Formato de Meta Título de foto única?"
+
+#~ msgid "Single photo Meta Description format?"
+#~ msgstr "Formato de Meta Descrição de foto única?"
+
+#~ msgid "WP Sync"
+#~ msgstr "WP Sync"
+
+#~ msgid "Automatically create page/post for contest?"
+#~ msgstr "Criar automaticamente a página/post para o concurso?"
+
+#~ msgid ""
+#~ "When you click \"New contest\" - new page/post will be automatically "
+#~ "created"
+#~ msgstr ""
+#~ "Quando você clica em \"Novo concurso\" - nova página/post será criado "
+#~ "automaticamente"
+
+#~ msgid "Uploading"
+#~ msgstr "Fazendo upload"
+
+#~ msgid "Only logged in users can upload photos:"
+#~ msgstr "Apenas usuários registrados podem fazer upload de fotos:"
+
+#~ msgid "This will hide upload form to un-logged users"
+#~ msgstr "Isso irá ocultar o formulário de upload para usuários não logados"
+
+#~ msgid "Show default login form, if user not logged in:"
+#~ msgstr "Mostrar formulário de login padrão, se o usuário não tiver logado:"
+
+#~ msgid "You may need add some styles for it looks better"
+#~ msgstr ""
+#~ "Você pode precisar adicionar alguns estilos para o visual ficar melhor"
+
+#~ msgid "Upload limit"
+#~ msgstr "Limite de upload"
+
+#~ msgid "Limit photo upload by email"
+#~ msgstr "Limite do upload de fotos por e-mail"
+
+#, fuzzy
+#~ msgid ""
+#~ "By one email user can`t upload more<br/> then set in contest options <br/"
+#~ ">(The maximum number of one user upload photos)"
+#~ msgstr ""
+#~ "Por um usuário de e-mail não pode carregar mais<br/>, em seguida, definir "
+#~ "em opções de concurso <br/>(O número máximo de fotos de upload de um "
+#~ "usuário)"
+
+#~ msgid "(You must have 'email' field in the upload form!)"
+#~ msgstr "(Você deve ter o campo 'email' no formulário de upload!)"
+
+#~ msgid "Limit photo upload by ip"
+#~ msgstr "Limite o upload de fotos por ip"
+
+#~ msgid ""
+#~ "By one ip user can`t upload more<br/> then set in contest options <br/"
+#~ ">(The maximum number of one user upload photos)"
+#~ msgstr ""
+#~ "Por um IP de usuário, não pode carregar mais<br/> então defina as opções "
+#~ "de concurso <br/>(O número máximo de fotos de upload de um usuário)"
+
+#~ msgid "Limit photo upload by user id"
+#~ msgstr "Limite o upload de fotos pelo ID do usuário"
+
+#~ msgid ""
+#~ "In one browser user can`t upload more<br/> then set in contest options "
+#~ "<br/>(The maximum number of one user upload photos)"
+#~ msgstr ""
+#~ "Em um navegador, o usuário não pode carregar mais<br/> então defina nas "
+#~ "opções de concurso <br/>(O número máximo de fotos de upload de um usuário)"
+
+#~ msgid "(work, only if upload allowed only for Authorized users)"
+#~ msgstr ""
+#~ "(funciona, somente se o upload for permitido apenas para usuários "
+#~ "Autorizados)"
+
+#~ msgid "Limit uploaded photo size"
+#~ msgstr "Limite do tamanho do upload da foto"
+
+#~ msgid ""
+#~ "If your did`t have a lot of hosting disc space,<br/> you may limit "
+#~ "uploading photo size.<br/> If image will be bigger,<br/> he receive error "
+#~ "message like `Photo size more than 2 megabytes!`."
+#~ msgstr ""
+#~ "Se você não tiver muito espaço de disco de hospedagem,<br/> você pode "
+#~ "limitar o upload de tamanho da foto.<br/> Se a imagem for maior,<br/> ele "
+#~ "receberá uma mensagem de erro como `Tamanho da foto maior que 2 megabytes "
+#~ "`."
+
+#~ msgid "Enter a valid max size in kilobytes, 1024 Kb = 1 Mb."
+#~ msgstr "Digite um tamanho máximo válido em kilobytes, 1024 Kb = 1 Mb."
+
+#~ msgid ""
+#~ "Limit uploaded photo dimensions (This does not work in older browsers or "
+#~ "mobile browsers)"
+#~ msgstr ""
+#~ "Limite as dimensões da foto carregada (Isso não funciona em navegadores "
+#~ "mais antigos ou navegadores móveis)"
+
+#~ msgid "Function, that used for retrieving thumbnail image."
+#~ msgstr "Função, usada para recuperar a imagem em miniatura."
+
+#~ msgid "Leave empty or 0 values, that not need."
+#~ msgstr "Deixe vazio ou preencha com 0, os que não precisam."
+
+#~ msgid "Resize images"
+#~ msgstr "Redimensionar imagens"
+
+#~ msgid ""
+#~ "Automatically resize (i.e. scale down) images after uploading. Save disk "
+#~ "space and preserve your layout. Thanks to Daniel Mores (http://mores.cc), "
+#~ "A. Huizinga, Jacob Wyke"
+#~ msgstr ""
+#~ "Redimensione automaticamente (ou seja, reduza a escala) as imagens após o "
+#~ "upload. Economize espaço no disco e preserve seu layout. Obrigado a "
+#~ "Daniel Mores (http://mores.cc), A. Huizinga, Jacob Wyke"
+
+#~ msgid "Resize images during upload?"
+#~ msgstr "Redimensionar imagens durante o upload?"
+
+#~ msgid ""
+#~ "You can set the max width, and images\n"
+#~ "                        <br/>(JPEG, PNG or GIF) will be resized while "
+#~ "they are uploaded.\n"
+#~ "                        <br/>There will not be a copy or backup with the "
+#~ "original size."
+#~ msgstr ""
+#~ "Você pode definir a largura máxima e as imagens\n"
+#~ "                        <br/> (JPEG, PNG ou GIF) serão redimensionadas "
+#~ "enquanto são carregadas.\n"
+#~ "                        <br/> Não haverá uma cópia ou backup com o "
+#~ "tamanho original."
+
+#~ msgid "Max width (approximate, may vary within this range):"
+#~ msgstr "A largura máxima (aproximada, pode variar dentro desse intervalo):"
+
+#~ msgid ""
+#~ "Recommended use only one param - maxwidth or maxheight\n"
+#~ "                        <br/>, then image not be disproportionate"
+#~ msgstr ""
+#~ "Uso recomendado apenas um parâmetro - largura máxima ou altura máxima\n"
+#~ "                         <br/>, então a imagem não é desproporcional"
+
+#~ msgid "Max height (approximate, may vary within this range):"
+#~ msgstr "Altura máxima (aproximada, pode variar dentro desse intervalo):"
+
+#~ msgid "Upload folder"
+#~ msgstr "Diretório de upload"
+
+#~ msgid "Save uploaded images into custom folder?"
+#~ msgstr "Salvar as imagens carregadas no diretório personalizado?"
+
+#~ msgid "If you need later download all images."
+#~ msgstr "Se você precisa mais tarde baixar todas as imagens."
+
+#~ msgid "Fix image orientation (for iOS devices)"
+#~ msgstr "Corrigir a orientação da imagem (para dispositivos iOS)"
+
+#~ msgid ""
+#~ "Checks for an EXIF orientation flag, and rotates the image so it displays "
+#~ "with the correct orientation in WordPress. Also removes all metadata from "
+#~ "the image."
+#~ msgstr ""
+#~ "Verifica uma bandeira de orientação EXIF e rotaciona a imagem para que "
+#~ "ela seja exibida com a orientação correta no WordPress. Também remove "
+#~ "todos os metadados da imagem."
+
+#~ msgid "Enable upload debug?"
+#~ msgstr "Ativar depuração de upload (debug)?"
+
+#~ msgid "Will log upload process."
+#~ msgstr "Será possível registrar o processo de upload (logs)."
+
+#~ msgid "Rating stars count (if contest voting type = \"Rating\")"
+#~ msgstr ""
+#~ "Contagem de estrelas de avaliação (se o tipo de voto do concurso = "
+#~ "\"Avaliação\")"
+
+#~ msgid "Starts count."
+#~ msgstr "Inicia a contagem."
+
+#~ msgid ""
+#~ "Do not change if have active contests! Please enter valid value between 5 "
+#~ "and 10."
+#~ msgstr "Não mude se tem concursos ativos! Digite valor válido entre 5 e 10."
+
+#~ msgid "Voting icon"
+#~ msgstr "Ícone de votação"
+
+#~ msgid "Use fast voting option?"
+#~ msgstr "Use a opção de voto rápido?"
+
+#~ msgid ""
+#~ "Will be used SHORTINIT wordpress feature, that allows decrease memory and "
+#~ "sql usage into 30-200%."
+#~ msgstr ""
+#~ "Será usado o recurso SHORTINIT do Wordpress, que permite diminuir a "
+#~ "memória e o uso de sql em 30-200%."
+
+#~ msgid "Enable anti fraud system?"
+#~ msgstr "Ativar sistema anti-fraude?"
+
+#~ msgid "After enabling this, you can see in Votes Log fraud score"
+#~ msgstr ""
+#~ "Depois de habilitar isso, você pode ver o score de fraude no Registro de "
+#~ "Votos"
+
+#~ msgid "Save reCAPTCHA result in session?"
+#~ msgstr "Salvar resultado reCAPTCHA na sessão?"
+
+#~ msgid ""
+#~ "If you enable this, than user need math reCAPTCHA once in 30 minutes. Can "
+#~ "be not complete secure, but more accessible to users and less server load."
+#~ msgstr ""
+#~ "Se você habilitar isso, o usuário precisa resolver o reCAPTCHA uma única "
+#~ "vez em 30 minutos. Pode não ser completamente seguro, mas mais acessível "
+#~ "aos usuários e menos processamento do servidor."
+
+#~ msgid "Enable voting debug?"
+#~ msgstr "Ativar depuração de votação?"
+
+#~ msgid "Save all Unsuccessful Voting attempts to later inspect it."
+#~ msgstr ""
+#~ "Salvar todas as tentativas de Votação Malsucedidas para depois inspecioná-"
+#~ "las."
+
+#~ msgid "Email subscribe Vote security"
+#~ msgstr "Segurança de Votação por Assinatura de Email"
+
+#~ msgid "Enable mail verification?"
+#~ msgstr "Habilitar a verificação de e-mail?"
+
+#~ msgid "User will receive email with verification link."
+#~ msgstr "O usuário receberá o email com o link de verificação."
+
+#~ msgid "Social Login Vote security (recommended count 4-5)"
+#~ msgstr "Segurança de Votação com Login social (número recomendado 4-5)"
+
+#~ msgid "Social networks, on using Social Login vote security?"
+#~ msgstr "Redes sociais, ao usar a segurança de voto no Social Login?"
+
+#~ msgid "Select - how social network user can use for vote."
+#~ msgstr "Selecione - como o usuário de rede social pode usar para votar."
+
+#~ msgid "Show"
+#~ msgstr "Mostrar"
+
+#~ msgid "Skin"
+#~ msgstr "Visual"
+
+#~ msgid "Select how your winners block will looks."
+#~ msgstr "Selecione como será o visual do seu bloco de vencedores."
+
+#~ msgid "Winners block width (min. 180 px.)"
+#~ msgstr "Largura do bloco dos vencedores (mín. 180 px)"
+
+#~ msgid "Change to fit the width of the winners blocks to your site content"
+#~ msgstr ""
+#~ "Mude para ajustar a largura dos blocos dos vencedores ao conteúdo do seu "
+#~ "site"
+
+#~ msgid "Winner block Heading template:"
+#~ msgstr "Modelo de Cabeçalho do bloco de vencedor:"
+
+#~ msgid "Winner block Description template:"
+#~ msgstr "Modelo de Descrição do bloco de vencedor:"
+
+#, fuzzy
+#~ msgid "Winner block thumbnail size <small>(changes on the fly)</small>"
+#~ msgstr ""
+#~ "Tamanho da miniatura do bloco de vencedor <small>(mudanças imediatas)</"
+#~ "small>"
+
+#~ msgid "Select value"
+#~ msgstr "Selecione o valor"
+
+#~ msgid "Rand (very bad work with pagination!)"
+#~ msgstr "Aleatório (funciona muito mal com paginação!)"
+
+#~ msgid "Pseudo-Rand (Order by ID but mix items on page)"
+#~ msgstr "Pseudo-Aleatório (Ordem por ID, mas mistura itens na página)"
+
+#~ msgid ""
+#~ "Simple photo contest plugin with ability to user upload photos. Includes "
+#~ "protection from cheating by IP and cookies. User log voting. After the "
+#~ "vote invite to share post about contest in Google+, Twitter, Facebook, "
+#~ "OK, VKontakte."
+#~ msgstr ""
+#~ "Plugin para simples concurso de fotos com capacidade de carregar fotos "
+#~ "pelo usuário. Inclui proteção contra fraudes por IP e cookies. Registro "
+#~ "do usuário na votação. Após o convite de votação para compartilhar post "
+#~ "sobre concurso no Google+, Twitter, Facebook, OK, VKontakte."
+
+#~ msgid "On moderation"
+#~ msgstr "Na moderação"
+
+#~ msgid "On draft"
+#~ msgstr "No rascunho"
+
+#~ msgid ""
+#~ "You must be logged to upload a photo to the contest. <a href=\"%1$s"
+#~ "\">Login</a> or <a href=\"%2$s\">register</a>."
+#~ msgstr ""
+#~ "Você deve estar logado para fazer upload de uma foto para o concurso. <a "
+#~ "href=\"%1$s\">Entrar</a> ou <a href=\"%2$s\">registrar-se </a>."
+
+#~ msgid "You already used all possible votes (*used_votes*) in this contest!"
+#~ msgstr ""
+#~ "Você já usou todos os votos possíveis (*used_votes*) neste concurso!"
+
+#~ msgid "You are not authorized on this site!"
+#~ msgstr "Você não está autorizado neste site!"
+
+#~ msgid "You should sign up to vote!"
+#~ msgstr "Você deve se inscrever para votar!"
+
+#~ msgid "Dialog messages"
+#~ msgstr "Mensagens de diálogo"
+
+#~ msgid "SubTitle > Register in site and vote"
+#~ msgstr "Subtítulo > Registre-se no site e vote"
+
+#~ msgid "Subscription form"
+#~ msgstr "Formulário de inscrição"
+
+#, fuzzy
+#~ msgid "Email verification mail"
+#~ msgstr "Email de verificação"
+
+#~ msgid "Social authorization"
+#~ msgstr "Autorização social"
+
+#~ msgid "Vote with Facebook Share"
+#~ msgstr "Votar com Compartilhamento do Facebook"
+
+#~ msgid "Upload waring, if not file passed"
+#~ msgstr "Aviso do upload, se o arquivo não for passado"
+
+#~ msgid "List View"
+#~ msgstr "Visualizar Lista"
+
+#~ msgid "Excerpt View"
+#~ msgstr "Visualizar Resumo"
+
+#~ msgid "No items found."
+#~ msgstr "Nenhum item encontrado."
+
+#~ msgid "Select bulk action"
+#~ msgstr "Selecione a ação em massa"
+
+#~ msgid "Bulk Actions"
+#~ msgstr "Ações em Massa"
+
+#~ msgid "Apply"
+#~ msgstr "Aplicar"
+
+#~ msgid "Show more details"
+#~ msgstr "Mostrar mais detalhes"
+
+#~ msgid "Filter by date"
+#~ msgstr "Filtrar por data"
+
+#~ msgid "All dates"
+#~ msgstr "Todas as datas"
+
+#~ msgid "%1$s %2$d"
+#~ msgstr "%1$s %2$d"
+
+#~ msgid "No comments"
+#~ msgstr "Sem comentários"
+
+#~ msgid "No approved comments"
+#~ msgstr "Não há comentários aprovados"
+
+#~ msgid "First page"
+#~ msgstr "Primeira página"
+
+#~ msgid "Previous page"
+#~ msgstr "Página anterior"
+
+#~ msgid "Current Page"
+#~ msgstr "Pagina Atual"
+
+#~ msgid "Next page"
+#~ msgstr "Próxima página"
+
+#~ msgid "Last page"
+#~ msgstr "Última página"
+
+#~ msgid "Select All"
+#~ msgstr "Selecionar tudo"
+
+#~ msgid "Add one photo"
+#~ msgstr "Adicionar uma foto"
+
+#~ msgid "Add many photos"
+#~ msgstr "Adicionar muitas fotos"
+
+#~ msgid "Config"
+#~ msgstr "Configuração"
+
+#~ msgid "Vote log"
+#~ msgstr "Registro de votos"
+
+#~ msgid "img"
+#~ msgstr "img"
+
+#~ msgid "Caption"
+#~ msgstr "Legenda"
+
+#~ msgid "description"
+#~ msgstr "descrição"
+
+#~ msgid "&nbsp;&nbsp;&nbsp;&nbsp;<i class=\"fvicon-heart\"></i>"
+#~ msgstr "&nbsp;&nbsp;&nbsp;&nbsp;<i class=\"fvicon-heart\"></i>"
+
+#~ msgid "upload_info"
+#~ msgstr "upload_info"
+
+#~ msgid "user email"
+#~ msgstr "email do usuário"
+
+#~ msgid "status"
+#~ msgstr "status"
+
+#~ msgid "added"
+#~ msgstr "adicionado"
+
+#~ msgid "actions"
+#~ msgstr "ações"
+
+#~ msgid "Contest finished"
+#~ msgstr "Concurso finalizado"
+
+#~ msgid "Dates active"
+#~ msgstr "Datas ativas"
+
+#~ msgid "Dates inactive"
+#~ msgstr "Datas inativas"
+
+#~ msgid "View"
+#~ msgstr "Visualizar"
+
+#~ msgid "Contestants total / <br/>On moderation"
+#~ msgstr "Total de Concursos / <br/>Na moderação"
+
+#~ msgid "Votes summary / blocked"
+#~ msgstr "Resumo de votos / bloqueado"
+
+#~ msgid "Voting start"
+#~ msgstr "Início da votação"
+
+#~ msgid "Voting finish"
+#~ msgstr "Final da votação"
+
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#~ msgid "Type"
+#~ msgstr "Tipo"
+
+#~ msgid "Newsletter"
+#~ msgstr "Boletim Informativo"
+
+#~ msgid "Verified"
+#~ msgstr "Verificado"
+
+#~ msgid " Subscribers deleted."
+#~ msgstr " Assinantes excluídos."
+
+#~ msgid "1 Subscriber deleted."
+#~ msgstr "1 Assinante excluído."
+
+#~ msgid "competitor"
+#~ msgstr "competidor"
+
+#~ msgid ""
+#~ "IP address / Country / Evercookie UID / Browser plugins / Display size[w/"
+#~ "h] / Mouse position"
+#~ msgstr ""
+#~ "Endereço de IP / País / Evercookie UID / Plugins do Navegador / Tamanho "
+#~ "de tela [l/a] / Posição do mouse"
+
+#~ msgid "Fraud score / TOR"
+#~ msgstr "Pontuação de fraude / TOR"
+
+#~ msgid "Soc. network/ Soc. user id"
+#~ msgstr "Rede soc. / ID do usuário soc."
+
+#~ msgid "changed"
+#~ msgstr "alterado"
+
+#~ msgid "browser"
+#~ msgstr "navegador"
+
+#~ msgid "refer"
+#~ msgstr "referência"
+
+#~ msgid "Vote row(s) deleted (this don`t change photo votes count)."
+#~ msgstr ""
+#~ "Fila(s) de votação(s) excluída (isto não muda a contagem de votos das "
+#~ "fotos)."
+
+#~ msgid "You can also use <code>{competitor_meta_*}</code> tags in content."
+#~ msgstr ""
+#~ "Você também pode usar tags <code>{competitor_meta _*}</code> no conteúdo."
+
+#~ msgid "New *competitor* submitted"
+#~ msgstr "Novo *competidor* enviado"
+
+#~ msgid "New competitor submitted"
+#~ msgstr "Novo competidor enviado"
+
+#~ msgid "*Competitor* successful submitted"
+#~ msgstr "*Competidor* enviado com sucesso"
+
+#~ msgid "Your contest photo successful submitted"
+#~ msgstr "Sua foto do concurso foi enviada com sucesso"
+
+#~ msgid "*Competitor* has been deleted"
+#~ msgstr "*Competidor* foi excluído"
+
+#~ msgid "Your contest photo has been deleted"
+#~ msgstr "Sua foto do concurso foi excluída"
+
+#~ msgid "*Competitor* has been approved"
+#~ msgstr "*Competidor* foi aprovado"
+
+#~ msgid "Your contest photo has been approved"
+#~ msgstr "Sua foto do concurso foi aprovada"
+
+#~ msgid "Howdy!"
+#~ msgstr "Bem!"
+
+#~ msgid ""
+#~ "New entry was uploaded with name \"{competitor_name}\" to contest "
+#~ "\"{contest_name}\"."
+#~ msgstr ""
+#~ "A nova entrada foi carregada com o nome \"{competitor_name}\" para o "
+#~ "concurso \"{contest_name}\"."
+
+#~ msgid "User email: {competitor_user_email}"
+#~ msgstr "Email do usuário: {competitor_user_email}"
+
+#~ msgid "User ip: {competitor_user_id}"
+#~ msgstr "IP do Usuário: {competitor_user_id}"
+
+#~ msgid ""
+#~ "Your entry \"{competitor_name}\" was successful submitted to contest "
+#~ "\"{contest_name}\"."
+#~ msgstr ""
+#~ "Sua entrada \"{competitor_name}\" foi enviada com sucesso para o concurso "
+#~ "\"{contest_name}\"."
+
+#~ msgid ""
+#~ "After admin review it will appear on this page {contest_link} (you will "
+#~ "be notified about review result)."
+#~ msgstr ""
+#~ "Após a revisão do administrador, ela aparecerá nesta página "
+#~ "{contest_link} (você será notificado sobre o resultado da revisão)."
+
+#~ msgid "Thanks for participating!"
+#~ msgstr "Obrigado por participar!"
+
+#~ msgid ""
+#~ "Congratulations, your entry \"{competitor_name}\" was passed our "
+#~ "validation and published at contest."
+#~ msgstr ""
+#~ "Parabéns, sua entrada \"{competitor_name}\" foi aprovada em nossa "
+#~ "validação e publicada no concurso."
+
+#~ msgid "{admin_comment}"
+#~ msgstr "{admin_comment}"
+
+#~ msgid "Link: {competitor_link}"
+#~ msgstr "Link: {competitor_link}"
+
+#~ msgid ""
+#~ "We are very sorry, but your entry \"{competitor_name}\" was not passed "
+#~ "our validation and has been removed from contest."
+#~ msgstr ""
+#~ "Lamentamos muito, mas a sua entrada \"{competitor_name}\" não foi "
+#~ "aprovada na nossa validação e foi removida do concurso."
+
+#~ msgid "*Contest* has been finished"
+#~ msgstr "*Concurso* foi finalizado"
+
+#~ msgid "Contest \"{contest_name}\" has been finished!"
+#~ msgstr "Concurso \"{contest_name}\" foi finalizado!"
+
+#~ msgid "Winners pick type: {contest_winners_pick}"
+#~ msgstr "Tipo de escolha dos ganhadores: {contest_winners_pick}"
+
+#~ msgid "Winners count: {contest_winners_count}"
+#~ msgstr "Contagem de vencedores: {contest_winners_count}"
+
+#~ msgid ""
+#~ "WP Foto Vote :: Notifications plugin requires PHP in version at least "
+#~ "5.3. WordPress itself <a href=\"https://wordpress.org/about/requirements/"
+#~ "\" target=\"_blank\">requires at least PHP 5.6</a>. Please upgrade your "
+#~ "PHP version or contact your Server administrator."
+#~ msgstr ""
+#~ "WP Foto Vote :: Notificações de plugin requer PHP em versão pelo menos "
+#~ "5.3. O próprio WordPress <a href=\"https://wordpress.org/about/"
+#~ "requirements/\" target=\"_blank\"> requer pelo menos PHP 5.6 </a>. "
+#~ "Atualize sua versão do PHP ou entre em contato com o administrador do "
+#~ "servidor."
+
+#~ msgid "Photo contest gallery"
+#~ msgstr "Galeria de concursos de foto"
+
+#~ msgid "Shows list photos from selected contest."
+#~ msgstr "Mostrar listas de fotos do concurso selecionado."
+
+#~ msgid "Photo contest"
+#~ msgstr "Concurso de foto"
+
+#~ msgid "Title:"
+#~ msgstr "Título:"
+
+#~ msgid "Select contest:"
+#~ msgstr "Selecionar concurso:"
+
+#~ msgid "Select contest, from show contestants."
+#~ msgstr "Selecionar o concurso, para mostrar dos concorrentes."
+
+#~ msgid "Items count:"
+#~ msgstr "Contagem de itens:"
+
+#~ msgid "With Order \"Winners\" - does not work"
+#~ msgstr "Com a ordem \"Vencedores\" - não funciona"
+
+#~ msgid "Order:"
+#~ msgstr "Ordem:"
+
+#~ msgid ""
+#~ "With \"Winners\" - until contest finished will be displayed Most Popular "
+#~ "items"
+#~ msgstr ""
+#~ "Com \"Vencedores\" - até que o concurso seja finalizado irá exibir itens "
+#~ "Mais Populares"
+
+#~ msgid "Thumbnail width:"
+#~ msgstr "Largura da miniatura:"
+
+#~ msgid "Photo contest - global list"
+#~ msgstr "Concurso de fotos - lista global"
+
+#~ msgid "Shows list photos from all contests."
+#~ msgstr "Mostra lista de fotos de todos os concursos."
+
+#~ msgid "Show thumbnails?"
+#~ msgstr "Mostrar miniaturas?"
+
+#~ msgid "If unchecked, it will hide thumbnails."
+#~ msgstr "Se não for selecionado, esconderá miniaturas."
+
+#~ msgid "Thumbnail size:"
+#~ msgstr "Tamanho da miniatura:"
+
+#~ msgid "more than 25 px."
+#~ msgstr "mais de 25 px."
+
+#~ msgid "Photo contest list"
+#~ msgstr "Lista de concursos de fotos"
+
+#~ msgid ""
+#~ "These settings are currently locked. Click on the <strong>\"Request "
+#~ "Control\"</strong> button to let <strong>%s</strong> know you'd like to "
+#~ "take over."
+#~ msgstr ""
+#~ "Essas configurações estão atualmente bloqueadas. Clique no botão <strong>"
+#~ "\"Controle de solicitação\"</strong> para permitir que <strong>%s</"
+#~ "strong> saiba que você gostaria de assumir."
+
+#~ msgid ""
+#~ "<strong>%s</strong> has requested permission to take over control of "
+#~ "these settings."
+#~ msgstr ""
+#~ "<strong>%s</strong> solicitou permissão para assumir o controle dessas "
+#~ "configurações."
+
+#~ msgid ""
+#~ "Addons settings are currently locked. Click on the <strong>\"Request "
+#~ "Control\"</strong> button to let <strong>%s</strong> know you'd like to "
+#~ "take over."
+#~ msgstr ""
+#~ "As configurações de complementos estão bloqueadas no momento. Clique no "
+#~ "botão <strong>\"Controle de solicitação\"</strong> para permitir que "
+#~ "<strong>%s</strong> saiba que você gostaria de assumir."
+
+#~ msgid ""
+#~ "<strong>%s</strong> has requested permission to take over control of "
+#~ "Addons settings."
+#~ msgstr ""
+#~ "<strong>%s</strong> solicitou permissão para assumir o controle das "
+#~ "configurações do Addons."
+
+#~ msgid ""
+#~ "These form is currently locked. Click on the <strong>\"Request Control\"</"
+#~ "strong> button to let <strong>%s</strong> know you'd like to take over."
+#~ msgstr ""
+#~ "Esse formulário está bloqueado no momento. Clique no botão <strong>"
+#~ "\"Controle de solicitação\"</strong> para permitir que <strong>%s</"
+#~ "strong> saiba que você gostaria de assumir."
+
+#~ msgid ""
+#~ "<strong>%s</strong> has requested permission to take over control of "
+#~ "these form."
+#~ msgstr ""
+#~ "<strong>%s</strong>solicitou permissão para assumir o controle desse "
+#~ "formulário."
+
+#~ msgid "You now have control"
+#~ msgstr "Você agora tem controle"
+
+#~ msgid "Your request has been sent to %s."
+#~ msgstr "Seu pedido foi enviado para %s."
+
+#~ msgid ">> Take Over <<"
+#~ msgstr ">> Assumir o Controle <<"
+
+#~ msgid "Request Control"
+#~ msgstr "Solicitação de Controle"
+
+#~ msgid "Reject Request"
+#~ msgstr "Rejeitar Pedido"

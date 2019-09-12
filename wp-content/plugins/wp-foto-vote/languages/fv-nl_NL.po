@@ -1,0 +1,1442 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FV 2.2.802\n"
+"POT-Creation-Date: 2018-02-28 18:11+0200\n"
+"PO-Revision-Date: 2018-02-28 18:11+0200\n"
+"Last-Translator: Maxim <support@wp-vote.net>\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: D:\\Projects\\WP Foto Vote\\translation\n"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:11
+#: Vote\translation/includes/fv-translations-helper.php:349
+msgid "No results found!"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:13
+msgid "Upload a photo to the contest"
+msgstr "Upload een foto naar de wedstrijd"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:14
+#: Vote\translation/includes/fv-translations-helper.php:36
+#: Vote\translation/includes/fv-translations-helper.php:448
+msgid "Upload"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:15
+msgid "<h3>We are sorry, but this contest has finished!</h3>"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:16
+msgid ""
+"<h3>We are sorry, but you do not have enough permissions to submit entries!</"
+"h3>"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:17
+#, php-format
+msgid ""
+"You must be logged to upload a photo to the contest. <a href=\"%1$s\" class="
+"\"lrm-login\">Login</a> or <a href=\"%2$s\" class=\"lrm-signup\">register</"
+"a>."
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:19
+msgid "Leaders vote"
+msgstr "Meeste gestemd"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:20
+msgid "Other <br/>photo"
+msgstr "Andere <br/> foto"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:21
+#: Vote\translation/includes/fv-translations-helper.php:24
+#: Vote\translation/public/class-fv-public-single.php:423
+msgid "Vote"
+msgstr "Stem"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:22
+#: Vote\translation/includes/fv-translations-helper.php:314
+msgid "Vote count"
+msgstr "Aantal stemmen"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:23
+msgid "of"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:25
+#, php-format
+msgid "Page %s from %s"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:26
+msgid "Load more"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:27
+msgid "Shares count"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:29
+msgid "Share"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:30
+msgid "More"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:31
+msgid "Description"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:32
+msgid "Author"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:33
+#: Vote\translation/includes/fv-translations-helper.php:329
+msgid "Back to contest"
+msgstr "Terug naar fotowedstrijd"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:35
+msgid "Gallery"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:37
+msgid "Details"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:38
+msgid "Category:"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:39
+msgid "Sort by:"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:40
+msgid "Newest first"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:41
+msgid "Oldest first"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:42
+msgid "Popular first"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:43
+msgid "Unpopular first"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:44
+msgid "Fully random"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:45
+msgid "Random"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:46
+msgid "Alphabetical A-Z (by name)"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:47
+msgid "Alphabetical Z-A (by name)"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:49
+msgid "days"
+msgstr "Dagen"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:50
+msgid "hours"
+msgstr "Uren"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:51
+msgid "minutes"
+msgstr "Minuten"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:52
+msgid "seconds"
+msgstr "Seconden"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:53
+msgid "Voting ends in"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:54
+msgid "Voting starts in"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:55
+msgid "Upload ends in"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:56
+msgid "Upload starts in"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:58
+msgid "Share with friends! "
+msgstr "Deel met vrienden!"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:59
+msgid "Voting!"
+msgstr "Stemmen!"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:60
+msgid "Voting in process!"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:62
+msgid "Success! "
+msgstr "Gelukt!"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:63
+msgid "Your vote has been counted! "
+msgstr "Uw stem is geteld."
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:64
+msgid "Warning! "
+msgstr "Waarschuwing!"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:65
+msgid "The contest has ended."
+msgstr "De wedstrijd is afgelopen."
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:66
+msgid "You have already voted for this photo!"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:67
+msgid ""
+"You already used all possible votes (*used_votes*) at this time and can vote "
+"in *hours_leave* hours!"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:68
+msgid ""
+"You have already used all possible votes (*used_votes*) in this contest!"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:69
+msgid "Please login/register to vote!"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:70
+msgid "Your have no enough permissions for vote!"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:72
+msgid "You are not allowed to vote for own photos!"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:74
+msgid "For vote please share page on Facebook"
+msgstr "Deel op uw Facebookpagina"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:75
+msgid "An error has occurred. Please contact the administrator!"
+msgstr "Er heeft zich een probleem voorgedaan. Neem contact op."
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:76
+msgid "Security token is invalid - please refresh page!"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:78
+msgid "Please rate"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:79
+msgid "Please select score for vote!"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:80
+msgid "Rating:"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:81
+msgid "stars"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:83
+msgid "Rank"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:84
+msgid "Competitor"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:85
+msgid "Total Votes"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:87
+msgid "Contest winners"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:88
+msgid "Winners not yet picked!"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:89
+msgid "place"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:91
+msgid "Verify you are a human"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:92
+msgid "Please verify, that you are not a bot:"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:93
+msgid "Your name"
+msgstr "Naam"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:94
+msgid "Your email"
+msgstr "Email"
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:95
+msgid "I want subscribe to newsletter"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:97
+msgid "We found this email in database but Name not equal entered Email!"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:98
+msgid "Empty name or email!"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/includes/fv-translations-helper.php:99
+msgid "Invalid email!"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:101
+msgid ""
+"We send verification mail, please open it and click to confirmation link!"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:102
+msgid "Verify"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:103
+msgid ""
+"We already send verification mail, if you did't see it - please check Spam "
+"folder or contact with administrator!"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:104
+msgid "Change mail"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:105
+msgid "Sorry, but we can't verify your email!"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:106
+msgid "Your email successful verified!"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:107
+msgid "Seems email already confirmed!"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:109
+msgid "Photo contest - please verify your email"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:110
+msgid ""
+"Hi {name},\n"
+"For verify your email ({email}) please open it (in browser where you enter "
+"this email): {verify_link}\n"
+"Or enter this code into form: {verify_hash}"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:112
+msgid "To be able to vote, you'll need to authorise with a social network!"
+msgstr "Om te stemmen moet u het platform autoriseren."
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:114
+msgid "Solve reCAPTCHA please!"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:115
+msgid "Looks like you've got it wrong!"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:117
+msgid "Verify that you are not a bot!"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:118
+msgid "Please solve Math Captcha!"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:119
+msgid "Wrong answer!"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:120
+msgid "Captcha timeout!"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:123
+msgid "Invite friends to help you win!"
+msgstr "Nodig vrienden uit om u te steunen."
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:125
+msgid "Please select image file!"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:126
+msgid "The email provided is invalid, please check and try again."
+msgstr "Het ingevulde emailadres is incorrect."
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:127
+msgid "Please fill all required fields!"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:129
+msgid "Some troubles with upload"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:130
+msgid "An error occurred whilst downloading the picture(s). "
+msgstr "Er is een fout opgetreden tijdens het uploaden van foto's."
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:131
+msgid "You have already uploaded the picture, it may still be pending review. "
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:132
+msgid "Your photo is bigger than %LIMIT_SIZE%!"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:134
+#: Vote\translation/includes/fv-translations-helper.php:473
+msgid "Successfully uploaded"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:135
+msgid "Thank you, your photo was successfully uploaded!"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:136
+msgid ""
+"Thank you, your photo was successfully uploaded and will be reviewed shortly."
+msgstr ""
+"Uw foto wordt geupload en ter beoordeling voorgelegd aan de beheerder ."
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:138
+msgid "Sorry, but this image does not fit required size. %INFO%"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:139
+msgid "It %PARAM% must be smaller than %SIZE%"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:140
+msgid "It %PARAM% must be bigger than %SIZE%"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:141
+msgid "height"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:142
+msgid "width"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:150
+msgid "Your photo submission was successful"
+msgstr "Uw foto is geupload."
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:151
+msgid "Your photo has been uploaded to contest {contest_name}."
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:153
+msgid "Your photo has been approved"
+msgstr "Uw foto is goedgekeurd."
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:154
+msgid ""
+"Your photo \"{contestant_name}\" has been approved in contest {contest_name}."
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:156
+msgid "Your photo has been deleted"
+msgstr "Uw foto is verwijderd"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:157
+msgid ""
+"Your photo \"{contestant_name}\" has been deleted from contest "
+"{contest_name}."
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:159
+msgid "New Photography Competition Submitted"
+msgstr "Nieuwe foto geupload"
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:160
+msgid ""
+"New photo uploaded to contest {contest_name}.\n"
+"Photo name: {contestant_name}, user email: {contestant_user_email}"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:162
+msgid "Contest has been finished!"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:163
+msgid ""
+"Contest has been finished: {contest_name}.\n"
+"Winners pick type: {contest_winners_pick}\n"
+"Winners count: {contest_winners_count}"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:165
+msgid "Voting active until {date_finish}"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:166
+msgid "Voting will active from {date_start} to {date_finish}"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:167
+msgid "Upload active until {upload_date_finish}"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:168
+msgid "Upload will active from {upload_date_start} to {upload_date_finish}"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:169
+msgid "Upload inactive"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:170
+msgid "Contest has been finished at {date_finish}"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:281
+msgid ""
+"Some errors with loading thumbnails.\n"
+"            If you don't know why this happens - please go to Photo contest "
+"=> Settings and\n"
+"            change \"Thumbnail retrieving type:\", if this not helps, "
+"contact with support."
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:285
+msgid ""
+"Some errors with voting.\n"
+"            If you don't know why this happens - please go to *Photo "
+"contest* => *Settings* => *Vote* tab and\n"
+"            disable \"Use fast voting option? :\", if this not helps, "
+"contact with plugin support or Hosting."
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:289
+msgid ""
+"This contest not currently active (not started or already finished)!If you "
+"want enable voting for users - click *Edit contest* in *Admin bar* and check "
+"Vote start & end date."
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:292
+msgid ""
+"This contest don't not have photos! Please click *Edit contest* in *Admin "
+"bar* and add first photo or enable countdown/upload!"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:311
+msgid "General"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:312
+msgid "Leaders title"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:313
+msgid "Vote text in button"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:315
+msgid "Rating text like 3 <strong>of</strong> 10"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:316
+msgid "Vote text in image preview"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:317
+msgid "Other photo title in image preview (in some themes)"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:318
+#, php-format
+msgid "Pagination summary (please not remove %s)"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:319
+msgid "Infinity scroll: Button text"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:320
+msgid "Shares count text"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:324
+msgid "Single photo"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:325
+msgid "sidebar: Share heading"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:326
+msgid "sidebar: More heading"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:327
+msgid "content: Author heading"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:328
+msgid "content: Description heading"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:332
+msgid "Toolbar"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:333
+msgid "Gallery tab title"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:334
+msgid "Upload tab title"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:335
+msgid "Description & Rules tab title"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:336
+msgid "Category filter title"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:337
+msgid "Sorting title"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:338
+msgid "Sorting > newest"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:339
+msgid "Sorting > oldest"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:340
+msgid "Sorting > popular"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:341
+msgid "Sorting > unpopular"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:342
+msgid "Sorting > random"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:343
+msgid "Sorting > pseudo-random"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:344
+msgid "Sorting > Alphabetical A-Z (by name)"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:345
+msgid "Sorting > Alphabetical Z-A (by name)"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:348
+msgid "Search"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:353
+msgid "Countdown"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:354
+msgid "\"Voting ends in\" text"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:355
+msgid "\"Voting starts in\" text (if not yet started)"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:356
+msgid "\"Upload ends in\" text"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:357
+msgid "\"Upload starts in\" text (if not yet started)"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:358
+msgid "Countdown > Days remaining"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:359
+msgid "Countdown > Hours remaining"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:360
+msgid "Countdown > Minutes remaining"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:361
+msgid "Countdown > Seconds remaining"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:364
+msgid "Voting"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:368
+msgid "Voting messages"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:369
+msgid "Title > Go share"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:370
+msgid "Title > Voting in process"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:371
+msgid "Msg with preloader > Voting in process"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:372
+msgid "Title > vote counted (1-2 words)"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:373
+msgid "Title > vote not counted (1-2 words)"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:374
+msgid "Msg > vote counted"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:375
+msgid "Msg > the contest has ended"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:376
+msgid ""
+"Msg > user already voted for this photo (but can vote for other) <br/"
+"><small>Use *hours_leave* to show, when the user can vote, if voting "
+"frequency is once for 24 hrs:</small>"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:377
+msgid ""
+"Msg > user used all votes at this time <br/><small>Can use *hours_leave* and "
+"*used_votes*:</small>"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:378
+msgid ""
+"Msg > user used all votes and can't vote anymore (Voting frequency = Once) "
+"<br/><small>Can use *used_votes*:</small>"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:379
+msgid "Msg > vote for own photo not allowed"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:380
+msgid "Msg > Your are not authorized"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:381
+msgid "Msg > Your have no enough permissions (role)"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:382
+msgid "Msg > error"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:383
+msgid "Message under title with call to share"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:384
+msgid "Message if WP security token is invalid and need refresh page"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:387
+msgid "Vote : Rating"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:388
+#: Vote\translation/includes/fv-translations-helper.php:395
+msgid "Popup title"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:389
+msgid "Message that need select rating before vote"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:390
+msgid "\"Rating:\" caption"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:391
+msgid "\"Stars\" caption"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:394
+msgid "Vote + Subscription form"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:396
+msgid "Popup message"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:397
+#: Vote\translation/includes/fv-translations-helper.php:398
+#, php-format
+msgid "Field `%s` caption"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:397
+msgid "name"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:398
+msgid "email"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:399
+msgid ""
+"Subscribe to newsletter checkbox text (if enabled in Settings => Voting)"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:401
+#: Vote\translation/includes/fv-translations-helper.php:415
+msgid "Email verification"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:403
+msgid "Popup msg - found email in database but Name not equal"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:404
+msgid "Popup msg - Empty name or email"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:405
+msgid "Popup msg - Invalid email"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:407
+msgid "Popup msg - Verification mail send"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:408
+msgid "Popup btn text - Check verification key"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:409
+msgid "Popup msg - Verification mail Already send"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:410
+msgid "Popup btn text - Change mail"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:411
+msgid "Popup msg - Entered verification key is wrong"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:412
+msgid "Popup msg - Successful verified!"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:413
+msgid "Popup msg - if email already confirmed"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:422
+msgid "Subject - verification mail"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:423
+msgid "Body - verification mail"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:428
+msgid "Vote with Social login"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:429
+msgid "Soc. authorization title"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:432
+msgid "Vote with Math Captcha"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:433
+msgid "Title > Solve Math Captcha please!"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:434
+msgid "Msg > Solve Math Captcha please!"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:435
+#: Vote\translation/includes/fv-translations-helper.php:445
+msgid "Msg > Seems you do it wrong!"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:436
+msgid "Msg > Math Captcha expired!"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:439
+msgid "Vote + Facebook Share"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:440
+msgid "Msg > for vote please share in FB"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:443
+msgid "Vote with reCAPTCHA"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:444
+msgid "Title > Solve reCAPTCHA please!"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:452
+msgid "Upload form"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:453
+msgid "Upload form title"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:454
+msgid "Upload form button text"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:455
+#, php-format
+msgid ""
+"User must be logged for upload <small>(%1$s will be replaced into Login link "
+"from wp_login_url(), %2$s will be replaced into Register link from "
+"wp_registration_url())</small>"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:456
+msgid "Message if contest upload dates expired or it has finished"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:457
+msgid "Message if user do not have enough role"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:461
+msgid "Upload messages"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:463
+msgid "Form Validation"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:464
+#: Vote\translation/includes/fv-translations-helper.php:465
+msgid "User email is invalid in form"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:466
+msgid "Upload warning, if not file passed"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:468
+msgid "Not uploaded (limit exceeded/error)"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:469
+msgid "[Popup title] Troubles with upload"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:470
+msgid "[Popup message] Upload error"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:471
+msgid "[Popup message] User already downloaded photo"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:474
+msgid "[Popup title] Successfully uploaded"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:475
+msgid "[Popup message] Photo is uploaded"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:476
+msgid "[Popup message] Photo is uploaded and need review"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:478
+msgid "Image dimensions invalid"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:479
+msgid ""
+"User photo is bigger than limit <small>(%LIMIT_SIZE% will be replaced into "
+"`limit value` in megabytes, %FILE_NAME% into file name)</small>"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:480
+msgid ""
+"Message, that image does not fit required size (<small>%INFO% will be "
+"replaced into text below (smaller or bigger)</small>)"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:481
+msgid ""
+"Image must be smaller than size (<small>%SIZE% will be replaced into size "
+"from settings, as example 500px., %PARAM% into \"height\" or \"width\"</"
+"small>)."
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:482
+msgid ""
+"Image must be bigger than size (<small>%SIZE% will be replaced into size "
+"from settings, as example 500px., %PARAM% into \"height\" or \"width\"</"
+"small>)."
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:483
+msgid "Height %PARAM%"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:484
+msgid "Width %PARAM%"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:487
+msgid "Notify mail messages"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:498
+msgid "Mail to user - photo uploaded"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:499
+#: Vote\translation/includes/fv-translations-helper.php:511
+msgid "Subject - photo uploaded"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:500
+#: Vote\translation/includes/fv-translations-helper.php:512
+msgid "Body - photo uploaded"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:502
+msgid "Mail to user - photo approved"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:503
+msgid "Subject - photo approved"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:504
+msgid ""
+"Body - photo approved<br/><small>extra tag - <code>{admin_comment}</code></"
+"small>"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:506
+msgid "Mail to user - photo deleted"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:507
+msgid "Subject - photo deleted"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:508
+msgid ""
+"Body - photo deleted<br/><small>extra tag - <code>{admin_comment}</code></"
+"small>"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:510
+msgid "Mail to Admin - photo uploaded"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:514
+msgid "Mail to Admin - contest finished"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:515
+msgid "Subject - contest finished"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:516
+msgid "Body - contest finished"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:520
+msgid "Extras"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:524
+msgid "Leaders table"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:525
+msgid "Leaders table > Rank"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:526
+msgid "Leaders table > Competitor"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:527
+msgid "Leaders table > Total Votes"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:530
+msgid "Winners list"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:531
+msgid "Winners heading"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:532
+msgid "\"Winners not yet picked\" heading"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:533
+msgid "Winner \"place\" caption, like \"1 place\", etc"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:536
+msgid "Contest list"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:538
+msgid "Contest block text - Voting active <small>(use: {date_finish})</small>"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:539
+msgid ""
+"Contest block text - Voting active future <small>(use: {date_start}, "
+"{date_finish})</small>"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:541
+msgid ""
+"Contest block text - Upload active <small>(use: {upload_date_finish})</small>"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:542
+msgid ""
+"Contest block text - Upload active future <small>(use: {upload_date_start}, "
+"{upload_date_finish})</small>"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:543
+msgid "Contest block text - Upload inactive"
+msgstr ""
+
+#: D:\Projects\WP Foto
+#: Vote\translation/includes/fv-translations-helper.php:545
+msgid ""
+"Contest block text - Contest finished <small>(use: {date_finish})</small>"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/public/class-fv-public-single.php:266
+msgid "Fail contestant ID or it was not published!"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/public/class-fv-public-single.php:280
+msgid "Fail contest!"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/public/class-fv-public-single.php:427
+msgid "Fail competitor_id!"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/public/class-fv-public-single.php:437
+msgid "Empty competitor!"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/public/fv-public-helper.php:141
+msgid "Contests"
+msgstr ""
+
+#: D:\Projects\WP Foto Vote\translation/public/fv-public-helper.php:144
+msgid "Manage contests"
+msgstr ""
+
+#~ msgid "You have already voted!"
+#~ msgstr "U heeft al gestemd."
+
+#~ msgid "Since the last vote has not yet been 24 hours!"
+#~ msgstr "Het is nog geen 24 uur geleden dat u heeft gestemd."
+
+#~ msgid "Your are not authorized in site!"
+#~ msgstr "U heeft geen toegang."
+
+#~ msgid "Register on the site and vote"
+#~ msgstr "Registreer en stem."
+
+#~ msgid "For voting, you need to enter data"
+#~ msgstr "Vul de velden in."
+
+#~ msgid ""
+#~ "You have already downloaded the picture, it may still be pending review. "
+#~ msgstr ""
+#~ "U heeft al de foto gedownload. Misschien is het in afwachting van "
+#~ "machtiging beheerder."
+
+#~ msgid "Your photo is bigger than %LIMIT_SIZE% megabytes."
+#~ msgstr "Uw foto is te groot (>%LIMIT_SIZE% mb.)"
+
+#~ msgid ""
+#~ "Thank you, your photo was successfully uploaded and published (because "
+#~ "you are an admin, show after page reload)."
+#~ msgstr "Uw foto wordt geupload en gepubliceerd na goedkeuring."
+
+#~ msgid "Your photo has been approved in contest %1$s."
+#~ msgstr "Uw foto is goedgekeurd de wedstrijd %1$s."
+
+#~ msgid "New photo uploaded to contest %1$s. Name: %2$s, user email: %3$s"
+#~ msgstr "Nieuwe foto is geupload - %1$s. Name: %2$s, user email: %3$s"

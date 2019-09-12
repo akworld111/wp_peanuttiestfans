@@ -1,0 +1,227 @@
+@font-face {
+	font-family: 'KamelDemiITC';
+	src:url('fonts/KABELDEMIITC.OTF') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.fv_constest_item {
+	font-family: 'KamelDemiITC';
+	font-weight: normal;
+	font-style: normal;    
+	display: inline-block;
+	padding: 30px 5px 5px 5px;
+}
+
+.fv_constest_item .fv_name{
+	margin: 2px auto 4px auto;
+	text-align: center;
+	color: white;    
+	letter-spacing: 1px;
+    font-family: 'KamelDemiITC';
+}
+.fv_constest_item .fv_name .fv_name_inner{
+	background: #5b959e;
+	padding: 4px 8px;
+	font-size: 14px;
+	line-height: 15px;
+
+	display: inline-block;
+	width: 75%;
+}
+
+.fv_constest_item .fv_photo {
+	position: relative;
+	margin: auto;
+	text-align: center;    
+}
+
+.fv_constest_item .fv_photo_votes {
+	width: 73px;
+	height: 73px;
+	background-image: url(img/round.png);
+	background-size: 74px;
+	text-align: center;
+	position: absolute;
+	left: 17px;
+	top: -26px;
+}
+
+.fv_photo_votes .fv-votes {
+    font-size: 15px;
+}
+
+.fv_photo_votes .fvicon-heart3 {
+    font-size: 14px;
+    display: inline-block;
+}
+
+.fv_photo_votes .fv_vote,
+.fv_photo_votes .fv-votes,
+.fv_photo_votes .fvicon-heart3 {
+    line-height: 73px;
+    color: white;
+    text-decoration: none !important;
+	border: none;
+}
+
+
+.fv_photo_votes .fv_vote:hover .fvicon-heart3:before {
+    font-size: 15px;
+    -webkit-transition: all 0.2s ease;
+}
+
+.fv-svotes-container {
+    width: 42px;
+    height: 42px;
+    background: rgba(91, 149, 158, 0.9);
+    border-radius: 50%;
+
+    text-align: center;
+    position: absolute;
+    right: 17px;
+    top: -17px;
+}
+
+.fv-svotes-a {
+    text-decoration: none;
+}
+
+.fv-svotes-a .fvicon-share,
+.fv-svotes-a .fv-soc-votes {
+    color: white;
+    line-height: 42px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+
+/* image and social icons */
+.fv_constest_item .fv_photo img {
+    border-radius: 22px;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);    
+}
+
+
+.fv_constest_item .fv_social{
+	margin: auto;
+	text-align: center;
+}
+
+.fv_constest_item .fv_social_icons{
+	margin: 3px auto;    
+}
+.fv_constest_item .fv_social_icons .snegovik{
+	height: 42px;
+	padding-left: 5px;
+}
+
+.fv_constest_item .fv_social_icons > a {
+	border: none;
+	text-decoration: none;
+}
+
+.fv_constest_item .fv_social_icons img{
+	border-radius: 0;
+	box-shadow: none;    
+	width: 23px;
+	display: inline-block;
+}
+
+/* ======================= LEADERS ==================================== */
+.fv_most_voted.theme .fv_leaders {
+    margin: auto;
+	width: 70%;
+	background: #3c7a85;
+	border-radius: 25px;	
+	padding: 10px 0 10px;
+    text-align: center;
+}
+.fv_most_voted.theme .title > span{
+	font-family: 'KamelDemiITC';
+	font-size: 18px;
+	line-height: 100%;
+	font-weight: normal;
+	font-style: normal;    
+	display: inline-block;
+	margin: auto;
+	padding: 25px 25px 4px;
+	color: white;
+	text-align: center;
+	word-wrap: break-word;
+    width: 102px;
+}
+.fv_most_voted.theme .title {
+    margin: auto;
+	background: url(img/top.png);
+	background-size: 100%;	
+	width: 150px;
+	height: 66px;
+
+	display: block;	
+	content: ' ';
+	z-index: 99;
+}
+
+.fv_most_voted.theme .fv_leaders .fv_constest_item {
+    margin: 0 10px;
+    width: 27%;
+    display: inline-block;
+}
+
+.fv_most_voted.theme .fv_leaders .fv_constest_item .fv_photo_votes {
+	width: 50px;
+	height: 50px;
+	background-image: url(img/round.png);
+	background-size: 51px;
+	/*background-position: -20px -20px;*/
+	text-align: center;
+	position: absolute;
+	left: 7px;
+	top: -22px;
+
+	line-height: 50px;
+	font-size: 14px;
+}
+
+.fv_most_voted.theme .fv_leaders .fv_constest_item .fv_name{
+	margin: 2px auto 4px auto;
+	text-align: center;
+	color: white;    
+	letter-spacing: 0.7px;
+    width: 70%;
+}
+.fv_most_voted.theme .fv_leaders .fv_constest_item .fv_name span{
+	background: none;;
+	padding: 0 8px;
+	font-size: 14px;
+	line-height: 15px;
+	display: inline-block;
+	width: 80%;
+}
+
+
+.fv-most-voted--details {
+    background-color: #5b959e!important;
+    color: white !important;
+    letter-spacing: 1px;
+    font-family: 'KamelDemiITC';
+}
+
+/** Second Design Pagination **/
+/* resource: http://pixelsdaily.com/resources/photoshop/psds/minimal-pagination/ */
+
+.fv-pagination { /* second page styles */
+    font-family: 'KamelDemiITC';
+}
+
+.fv-pagination .current {
+    background-color: #5b959e;
+    border-color: #5b959e;
+}
+
+@media(max-width: 480px) {
+    .contest-block, .contest-block img {
+        max-width: 100%;
+    }
+}

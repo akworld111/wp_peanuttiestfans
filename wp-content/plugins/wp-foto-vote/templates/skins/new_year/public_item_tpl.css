@@ -1,0 +1,240 @@
+/*         url('fonts/icomoon.woff?e196x3') format('woff'), */
+        /*url('fonts/KabelDemiITC.ttf') format('truetype');*/
+@font-face {
+    font-family: 'KamelDemiITC';
+    src:url('fonts/KABELDEMIITC.OTF') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#fv_constest_item {
+    width: 95%;
+    margin: auto;
+    font-family: 'KamelDemiITC';
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+}
+
+#fv_constest_item .fv_name{
+    margin: 20px auto 40px;
+    text-align: center;
+    position: relative;
+}
+#fv_constest_item .fv_name span.name{
+    background: #5b959e;
+    padding: 6px 12px;
+    font-size: 20px;
+    line-height: 22px;
+    color: white;    
+    display: inline-block;
+}
+#fv_constest_item .fv_name .back{
+    /*float: right;*/
+    font-weight: 700;
+    font-size: 18px;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+/* ==================== IMAGE ==================== */
+
+#fv_constest_item .fv_photo {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    max-width: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+#fv_constest_item .fv_photo_votes {
+    width: 100px;
+    height: 100px;
+    background-image: url(img/round.png);
+    background-size: 100px;
+    /*background-position: -20px -20px;*/
+    text-align: center;
+    position: absolute;
+    left: -40px;
+    top: -40px;
+    
+    line-height: 100px;
+    font-size: 18px;
+
+}
+#fv_constest_item .fv_photo_votes a,
+.fv_constest_item .fv_photo_votes  {
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+
+.fv-svotes-container {
+    width: 42px;
+    height: 42px;
+    background: rgba(91, 149, 158, 0.9);
+    border-radius: 50%;
+
+    text-align: center;
+    position: absolute;
+    right: 27px;
+    top: -17px;
+}
+
+.fv-svotes-a {
+    text-decoration: none;
+}
+
+.fv-svotes-a .fvicon-share,
+.fv-svotes-a .fv-soc-votes {
+    color: white;
+    line-height: 42px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+/* Image and Icons */
+
+#fv_constest_item .mainImage {
+    border-radius: 45px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);    
+    max-width: 100%;
+    display: inline-block;
+}
+
+#fv_constest_item .fv_photo .fv_nav a{
+    text-decoration: none;    
+}
+
+#fv_constest_item .fv_photo .fv_nav {
+    font-size: 28px;
+    top: 40%;
+    color: #5b959e;    
+    position: absolute;    
+}
+
+#fv_constest_item .fv_photo .fv_next {
+    right: -34px;
+}
+#fv_constest_item .fv_photo .fv_prev {
+    left: -34px;    
+}
+
+/* ==================== SOCIAL ==================== */
+
+#fv_constest_item .fv_social{
+    margin: 15px auto;
+    text-align: center;
+}
+#fv_constest_item .fv_social span{
+    padding: 4px 6px;
+    font-size: 20px;
+    line-height: 22px;
+    color: #5b959e;    
+    text-decoration: underline;
+    display: inline-block;
+}
+
+#fv_constest_item .fv_social_icons >a{
+    text-decoration: none;
+    border: none;
+}
+#fv_constest_item .fv_social_icons{
+    margin: 10px auto;
+}
+#fv_constest_item .fv_social_icons .snegovik{
+    height: 42px;
+    padding-left: 5px;
+}
+
+#fv_constest_item .fv_social img{
+    border-radius: 0;
+    box-shadow: none;
+    display: inline-block;
+}
+
+/* ======================= LEADERS ==================================== */
+#fv_most_voted.theme .fv_leaders {
+    width: 90%;
+    background: #3c7a85;
+    border-radius: 25px;
+    padding: 35px 0 15px;
+    margin: auto;
+    text-align: center;
+}
+#fv_most_voted.theme .title > span{
+    font-family: 'KamelDemiITC';
+    font-size: 18px;
+    line-height: 100%;
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    margin: auto;
+    padding: 38px 25px 4px;
+    width: 100px;
+    color: white;
+    text-align: center;
+    word-wrap: break-word;
+}
+#fv_most_voted.theme .title {
+    background: url(img/top.png);
+    background-size: 100%;
+    width: 150px;
+    height: 66px;
+
+    display: block;
+    content: ' ';
+    z-index: 99;
+    margin: auto;
+}
+
+#fv_most_voted.theme .fv_leaders .fv_constest_item {
+    margin: 0 10px;
+    width: 182px;
+    display: inline-block;
+}
+
+#fv_most_voted.theme .fv_leaders .fv_constest_item .fv_photo_votes {
+    width: 50px;
+    height: 50px;
+    background-image: url(img/round.png);
+    background-size: 51px;
+    /*background-position: -20px -20px;*/
+    text-align: center;
+    position: absolute;
+    left: 7px;
+    top: -22px;
+    line-height: 46px;
+}
+
+#fv_most_voted.theme .fv_leaders .fv_photo_votes .fv-votes {
+    padding-left: 3px;
+}
+
+#fv_most_voted.theme .fv_leaders .fv_photo_votes .fv-votes,
+#fv_most_voted.theme .fv_leaders .fv_photo_votes .fvicon-heart3 {
+    line-height: 46px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+}
+
+#fv_most_voted.theme .fv_leaders .fv_constest_item .fv_name{
+    margin: 2px auto 4px auto;
+    text-align: center;
+    color: white;
+    letter-spacing: 0.7px;
+}
+#fv_most_voted.theme .fv_leaders .fv_constest_item .fv_name div{
+    background: none;;
+    padding: 0 8px;
+    font-size: 14px;
+    line-height: 15px;
+    display: inline-block;
+    width: 80%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

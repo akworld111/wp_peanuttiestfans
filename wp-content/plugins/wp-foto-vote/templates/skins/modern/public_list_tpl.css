@@ -1,0 +1,239 @@
+.fv-contest-photos-container-inner:after,
+.fv-contest-photos-container-inner:before{
+    display: table;
+    content: " ";
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+}
+
+.fv-contest-photos-container-inner:after {
+    clear: both;
+}
+
+.contest-block {
+    float: left;
+    padding-right: .625rem;
+    padding-left: .625rem;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 32px;
+    position: relative
+}
+
+@media print,screen and (min-width: 40em) {
+    .contest-block {
+        padding-right:.9375rem;
+        padding-left: .9375rem
+    }
+}
+
+.contest-block:last-child:not(:first-child) {
+    float: right;
+}
+
+@media print,screen and (min-width: 40em) {
+    /*.contest-block {*/
+        /*width:50%*/
+    /*}*/
+
+    .contest-block:last-child:last-child {
+        float: left;
+    }
+}
+
+.contest-block__thumbnail {
+    background-size: contain;
+    height: 0;
+    padding-bottom: 100%;
+    display: block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+
+    background-position: 50%;
+    /*background-color: #f0f0f0;*/
+    background-repeat: no-repeat;
+}
+
+.contest-block__meta {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 16px;
+}
+
+.contest-block__title {
+    background-color: hsla(0,0%,100%,.8);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: .6px;
+    line-height: 1.6;
+    display: inline-block;
+    padding: 4px 8px;
+    opacity: .5;
+    color: black;
+}
+
+.contest-block__description{
+    background-color: #555;
+    color: white;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: .8px;
+    line-height: 1.3;
+    display: inline-block;
+    padding: 6px 9px;
+    margin-bottom: 3px;
+    visibility: hidden;
+}
+
+.contest-block__title,
+.contest-block__description{
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+
+.contest-block__thumbnail:hover .contest-block__title{
+    opacity: 1;
+}
+
+.contest-block__thumbnail:hover .contest-block__description {
+    visibility: visible;
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -webkit-animation-duration: .7s;
+    animation-duration: .7s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+
+
+.contest-block__actions {
+    padding: 8px 0;
+    border-bottom: 2px dotted #aaa;
+    text-align: left;
+}
+
+.contest-block__action {
+    border-bottom: none !important;
+    text-decoration: none !important;
+    cursor: pointer !important;
+}
+
+.contest-block__votes-wrap {
+    display: inline-block;
+}
+.contest-block__action_vote {
+    color: #323232;
+    font-family: Georgia;
+    font-size: 16px;
+    letter-spacing: 1.1px;
+    font-style: italic;
+    display: inline-block;
+}
+
+.contest-block__vote-icon {
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    vertical-align: middle;
+    line-height: 22px;
+}
+
+.is-voted .contest-block__vote-icon,
+.contest-block__do-vote:hover {
+    color: #ec008b;
+}
+
+.contest-block__social-shares-count {
+    font-size: 13px;
+}
+
+.contest-block__actions__right {
+    float: right;
+}
+
+.contest-block__action_more,
+.contest-block__action_share {
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.contest-block__action_share {
+    display: inline-block;
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 22px;
+    width: 22px;
+}
+
+.contest-block__action_share {
+    background-image: url(assets/icon-share.svg);
+}
+
+.contest-block__action_more {
+    display: inline-block;
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 22px;
+    width: 22px;
+    background-image: url(assets/icon-more.svg);
+}
+
+.contest-block__action_more:after {
+    content: ""
+}
+
+#modal-widget ul.sw-options {
+    height: 90px;
+}
+
+.sw-options .sw-share-button {
+    border-radius: 100%;
+}
+
+.sw-options .sw-share-button:before {
+    top: 15px;
+    left: 14px;
+}
+
+
+
+/**
+Animation
+*/
+
+@-webkit-keyframes fadeInDown {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}

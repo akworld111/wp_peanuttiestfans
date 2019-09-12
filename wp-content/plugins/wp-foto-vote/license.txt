@@ -1,0 +1,17 @@
+RUS
+
+Все права на модуль принадлежат разработчику http://ru.wp-vote.net
+Данная лицензия распространяется на один домен.
+Запрещена передача данного ПО третьим лицам, распространение от своего имени без получения разрешения автора модуля.
+Запрещается публикация, распространение модуля без согласия автора в любых целях, будь то ознакомительных или любых других.
+Модуль имеет принцип распространения "as is".
+
+===========================================================================================================================
+
+ENG
+
+All rights belong to the module developer http://wp-vote.net
+This license is valid for one domain. 
+Prohibited the transfer of the software to third parties, the spread on its own behalf without permission from the author of the module. 
+The publication, distribution module without the author's consent for any purpose, whether informational or any other. 
+The module has the principle of sharing "as is".

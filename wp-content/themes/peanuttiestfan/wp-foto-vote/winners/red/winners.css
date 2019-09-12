@@ -1,0 +1,90 @@
+/* TITLE */
+
+.FV_Winners__list {
+    text-align: center;
+}
+
+.FV_Winner {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    padding: 11px;
+    background-color: white;
+    border: 1px solid #DDD;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    margin: 45px 10px 15px 10px;
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+}
+
+.FV_Winner:hover {
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+}
+
+.FV_Winner__photo {
+    overflow: hidden;
+}
+.FV_Winners__list .FV_Winner__photo_img{
+    display: inline-block;
+}
+
+.FV_Winner__name {
+    margin: 0;
+    position: absolute;
+    top: -29px;
+    color: #e5262a;
+    left: 0;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: normal;
+    line-height: 1;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 89%;
+}
+
+.FV_Winner__place_caption{
+    margin-top: 5px;
+}
+
+
+.FV_Winner__description {
+    width: 100%;
+    text-align: center;
+    color: #e5262a;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.FV_Winner__votes {
+    position: absolute;
+    right: 0;
+    top: -35px;
+    background: #e5262a;
+    padding: 6px 6px;
+    line-height: 1;
+}
+
+.FV_Winner__votes span {
+    color: white;
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 1;
+}
+
+.FV_Winner__votes .fvicon {
+    color: white;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 22px;
+}
+
+
+@media (max-width: 480px) {
+    .FV_Winner {
+        width: 100% !important;
+        height: auto !important;
+    }
+}

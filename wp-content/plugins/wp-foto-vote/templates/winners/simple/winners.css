@@ -1,0 +1,39 @@
+
+.FV_Winners__list {
+    text-align: center;
+}
+
+
+.WinnersList_entries {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.FV_Winner {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px 20px;
+}
+
+.FV_Winner__bg{
+    min-height: 160px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid gray;
+    background-position: center;
+    margin-bottom: 8px;
+}
+
+.FV_Winner__likes .fvicon {
+    color: #ff0000;
+}
+
+.FV_Winner__place_caption {
+    font-weight: bold;
+    margin-top: 3px;
+}
+.FV_Winner__place_caption .fvicon {
+    color: #f7c600;
+}

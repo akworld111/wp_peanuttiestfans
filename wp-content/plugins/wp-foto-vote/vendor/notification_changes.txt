@@ -1,0 +1,28 @@
+$$$$$$$$$ Version 5 $$$$$$$$$
+
+File: vendor/notification/class/Admin/FieldsResolver.php:130
+// Hack for Meta - MAXX
+if ( false !== strpos($tag_slug, 'competitor_meta_') ) {
+    return '{'.$tag_slug. '}';
+}
+
+========
+
+File: vendor/notification/inc/Notifications.php
+What: $errors[] = sprintf( __( 'You have some unavailable merge tags for selected trigger in the content: %s. These will be skipped during rendering.', 'notification' ), $tag_codes );
+Why: "can be skipped"
+
+#####################
+D:\Wordpress\notification.5.2.2\notification\inc\functions\trigger.php
+Before
+throw new \Exception( 'Trigger with that slug already exists' );
+After
+22: 			throw new \Exception( 'Trigger with that slug already exists' );
+
+#####################
+D:\Wordpress\notification.5.2.2\notification\class\Abstracts\MergeTag.php
+152: 		if ( ! $this->validate( $value ) ) {
+153: 			$error_type = ( defined( 'WP_DEBUG' ) && WP_DEBUG ) ? E_USER_ERROR : E_USER_NOTICE;
+154: 			trigger_error( 'Resolved value is a wrong type', $error_type );
+155: 		}
+156:

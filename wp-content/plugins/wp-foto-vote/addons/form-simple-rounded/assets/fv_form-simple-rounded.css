@@ -1,0 +1,265 @@
+.fv_upload_simple-rounded .fv_wrapper input,
+.fv_upload_simple-rounded .fv_wrapper textarea {
+    border: solid 1px #999 !important;
+    padding: 5px !important;
+    font-size: 18px !important;
+    color: black;
+}
+
+.fv_upload_simple-rounded .fv_wrapper input.invalid {
+    border: solid 1px #C45E5E !important;
+}
+
+.fv_upload_simple-rounded input[type='text'],
+.fv_upload_simple-rounded input[type='email'],
+.fv_upload_simple-rounded input[type='url'] {
+    width: auto;
+}
+
+.fv_upload_simple-rounded input[type='radio'],
+.fv_upload_simple-rounded input[type='checkbox'],
+.fv_upload_simple-rounded select {
+    width: auto;
+}
+
+
+.fv_upload_simple-rounded .fv_wrapper select{
+    padding: 4px;
+}
+
+.error-input{
+    background-color: #FFEFEF;
+    border-color: #BB6666 !important;
+    color: #660000;
+}
+
+.fv_upload_simple-rounded  .field,
+.fv_upload_simple-rounded .field label{
+    margin-bottom: 4px;
+}
+
+
+
+.fv_upload_simple-rounded .fv_wrapper {
+    margin-bottom: 0px;
+    padding: 5px 0;
+    overflow:hidden;
+}
+
+.fv_upload_simple-rounded .fv_form_filed .wrapper{
+    float:left;
+    padding:0;
+    overflow: hidden;
+}
+
+.fv_upload_simple-rounded .fv_wrapper label {
+    padding: 2px 0 2px 0;
+    margin: 0 0 5px 0;
+    font-weight: bold;
+    display: block;
+    font-size:14px;
+    line-height: 26px;
+}
+
+.fv_upload_simple-rounded .fv_wrapper label .number{
+    float: left;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    margin-right: 10px;
+    margin-top:1px;
+    border-radius: 50%;
+
+}
+.fv_upload_simple-rounded .fv_wrapper .form-control,
+.fv_upload_simple-rounded .fv_wrapper .image-preview--wrapper,
+.fv_upload_simple-rounded .fv_wrapper .checkbox_input,
+.fv_upload_simple-rounded .fv_wrapper .radio_input{
+    display: block;
+    clear:both;
+    margin-bottom:4px;
+    margin-top:5px;
+    font-weight: normal;
+    width: 100%;
+}
+
+.fv_upload_simple-rounded .fv-field-padding-wrapper {
+    margin-left: 33px;
+}
+
+.fv_upload_simple-rounded .fv_wrapper .description {
+    font-size:12px;
+    display: inline-block;
+}
+
+
+.fv_upload_simple-rounded .fv_wrapper .red_star{
+    color:red;
+
+}
+
+.fv_upload_simple-rounded .fv_wrapper .body{
+    clear:both;
+    padding-bottom:4px;
+    padding-top:5px;
+}
+
+.fv_upload_simple-rounded .fv_wrapper .hint{
+    font-size:12px;
+}
+
+.fv_upload_simple-rounded .submit{
+    font-size:16px;
+}
+
+.fv_upload_simple-rounded .fv_wrapper .textarea,
+.fv_upload_simple-rounded .fv_wrapper textarea{
+    width:500px;
+    height:100px;
+}
+
+/* ========================
+    =DATE FIELD
+======================== */
+.fv_upload_simple-rounded .fv-field-type--date .day_input,
+.fv_upload_simple-rounded .fv-field-type--date .month_input {
+    width: 44px;
+    display: inline-block;
+}
+.fv_upload_simple-rounded .fv-field-type--date .year_input {
+    width: 62px;
+    display: inline-block;
+}
+.fv_upload_simple-rounded .fv-field-type--date-inner.day-is-first .form-control:not(.day_input){
+    margin-left: 5px;
+}
+.fv_upload_simple-rounded .fv-field-type--date-inner.month-is-first .form-control:not(.month_input){
+    margin-left: 5px;
+}
+.fv_upload_simple-rounded .fv-field-type--date-inner.year-is-first .form-control:not(.year_input){
+    margin-left: 5px;
+}
+/*
+.fv-field-type--date .date-label,
+.fv-field-type--date .date-delimiter {
+    display: inline-block;
+    margin-left: 7px;
+    font-weight: bold;
+}
+*/
+
+.fv_upload_simple-rounded .fv-upload-btn {
+    font-size: 20px;
+    font-weight: 500;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    padding: 5px 18px;
+    line-height: 30px;
+
+    background: #f2555b;
+    border: none;
+    /*border: 2px solid;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    */
+    -moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    position: relative;
+    color: #fff;
+
+    float: left;
+
+    background-color: #f2555b;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f2555b), to(#ed1c24));
+    background-image: -webkit-linear-gradient(top, #f2555b, #ed1c24);
+    background-image: -moz-linear-gradient(top, #f2555b, #ed1c24);
+    background-image: -ms-linear-gradient(top, #f2555b, #ed1c24);
+    background-image: -o-linear-gradient(top, #f2555b, #ed1c24);
+    background-image: linear-gradient(top, #f2555b, #ed1c24);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#f2555b, endColorstr=#ed1c24);
+    cursor: pointer; cursor: hand;
+
+}
+
+.fv_upload_simple-rounded .fv-upload-btn:hover {
+    background: rgba(0, 0, 0, 0.05);
+    padding: 5px 34px 5px 14px !important;
+    background-color: #f2555b;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f2555b), to(#ed1c24));
+    background-image: -webkit-linear-gradient(top, #f2555b, #ed1c24);
+    background-image: -moz-linear-gradient(top, #f2555b, #ed1c24);
+    background-image: -ms-linear-gradient(top, #f2555b, #ed1c24);
+    background-image: -o-linear-gradient(top, #f2555b, #ed1c24);
+    background-image: linear-gradient(top, #f2555b, #ed1c24);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#f2555b, endColorstr=#ed1c24);
+    cursor: pointer; cursor: hand;
+}
+.fv_upload_simple-rounded .fv-upload-btn:hover:after {
+    opacity: 1;
+    margin-left: 0;
+}
+.fv_upload_simple-rounded .fv-upload-btn:after {
+    font-size: 20px;
+    line-height: 30px;
+    content: "\e63f";
+    font-family: 'icomoon_fv';
+    opacity: 0;
+    position: absolute;
+    margin-left: -20px;
+    -moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    top: 5px;
+    right: 5px;
+}
+
+/* User */
+
+.fv_upload a { color: #4574A3; }
+.fv_upload a:hover { color: #425768; text-decoration:none }
+
+.fv_upload label { color: #555; font-size: 14px;}
+.fv_upload .fv_form_filed { border-top: solid 1px #e0e0e0; }
+.fv_upload .number{ background-color: #E5E5E5 !important; color: #555; }
+.fv_upload form .submit { padding: 5px 10px; margin-top:10px; }
+
+.fv_upload .fv_form_filed h3, .fv_form_filed .note{ color: #425768; }
+.fv_upload .qt_static h3{ color: #354247; }
+.fv_upload .fv_form_filed .wrapper{ color: #666666; }
+
+
+@media ( max-width:767px ) {
+    .fv_upload_simple-rounded .fv-file-wrapper .form-control-short {
+        margin-left: 0px !important;
+    }
+
+    .fv_upload_simple-rounded .fv-file-wrapper {
+        margin-bottom: 10px;
+        margin-top: 4px;
+    }
+}
+
+@media (min-width: 768px) {
+    .fv_upload_simple-rounded input[type='text'],
+    .fv_upload_simple-rounded input[type='email'],
+    .fv_upload_simple-rounded input[type='url']{
+        width:85%;
+    }
+    .fv_upload_simple-rounded .fv_wrapper .textarea,
+    .fv_upload_simple-rounded .fv_wrapper textarea{
+        width:85%;
+        height:100px;
+    }
+
+    .fv_upload_simple-rounded input[type='number'] {
+        width: 150px;
+    }
+    .fv_upload_simple-rounded input[type='file'] {
+        min-width: 90%;
+    }
+}

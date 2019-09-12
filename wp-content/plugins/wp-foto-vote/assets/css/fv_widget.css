@@ -1,0 +1,55 @@
+/* This stylesheet is used to style the public view of the widget. */
+
+.widget-fv-list-class .contestant-list {
+	overflow: hidden;
+}
+
+.widget-fv-list-class .contestant-list h4 {
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 4px;
+	margin-top: 4px;
+}
+
+.widget-fv-list-class .contestant-list .contestant-thumb{
+	float: left;
+	padding-right: 8px;
+}
+.widget-fv-list-class .contestant-list .contestant-content{
+	float: left;
+}
+
+.widget-fv-list-class .contestant-list li {
+	clear: both;
+	list-style: none;
+    margin-bottom: 10px;
+}
+.widget-fv-list-class .contestant-list li:after {
+	clear: both;
+	float: none;
+	content: ' ';
+    display: table;
+}
+
+/* ========================= GALLERY ============================ */
+.widget-fv-gallery-class ul.contestant-gallery{
+	list-style-type: none;
+}
+.widget-fv-gallery-class ul.contestant-gallery:after {
+	clear: both;
+	float: none;
+	content: ' ';
+}
+.widget-fv-gallery-class ul.contestant-gallery li.contestant-thumb {
+	display: block;
+	float: left;
+	line-height: 1;
+}
+.widget-fv-gallery-class ul.contestant-gallery li.contestant-thumb a{
+	padding: 3px;
+	display: block;
+}
+.widget-fv-gallery-class ul.contestant-gallery li.contestant-thumb img{
+	max-width: 100%;
+	display: inline-block;
+}

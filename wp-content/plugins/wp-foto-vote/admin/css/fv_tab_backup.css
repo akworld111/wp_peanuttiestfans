@@ -1,0 +1,501 @@
+/* =======================
+Settings icons
+======================= */
+
+#fv-setting-page .fv-tabs-navigation a::before {
+    /* icons */
+    position: absolute;
+
+    font-family: 'typicons';
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    height: 1em;
+    font-size: 1.35em;
+
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    text-decoration: none;
+
+    -moz-transition: color .1s ease-in 0;
+    -webkit-transition: color .1s ease-in 0;
+}
+
+
+#fv-setting-page .fv-tabs-navigation a[data-content='general']::before {
+    /*background-position: 0 0;*/
+    content: "\e089";
+}
+
+#fv-setting-page .fv-tabs-navigation a[data-content='toolbar']::before {
+    content: '\e116';
+}
+
+#fv-setting-page .fv-tabs-navigation a[data-content='single_photo']::before {
+    content: '\e08d';
+}
+
+#fv-setting-page .fv-tabs-navigation a[data-content='voting']::before {
+    content: '\e086';
+}
+
+#fv-setting-page .fv-tabs-navigation a[data-content='sharing']::before {
+    content: '\e06d';
+}
+
+#fv-setting-page .fv-tabs-navigation a[data-content='leaders']::before {
+    content: '\e106';
+}
+
+#fv-setting-page .fv-tabs-navigation a[data-content='winners']::before {
+    content: '\e105';
+}
+
+#fv-setting-page .fv-tabs-navigation a[data-content='upload']::before {
+    content: "\e07b";
+}
+
+#fv-setting-page .fv-tabs-navigation a[data-content='email_notify']::before {
+    content: '\e0a5';
+}
+
+#fv-setting-page .fv-tabs-navigation a[data-content='additional']::before {
+    content: "\e050";
+}
+
+#fv-setting-page .fv-tabs-content {
+    /*max-width: 70em;*/
+}
+
+
+/* =======================
+Translation icons
+======================= */
+
+#fv_translation .fv-tabs-navigation a::before {
+    /* icons */
+    position: absolute;
+
+    height: 20px;
+    width: 20px;
+    /*background-image: url("../images/vicons.svg");
+    background-repeat: no-repeat;*/
+
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'dashicons';
+    text-decoration: inherit;
+    font-weight: normal;
+    font-style: normal;
+    vertical-align: top;
+    transition: color .3s ease-in;
+    -webkit-transition: color .1s ease-in;
+    text-align: left;
+
+    font-size: 18px;
+}
+
+#fv_translation .fv-tabs-navigation a[data-content='general']::before {
+    /*background-position: 0 0;*/
+    content: "\f319";
+}
+
+#fv_translation .fv-tabs-navigation a[data-content='single']::before {
+    content: "\f128";
+}
+
+#fv_translation .fv-tabs-navigation a[data-content='toolbar']::before {
+    content: "\f333";
+}
+
+#fv_translation .fv-tabs-navigation a[data-content='timer']::before {
+    content: "\f321";
+}
+
+#fv_translation .fv-tabs-navigation a[data-content='dialog_messages']::before {
+    content: "\f487";
+}
+
+#fv_translation .fv-tabs-navigation a[data-content='rate']::before {
+    content: "\f459";
+}
+
+#fv_translation .fv-tabs-navigation a[data-content='subscription_form']::before {
+    content: "\f157";
+}
+
+#fv_translation .fv-tabs-navigation a[data-content='leaders']::before {
+    content: "\f204";
+}
+
+#fv_translation .fv-tabs-navigation a[data-content='winners']::before {
+    content: "\f155";
+}
+
+#fv_translation .fv-tabs-navigation a[data-content='soc_authorization']::before {
+    content: "\f237";
+}
+
+#fv_translation .fv-tabs-navigation a[data-content='vote_with_recaptcha']::before {
+    content: "\f160";
+}
+
+#fv_translation .fv-tabs-navigation a[data-content='vote_with_facebook_share']::before {
+    content: "\f305";
+}
+
+#fv_translation .fv-tabs-navigation a[data-content='upload_messages']::before {
+    content: "\f130";
+}
+
+#fv_translation .fv-tabs-navigation a[data-content='mail_messages']::before {
+    content: "\f125";
+}
+
+#fv_translation .fv-tabs-navigation a[data-content='upload_form']::before {
+    content: "\f316";
+}
+
+#fv_translation .fv-tabs-navigation a[data-content='contest_list']::before {
+    content: "\f233";
+}
+
+
+/* --------------------------------
+
+Primary style
+
+-------------------------------- */
+
+#fv_translation {
+    font-size: 100%;
+}
+
+#fv_translation a {
+    /*color: #2ea2cc;*/
+    text-decoration: none;
+}
+
+/*
+http://codyhouse.co/gem/responsive-tabbed-navigation/
+*/
+
+.fv-tabs ul {
+    margin: 0;
+}
+
+.fv-tabs ul li {
+    margin: 0;
+}
+
+.fv-tabs {
+    position: relative;
+    /*max-width: 960px;*/
+    margin: 2em auto;
+}
+
+.fv-tabs:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.fv-tabs::after {
+    /* subtle gradient layer on top right - to indicate it's possible to scroll */
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 60px;
+    width: 50px;
+    z-index: 1;
+    pointer-events: none;
+    background: -webkit-linear-gradient(right, #f8f7ee, rgba(248, 247, 238, 0));
+    background: linear-gradient(to left, #f8f7ee, rgba(248, 247, 238, 0));
+    visibility: visible;
+    opacity: 1;
+    -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+    -moz-transition: opacity .3s 0s, visibility 0s 0s;
+    transition: opacity .3s 0s, visibility 0s 0s;
+}
+
+.no-cssgradients .fv-tabs::after {
+    display: none;
+}
+
+.fv-tabs.is-ended::after {
+    /* class added in jQuery - remove the gradient layer when it's no longer possible to scroll */
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+    -moz-transition: opacity .3s 0s, visibility 0s .3s;
+    transition: opacity .3s 0s, visibility 0s .3s;
+}
+
+.fv-tabs nav {
+    -webkit-overflow-scrolling: touch;
+    background: #f8f7ee;
+    box-shadow: inset 0 -2px 3px rgba(203, 196, 130, 0.06);
+    overflow: visible;
+}
+
+.fv-tabs nav:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+    .fv-tabs {
+        width: 99%;
+    }
+
+    .fv-tabs::after {
+        display: none;
+    }
+
+    .fv-tabs nav {
+        position: absolute;
+        top: 0;
+        left: 0;
+        /*height: 100%;*/
+        box-shadow: inset -2px 0 3px rgba(203, 196, 130, 0.06);
+        z-index: 1;
+        min-height: 600px;
+    }
+}
+
+/*
+Comment for gorizontal tabs
+*/
+
+@media only screen and (min-width: 960px) {
+    /*.fv-tabs {*/
+        /*width: 90%;*/
+    /*}*/
+
+    .fv-tabs nav {
+        position: relative;
+        /*float: none;*/
+        background: transparent;
+        box-shadow: none;
+    }
+}
+
+/* =======================================
+fv-tabs-navigation
+======================================= */
+
+.fv-tabs-navigation {
+    /*width: 360px;*/
+}
+
+.fv-tabs-navigation:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.fv-tabs-navigation li {
+    /*float: left;*/
+    display: block;
+}
+
+.fv-tabs-navigation a {
+    position: relative;
+    display: block;
+    height: 30px;
+    /*width: 60px;*/
+    text-align: center;
+    font-size: 12px;
+    font-size: 0.75rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 700;
+    color: #A2A197;
+    padding-top: 34px;
+}
+
+.fv-tabs-navigation a:hover {
+    color: #29324e;
+    background-color: rgba(233, 230, 202, 0.3);
+}
+
+.fv-tabs-navigation a.selected {
+    background-color: #ffffff !important;
+    box-shadow: inset 0 2px 0 #f05451;
+    color: #2ea2cc !important;
+}
+.fv-tabs-navigation a::before {
+    /* icons */
+    position: absolute;
+    top: 12px;
+    left: 50%;
+    margin-left: -10px;
+}
+
+
+/*@media only screen and (min-width: 768px) {*/
+    .fv-tabs-navigation {
+        /* move the nav to the left on medium sized devices */
+        /*width: 300px;*/
+        /*float: left;*/
+        margin: 0px;
+    }
+
+    .fv-tabs-navigation a {
+        x-height: 40px;
+        /*width: 125px;*/
+        padding: 33px 1px 0 1px;
+    }
+
+    .fv-tabs-navigation a.selected {
+        box-shadow: inset 2px 0 0 #f05451;
+    }
+
+    .fv-tabs-navigation a::before {
+        top: 8px;
+    }
+/*}*/
+
+ul.fv-tabs-content {
+    margin-left: 340px;
+}
+
+.fv-tabs-content .form-table {
+    clear: none !important;
+}
+
+/*
+Comment for gorizontal tabs
+*/
+
+@media only screen and (min-width: 960px) {
+    .fv-tabs-navigation {
+        /* tabbed on top on big devices */
+        x-width: auto;
+        background-color: #f8f7ee;
+        box-shadow: inset 0 -2px 3px rgba(203, 196, 130, 0.06);
+    }
+
+    .fv-tabs-navigation a {
+        x-height: 40px;
+        line-height: 20px;
+        width: auto;
+        text-align: left;
+        font-size: 14px;
+        font-size: 0.875rem;
+        padding: 0 1em 0 2.9em;
+    }
+
+    .fv-tabs-navigation a.selected {
+        box-shadow: inset 0 2px 0 #2ea2cc;
+    }
+
+    .fv-tabs-navigation a::before {
+        /*top: 50%;*/
+        margin-top: -8px;
+        margin-left: 0;
+        left: 15px;
+    }
+}
+
+.fv-tabs-nav {
+    width: 300px;
+    float: left;
+}
+
+/* =======================================
+    .fv-tabs-content
+======================================= */
+
+.fv-tabs-content {
+    background: #ffffff;
+}
+
+.fv-tabs-content li {
+    display: none;
+    padding: 1.4em;
+}
+
+.fv-tabs-content li.selected {
+    display: block;
+    -webkit-animation: cd-fade-in 0.5s;
+    -moz-animation: cd-fade-in 0.5s;
+    animation: cd-fade-in 0.5s;
+}
+
+.fv-tabs-content li p {
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 1.6;
+    color: #8493bf;
+    margin-bottom: 2em;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+    .fv-tabs-content {
+        min-height: 600px;
+    }
+    #fv_translation .fv-tabs-content{
+        min-height: 1100px;
+    }
+
+
+    .fv-tabs-content li {
+        min-height: 600px;
+        padding: 2em 2em 2em 11em;
+    }
+    .fv-tabs-content .form-table {
+        clear: none !important;
+    }
+}
+
+/*
+Comment for gorizontal tabs
+*/
+@media only screen and (min-width: 960px) {
+    .fv-tabs-content {
+        min-height: 0;
+    }
+
+    .fv-tabs-content li {
+        padding: 1em 2em;
+    }
+
+    .fv-tabs-content li p {
+        font-size: 16px;
+        font-size: 1rem;
+    }
+}
+
+@-webkit-keyframes cd-fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes cd-fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes cd-fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

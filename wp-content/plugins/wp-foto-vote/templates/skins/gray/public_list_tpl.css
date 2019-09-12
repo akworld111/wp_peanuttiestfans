@@ -1,0 +1,95 @@
+.contest-block {
+    margin: 0 10px 20px 10px !important;
+    box-shadow: 0px 0px 6px 0px #CCC;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.contest-block:hover {
+    box-shadow: 0px 0px 12px 0px #CCC;
+}
+
+.contest-block--img a {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.contest-block--title {
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 1.3em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.1em;
+    font-family: "Open Sans", Arial;
+    font-size: 16px;
+}
+
+.contest-block--title-name {
+    font-size: 14px;
+    float: left;
+    font-weight: 700;
+    max-width: 180px;
+}
+.contest-block-description {
+    text-align: center;
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+.contest-block--title-votes {
+    width: 24px;
+    float: right;
+}
+
+.contest-block--title-votes-count {
+    color: #d02e2e;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.contest-block-img img {
+    padding: 1px;
+    background: #fff;
+    max-width: 100%;
+}
+
+.fv_button {
+    text-align: center;
+    display: block;
+    padding: 2px 0 10px 0;
+}
+
+#action_button {
+    background: #eeeeee;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f7f7f7), color-stop(100%, #eeeeee));
+    background: -moz-linear-gradient(center top, #f7f7f7 0%, #eeeeee 100%);
+    -webkit-box-shadow: 0 1px 1px 0 #dfdfdf, 0 2px 1px 0 #ffffff inset;
+    -moz-box-shadow: 0 1px 1px 0 #dfdfdf, 0 2px 1px 0 #ffffff inset;
+    box-shadow: 0 1px 1px 0 #dfdfdf, 0 2px 1px 0 #ffffff inset;
+    border-radius: 20px;
+    text-shadow: 0 1px 0 #ffffff;
+    padding: 6px 22px;
+    border-color: 1px solid #dddddd;
+    font-size: 13px;
+    line-height: 13px;
+    color: #969696;
+    font-weight: bold;
+    max-width: 99%;
+    display: inline;
+}
+
+#action_button:hover, #action_button:active {
+    background: #efefef;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fbfbfb), color-stop(100%, #efefef));
+    background: -moz-linear-gradient(center top, #fbfbfb 0%, #efefef 100%);
+    color: #f16222;
+    cursor: pointer;
+}

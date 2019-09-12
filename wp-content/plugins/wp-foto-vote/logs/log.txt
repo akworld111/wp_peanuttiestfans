@@ -1,0 +1,14 @@
+* [2019-08-23 19:18:54 UTC] FV CRON deactivated!
+p. 
+* [2019-08-23 19:18:58 UTC] FV CRON activated!
+p. 
+* [2019-08-23 19:18:58 UTC] plugin activated wp-foto-vote/wp-foto-vote.php
+p. 
+* [2019-08-23 19:18:59 UTC] flush_rewrite_rules called
+p. 
+* [2019-08-23 19:21:24 UTC] Run FinishContests >> 2019-08-23 19:21:24
+p. 
+* [2019-08-23 19:21:24 UTC] Finish Contest >> 4
+p. 
+* [2019-08-23 19:21:24 UTC] FV_GDPR_Tasks :: cleared 4 IPs for contest #3.
+p. 

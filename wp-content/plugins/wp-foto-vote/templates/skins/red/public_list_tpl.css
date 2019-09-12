@@ -1,0 +1,102 @@
+.contest-block {
+}
+
+/* TITLE */
+
+.ContestEntry {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    padding: 11px;
+    background-color: white;
+    border: 1px solid #DDD;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    margin: 40px 10px 45px 10px;
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+}
+
+.ContestEntry:hover {
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+}
+
+.ContestEntry__photo {
+    overflow: hidden;
+}
+
+.ContestEntry__name {
+    margin: 0;
+    position: absolute;
+    top: -29px;
+    color: #e5262a;
+    left: 0;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: normal;
+    line-height: 1;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 89%;
+}
+
+
+.ContestEntry__description {
+    width: 100%;
+    text-align: center;
+    color: #e5262a;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.ContestEntry__votes {
+    position: absolute;
+    right: 0;
+    top: -35px;
+    background: #e5262a;
+    padding: 6px 6px;
+    line-height: 1;
+}
+
+.ContestEntry__votes span {
+    color: white;
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 1;
+}
+
+.ContestEntry__bottom_block{
+    position: absolute;
+    padding: 8px 8px;
+    cursor: pointer;
+    line-height: 1;
+    bottom: -32px;
+    background-color: #e5262a;
+}
+
+.ContestEntry__vote_link {
+    right: 0;
+}
+
+.ContestEntry__vote_link .fv_vote {
+    color: white;
+    font-size: 16px;
+}
+
+.ContestEntry__share_block{
+    left: 0;
+    color: white;
+    font-size: 16px;
+}
+
+.fv-pagination .fv-infinite-load {
+    color: #e5262a;
+}
+
+@media (max-width: 480px) {
+    .ContestEntry {
+        width: 100% !important;
+        height: auto !important;
+    }
+}

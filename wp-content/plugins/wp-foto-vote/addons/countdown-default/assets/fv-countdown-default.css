@@ -1,0 +1,136 @@
+/* ==========================
+    Default Countdown
+============================= */
+.fv-countdown-default{
+    display: block;
+    margin: 0 auto;
+    padding: 5px 0 5px;
+    position: relative;
+    text-align: center;
+    width: 390px;
+}
+
+
+.fv-countdown-default .fv-countdown__title {
+    font-weight: bold;
+    font-size: 110%;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    padding: 0 0 0 35px;
+}
+
+.fv-countdown-default *{vertical-align: top;}
+
+.fv-countdown-default ins,
+.fv-countdown-default .clock{
+    position: relative;
+    top: 10px;
+    width: 40px;
+    height: 55px;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    background: transparent url(../images/sprites.png) no-repeat -260px -154px;
+}
+
+.fv-countdown-default .clock{margin-right: 7px;}
+
+.fv-countdown-default ins{width: 10px;}
+
+.fv-countdown-default ins{background-position: -300px -154px;}
+
+.fv-countdown-default .etitle{
+    position: absolute;
+    width: 110px;
+    text-align: center;
+    left: 50%;
+    margin-left: -47px;
+    top: 55px;
+    line-height: 30px;
+    display: block;
+}
+
+.etitle-1{
+    font-size: 23px;
+    padding-top: 1px;
+}
+
+.etitle-2{
+    font-size: 19px;
+    padding-top: 3px;
+}
+
+.etitle-3{
+    font-size: 16px;
+    padding-top: 3px;
+}
+
+.etitle-4{
+    font-size: 12px;
+    padding-top: 3.2px;
+}
+
+.c-block{
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    margin: 0 18px 0 3px;
+    padding: 4px 0 40px 3px;
+    position: relative;
+    background: transparent url(../images/sprites.png) no-repeat -260px 0;
+}
+
+.c-block:before{
+    content: '';
+    position: absolute;
+    left: 100%;
+    top: 0;
+    width: 31px;
+    background: transparent url(../images/sprites.png) no-repeat 100% -77px;
+    height: 77px;
+}
+
+.bl-inner{
+    position: relative;
+    margin-right: -10px;
+    height: 48px;
+    background: transparent url(../images/sprites.png) no-repeat -5px -48px;
+}
+
+.bl-inner span{
+    display: none;
+    font-size: 46px;
+    color: #fff;
+    line-height: 46px;
+    margin-left: 2px;
+}
+
+.bl-inner:before{
+    content: '';
+    position: absolute;
+    left: 100%;
+    top: 0;
+    width: 3px;
+    background: transparent url(../images/sprites.png) no-repeat -122px -48px;
+    height: 48px;
+}
+
+.c-block-1 {width: 20px;}
+.c-block-2 {width: 45px;}
+.c-block-3 {width: 71px;}
+.c-block-3 .etitle{ width: 115px; }
+
+/* ================================
+    Responsive
+================================ */
+
+@media (max-width: 480px) {
+    .fv-countdown-default .clock{
+        display: none;
+    }
+    .fv-countdown-default {
+        margin: 0 -14px 0 -14px;
+        overflow: visible;
+        width: 300px;
+    }
+}

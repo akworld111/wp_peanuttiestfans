@@ -1,0 +1,106 @@
+#LeaderBoard .LeaderBoard__list {
+    list-style: none;
+    margin: 0 0 0 5px;
+    padding: 0;
+}
+
+#LeaderBoard li.LeaderBoard__item {
+    position: relative;
+    line-height: 29px;
+    box-sizing: border-box;
+
+    padding: 0;
+    list-style: none;
+    list-style-type: none;
+    margin: 6px 0 6px 34px;
+}
+
+#LeaderBoard .LeaderBoard__item:after,
+#LeaderBoard .LeaderBoard__item_inner:after {
+    clear: both;
+    content: " ";
+    display: table;
+}
+
+#LeaderBoard .LeaderBoard__item_inner {
+    padding: 0;
+    text-align: left;
+    x-display: flex;
+    x-justify-content: space-between;
+    width: 100%;
+    background: #ededed;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.LeaderBoard__item_counter {
+    display: inline-block;
+    width: 28px;
+    border-radius: 100%;
+    background: lightslategray;
+    text-align: center;
+    margin: 1px 0 0 -35px;
+    height: 28px;
+    line-height: 29px;
+    color: white;
+    float: left;
+}
+
+#LeaderBoard .LeaderBoard__item_title {
+    display: inline-block;
+    color: black;
+    margin-left: 10px;
+    float: left;
+}
+
+#LeaderBoard .LeaderBoard__item_votes {
+    float: right;
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+#LeaderBoard .LeaderBoard__item_progress {
+    position: absolute;
+    top: 0;
+    height: 30px;
+    opacity: 0.4;
+    transition: width 1s linear;
+    width: 0;
+    z-index: 3;
+    pointer-events: none;
+}
+
+
+#LeaderBoard li.LeaderBoard__item_total {
+    justify-content: flex-end;
+}
+#LeaderBoard .LeaderBoard__item_votes_total {
+    width: auto;
+    text-align: right;
+    font-weight: bold;
+}
+
+.LeaderBoard__title_container {
+    text-align: center;
+    margin: 10px 0;
+}
+
+#LeaderBoard .LeaderBoard__title_image {
+    width: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    box-shadow: none;
+}
+
+.LeaderBoard__title {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+
+.LeaderBoard__item_link {
+    text-decoration: none;
+}

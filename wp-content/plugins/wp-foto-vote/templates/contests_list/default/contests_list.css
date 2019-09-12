@@ -1,0 +1,244 @@
+/* ====================================
+    Public styles for WP Foto Vote
+    Wordpress photo contest plugin
+    http://wp-vote.net/
+==================================== */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.clearfix:before {
+    display: table;
+    content: " ";
+    clear: both;
+}
+.clearfix:after {
+    display: table;
+    content: " ";
+    clear: both;
+}
+.contest-list-skin-default .list-inline {
+    padding-left: 0 !important;;
+    list-style: none !important;;
+    margin: 0 0 10px -5px !important;;
+    line-height: 1.5 !important;
+}
+
+.contest-list-skin-default figure {
+    display: block;
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding-left: 5px ;
+    padding-right: 5px !important;;
+    margin: 0 !important;;
+}
+
+.pull-right {
+    float: right !important;
+}
+.pull-left {
+    float: left !important;
+}
+
+.fv-bs-row {
+    margin-left: -3px;
+    margin-right: -3px;
+}
+
+/* GALLERY AND IT'S COMPONENTS */
+.contest-list-skin-default {
+    margin-top: 20px;
+}
+
+    .contest-list-skin-default .contest-list-display {
+        margin-bottom: 20px;
+        padding: 3px;
+    }
+        .contest-list-skin-default .contest-list-display a{
+            color: #ffffff;
+        }
+
+    .contest-list-skin-default .contest-list-details li{
+        font-size: 12px;
+    }
+
+    .contest-list-skin-default .display-image {
+        width: 100%;
+    }
+
+    .contest-list-skin-default .display-image:before {
+        content: "";
+        background: none;
+        width: 0;
+        height: 0;
+        border-left: 9px solid transparent;
+        border-right: 9px solid transparent;
+        border-bottom: 9px solid #fff;
+        position: absolute;
+        left: 50px;
+        bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 3;
+    }
+
+    .contest-list-skin-default figure {
+        margin: 0;
+        position: relative;
+    }
+
+    @media (min-width: 1200px) {
+        .contest-list-skin-default figure {
+            margin: 0;
+            position: relative;
+            /*height: 360px;*/
+        }
+    }
+
+    .contest-list-skin-default figure img {
+        max-width: 100%;
+        display: block;
+        position: relative;
+    }
+
+    .contest-list-skin-default h3 {
+        word-break: break-all;
+        font-size: 16px;
+        line-height: 1.8;
+        margin: 0;
+    }
+
+    .contest-list-skin-default .figcaption {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 10px;
+        background: #3D3D3D;
+        color: white;
+    }
+
+    .contest-list-skin-default figure {
+        overflow: hidden;
+        position: relative;
+    }
+
+    .contest-list-skin-default figure img {
+        -webkit-transition: -webkit-transform 0.4s;
+        -moz-transition: -moz-transform 0.4s;
+        transition: transform 0.4s;
+    }
+
+    .contest-list-skin-default .figcaption {
+        width: 100%;
+        bottom: 0;
+        opacity: 0;
+        text-decoration: none;
+        -webkit-transform: translatey(0%);
+        -moz-transform: translatey(0%);
+        -ms-transform: translatey(0%);
+        transform: translatey(0%);
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+        -moz-transition: -moz-transform 0.5s, opacity 0.5s;
+        transition: transform 0.5s, opacity 0.5s;
+    }
+
+    .contest-list-skin-default figure:hover .figcaption {
+        opacity: .8;
+        -webkit-transform: translatey(0px);
+        -moz-transform: translatey(0px);
+        -ms-transform: translatey(0px);
+        transform: translatey(0px);
+        -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+        -moz-transition: -moz-transform 0.5s, opacity 0.5s;
+        transition: transform 0.5s, opacity 0.5s;
+    }
+
+    .contest-list-skin-default .figcaption .contest-list-author {
+        position: absolute;
+        bottom: 20px;
+        padding-right: 20px;
+    }
+    .contest-list-skin-default .contest-list-not-active {
+        position: absolute;
+        right: 5px;
+        top: 7px;
+        background: #D8000C;
+        border-radius: 12px;
+        padding: 5px 6px;
+        line-height: 11px;
+        font-size: 11px;
+        color: #ffffff;
+    }
+
+.contest-list-skin-default .box-detail {
+    background: #000;
+    background: rgba(0, 0, 0, 0.8);
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.8)));
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+    padding: 2px 2px 2px 8px;
+    color: white;
+    margin-top: -48px;
+    position: relative;
+    height: 48px;
+    line-height: 1
+}
+
+    .box-detail a {
+        color: white;
+        text-decoration: none;
+        padding: 0;
+        text-shadow: 0px 0px 1px #000;
+    }
+
+    .box-detail ul {
+        font-size: 12px;
+    }
+
+    .box-detail a:hover {
+        border-radius: 2px;
+        background-color: rgba(255, 255, 255, 0.2);
+        -webkit-transition-duration: 0.3s;
+        -webkit-transition-timing: ease-out;
+        -o-transition-duration: 0.3s;
+        -o-transition-timing: ease-out;
+        -moz-transition-duration: 0.3s;
+        -moz-transition-timing: ease-out;
+        -ms-transition-duration: 0.3s;
+        -ms-transition-timing: ease-out;
+        transition-duration: 0.3s;
+        transition-timing: ease-out;
+    }
+
+    .box-detail .heading {
+        font-weight: bold;
+        padding-bottom: 10px;
+        margin:0 0 -1px 0;
+        line-height: 1;
+        font-size: 14px;
+    }
+
+.contest-list-details-text {
+    max-width: 70%;
+    text-overflow: ellipsis;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.contest-list-details-stats{
+    vertical-align: top;
+    position: relative;
+    bottom: -11px;
+}

@@ -1,0 +1,529 @@
+.fv-contest-theme-pinterest .fv-contest-photos-container-inner {
+    position:relative;
+    margin:0 auto;
+}
+
+.clg-loading {
+    display:none;
+    position:fixed;
+    z-index:100;
+    left:50%;
+    bottom:46px;
+    width:154px;
+    height:34px;
+    margin-left:-78px;
+    color:#2c2c2c;
+    text-align:center;
+    line-height:34px;
+    border:1px solid #ccc8c3;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    background-color:#fff;
+}
+
+.clg-loading:before {
+    content:url(//ak01-cdn.slidely.com/1422379229/images/slidesong/ajax-loader-circle-small.gif);
+    display:inline-block;
+    position:relative;
+    top:3px;
+    margin-right:12px;
+}
+
+
+.clg-item {
+    display:inline-block;
+    position:relative;
+    /*z-index:50;*/
+    background-color:#fafafa;
+    box-shadow:1px 1px 3px 0 rgba(0,0,0,.25);
+    -webkit-transition:top 1s ease, left 1s ease;
+    -moz-transition:top 1s ease, left 1s ease;
+    -ms-transition:top 1s ease, left 1s ease;
+    -o-transition:top 1s ease, left 1s ease;
+    transition:top 1s ease, left 1s ease;
+}
+
+.clg-item .clg-item-head img{
+    border-radius: 0;
+    padding: 0 !important;
+}
+
+.clg-item-head {
+    position:relative;
+    cursor:pointer;
+    max-width: 100%;
+    margin: auto;
+}
+
+.clg-cover-image {
+    display:block;
+    height: auto;
+    max-width: 100%;
+    margin: auto !important;
+}
+
+.clg-head-overlay {
+    position:absolute;
+    z-index:10;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    border-radius:0px;
+    background-color:rgba(0,0,0,.6);
+    visibility: hidden;
+    opacity: 0;
+}
+
+@media (max-width: 480px) {
+    .clg-item {
+        margin-bottom: 15px;
+    }
+    .clg-item .clg-head-overlay {
+        display: block !important;
+        opacity: 0.2 !important;
+    }
+
+    /*.contest-block, .contest-block .clg-item-head {
+        max-width: 100%;
+        height: auto !important;
+    }*/
+}
+
+.clg-head-view {
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+}
+
+.is-gallery .clg-head-view:before {
+    content:"";
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:100px;
+    height:100px;
+    box-sizing: border-box;
+    padding-top:44px;
+    color:#fff;
+    font-size:24px;
+    font-weight:300;
+    text-align:center;
+    border-radius:50px;
+    background-color: #02caff;
+    opacity: .7;
+    margin:-50px 0 0 -50px;
+}
+
+.is-gallery .clg-head-view:after {
+    content:"\e60d";
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:100px;
+    color:#fff;
+    font-size:46px;
+    font-weight:normal;
+    text-align:center;
+    margin:-20px 0 0 -50px;
+}
+
+/* If visitor already voted for this photo */
+.is-gallery.is-voted .clg-head-view:before {
+    content:"";
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:120px;
+    height:120px;
+    box-sizing: border-box;
+    padding-top:44px;
+    color:#fff;
+    font-size:24px;
+    font-weight:300;
+    text-align:center;
+    margin:-60px 0 0 -60px;
+    border-radius:60px;
+    background-color:#55be32;
+    opacity: 1;
+}
+
+.is-gallery.is-voted .clg-head-view:after {
+    content:"\e601";
+    font-family: "icomoon_fv";
+    line-height: 1;
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:120px;
+    color:#fff;
+    font-size:72px;
+    font-weight:normal;
+    text-align:center;
+    margin:-28px 0 0 -60px;
+    opacity: 1;
+}
+
+.is-gallery.is-voted .clg-head-overlay{
+    opacity: 0.7 !important;
+    display: block !important;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.clg-item-head:hover .clg-head-overlay{
+    transition: visibility 0s, opacity .2s linear;
+    opacity: 1;
+    visibility: visible !important;
+}
+
+/* :: END */
+
+.clg-head-social {
+    position:absolute;
+    z-index:20;
+    top:10px;
+    left:10px;
+}
+
+.clg-head-social span {
+    display:block;
+    position:relative;
+    width:30px;
+    height:30px;
+    margin-bottom:7px;
+    border-radius:5px;
+    background-color:#000;
+}
+
+.clg-head-social span:before {
+    position:absolute;
+    top:5px;
+    left:5px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.clg-head-social .clg-like-button:before {
+}
+
+.clg-like-button:hover {
+    background-color:#ed3c84;
+}
+
+.clg-like-button.is-active {
+    opacity:0.4;
+}
+
+.clg-like-button.is-active:hover {
+    background-color:#000;
+}
+
+.clg-facebook-share:before {
+    content:"\e621";
+}
+
+.clg-head-social .clg-facebook-share:before {
+}
+
+.clg-facebook-share:hover {
+    background-color:#3757a2;
+}
+
+.clg-share:before {
+    content:"\e63b";
+}
+
+.clg-head-social .clg-share:before {
+    color: #ffffff;
+}
+
+.clg-share:hover {
+    background-color: rgb(2, 202, 255);
+}
+
+.clg-item-info {
+    color:#888;
+    font-size:13px;
+    padding:10px;
+}
+
+.clg-item-info a:hover {
+    text-decoration:underline;
+}
+
+p.clg-info-row,
+div.clg-info-row {
+    font-size:12px;
+    line-height:18px;
+    margin: 0;
+    /*text-overflow:ellipsis;
+    white-space:nowrap;*/
+    overflow:hidden;
+    text-align: left;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+.clg-item-info hr {
+    margin: 10px 0 !important;
+}
+
+
+.clg-info-title {
+    display:block;
+    height:20px;
+    color:#2f2f2f;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size:15px;
+    font-weight:700;
+    line-height:20px;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    text-align: left;
+}
+
+p.clg-info-social {
+    float:right;
+    height:14px;
+    margin:4px 0 0 0;
+    color:#2f2f2f;
+    line-height:12px;
+}
+/*
+.clg-info-row--text {
+    margin-left:6px;
+}
+*/
+.clg-info-likes:before {
+    content:"\e607";
+    display:inline-block;
+    position:relative;
+    top: 1px;
+    margin-left: 5px;
+    margin-right: 1px;
+    font-size: 13px;
+    color: #FF4B4B;
+}
+
+.clg-info-views:before {
+    content:"";
+    display:inline-block;
+    position:relative;
+    top:1px;
+    margin-right:4px;
+    width:15px;
+    height:11px;
+}
+
+.clg-info-social .fvicon-share {
+    font-size:11px;
+    margin-right: 4px;
+}
+
+
+.clg-body-social {
+    display: none;
+}
+
+.clg-body-social span {
+    display: inline-block;
+    position:relative;
+    width:34px;
+    height:34px;
+    margin: 0 5px 3px 5px;
+    padding: 0;
+    border-radius:5px;
+    background-color:#000;
+
+}
+.clg-body-social span:before {
+    position:absolute;
+    top:5px;
+    left:5px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+
+
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 1)  {
+    /* STYLES GO HERE */
+    .clg-body-social {
+        display: block;
+    }
+    .clg-head-social {
+        display: none;
+    }
+
+}
+
+
+/* ======================================================
+    PROGRESS bar like YouTube at top of page
+    Since 2.2.8
+=========================================================  */
+
+#fv-progress {
+    position:fixed;
+    z-index:2147483647;
+    top:0;
+    left:-6px;
+    width:0%;
+    height:2px;
+    background:#b91f1f;
+    -moz-border-radius:1px;
+    -webkit-border-radius:1px;
+    border-radius:1px;
+    -moz-transition:width 500ms ease-out,opacity 400ms linear;
+    -ms-transition:width 500ms ease-out,opacity 400ms linear;
+    -o-transition:width 500ms ease-out,opacity 400ms linear;
+    -webkit-transition:width 500ms ease-out,opacity 400ms linear;
+    transition:width 500ms ease-out,opacity 400ms linear
+}
+#fv-progress.done {
+    opacity:0
+}
+#fv-progress dd,#fv-progress dt {
+    position:absolute;
+    top:0;
+    height:2px;
+    -moz-box-shadow:#b91f1f 1px 0 6px 1px;
+    -ms-box-shadow:#b91f1f 1px 0 6px 1px;
+    -webkit-box-shadow:#b91f1f 1px 0 6px 1px;
+    box-shadow:#b91f1f 1px 0 6px 1px;
+    -moz-border-radius:100%;
+    -webkit-border-radius:100%;
+    border-radius:100%
+}
+#fv-progress dd {
+    opacity:1;
+    width:20px;
+    right:0;
+    clip:rect(-6px,22px,14px,10px)
+}
+#fv-progress dt {
+    opacity:1;
+    width:180px;
+    right:-80px;
+    clip:rect(-6px,90px,14px,-6px)
+}
+@-moz-keyframes pulse {
+    30% {
+        opacity:1
+    }
+    60% {
+        opacity:0
+    }
+    100% {
+        opacity:1
+    }
+}
+@-ms-keyframes pulse {
+    30% {
+        opacity:.6
+    }
+    60% {
+        opacity:0
+    }
+    100% {
+        opacity:.6
+    }
+}
+@-o-keyframes pulse {
+    30% {
+        opacity:1
+    }
+    60% {
+        opacity:0
+    }
+    100% {
+        opacity:1
+    }
+}
+@-webkit-keyframes pulse {
+    30% {
+        opacity:.6
+    }
+    60% {
+        opacity:0
+    }
+    100% {
+        opacity:.6
+    }
+}
+@keyframes pulse {
+    30% {
+        opacity:1
+    }
+    60% {
+        opacity:0
+    }
+    100% {
+        opacity:1
+    }
+}
+#fv-progress.waiting dd,#fv-progress.waiting dt {
+    -moz-animation:pulse 2s ease-out 0s infinite;
+    -ms-animation:pulse 2s ease-out 0s infinite;
+    -o-animation:pulse 2s ease-out 0s infinite;
+    -webkit-animation:pulse 2s ease-out 0s infinite;
+    animation:pulse 2s ease-out 0s infinite
+}
+
+
+
+/*!
+ * Hover.css (http://ianlunn.co.uk/) 2014.
+ * Version: 1.0.8
+ * Author: Ian Lunn @IanLunn
+ * Github: https://github.com/IanLunn/Hover
+
+ * Made available under a MIT License:
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+@-webkit-keyframes pop {
+    50% {
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes pop {
+    50% {
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@media (min-width: 480px) {
+    .is-gallery {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+    .is-gallery:hover, .is-gallery:focus, .is-gallery:active {
+        -webkit-animation-name: pop;
+        animation-name: pop;
+        -webkit-animation-duration: 0.3s;
+        animation-duration: 0.3s;
+        -webkit-animation-timing-function: linear;
+        animation-timing-function: linear;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+    }
+}

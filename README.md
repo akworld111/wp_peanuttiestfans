@@ -1,2 +1,4 @@
 # wp_peanuttiestfans
-http://peanuttiestfans.com/ used wp-vote plugin
+http://peanuttiestfans.com/ 
+
+used this plugin https://wp-vote.net/
